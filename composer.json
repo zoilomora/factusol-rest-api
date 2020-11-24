@@ -61,6 +61,7 @@
         }
     },
     "require-dev": {
-        "pccomponentes/coding-standard": "^1.2"
+        "pccomponentes/coding-standard": "^1.2",
+        "phpstan/phpstan": "^0.12.57"
     }
 }
