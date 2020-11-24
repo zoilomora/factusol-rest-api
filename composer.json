@@ -59,5 +59,8 @@
             "allow-contrib": false,
             "require": "5.1.*"
         }
+    },
+    "require-dev": {
+        "pccomponentes/coding-standard": "^1.2"
     }
 }

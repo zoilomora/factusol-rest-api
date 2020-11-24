@@ -14,7 +14,7 @@ final class DefaultController
             [
                 'service' => 'FactuSOL REST API',
                 'url' => 'https://github.com/zoilomora/factusol-rest-api',
-            ]
+            ],
         );
     }
 }
