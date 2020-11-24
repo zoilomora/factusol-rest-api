@@ -1,0 +1,3 @@
+index:
+  path: /
+  controller: ZoiloMora\FactuSOL\Entrypoint\Web\DefaultController::index
