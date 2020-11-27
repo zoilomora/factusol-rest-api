@@ -9,8 +9,102 @@ info:
     name: Zoilo Mora
     url: 'https://zoilomora.net/'
     email: zoilo.mora@hotmail.com
+  description: FactuSOL API definition
 servers:
   - url: 'http://localhost:3000'
-paths: {}
+paths:
+  /agents:
+    get:
+      summary: Your GET endpoint
+      tags:
+        - Agents
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Agents'
+      operationId: get-agents
+      description: Get all agents
+  '/agents/{agentId}':
+    parameters:
+      - schema:
+          type: string
+        name: agentId
+        in: path
+        required: true
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Agents'
+        '404':
+          description: Not Found
+      operationId: get-agents-agentId
+      description: get a agent
 components:
-  schemas: {}
+  schemas:
+    Agents:
+      title: Agents
+      type: object
+      x-examples: {}
+      x-tags:
+        - Agents
+      description: ''
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        identityDocument:
+          type: string
+        contact:
+          type: object
+          required:
+            - workPhone
+            - personalPhone
+            - eMail
+          properties:
+            workPhone:
+              type: string
+            personalPhone:
+              type: string
+            eMail:
+              type: string
+        address:
+          type: object
+          required:
+            - street
+            - city
+            - state
+            - country
+            - zipCode
+          properties:
+            street:
+              type: string
+            city:
+              type: string
+            state:
+              type: string
+            country:
+              type: string
+            zipCode:
+              type: string
+        commission:
+          type: string
+      required:
+        - id
+        - name
+        - identityDocument
+        - contact
+        - address
+        - commission
+tags:
+  - name: Agents
