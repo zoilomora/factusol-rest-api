@@ -8,28 +8,28 @@ final class F_SLT
     public const TABLE_NAME = 'F_SLT';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const DOCSLT = 'F_SLT.DOCSLT';
+    public const DOCSLT = 'DOCSLT';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const LINSLT = 'F_SLT.LINSLT';
+    public const LINSLT = 'LINSLT';
 
     /** @var string Número de serie */
-    public const NSESLT = 'F_SLT.NSESLT';
+    public const NSESLT = 'NSESLT';
 
     /** @var string Fecha de fabricación */
-    public const FFASLT = 'F_SLT.FFASLT';
+    public const FFASLT = 'FFASLT';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLT = 'F_SLT.FCOSLT';
+    public const FCOSLT = 'FCOSLT';
 
     /** @var string Cantidad */
-    public const CANSLT = 'F_SLT.CANSLT';
+    public const CANSLT = 'CANSLT';
 
-    public const FECSLT = 'F_SLT.FECSLT';
+    public const FECSLT = 'FECSLT';
 
-    public const ALMSLT = 'F_SLT.ALMSLT';
+    public const ALMSLT = 'ALMSLT';
 
-    public const ALDSLT = 'F_SLT.ALDSLT';
+    public const ALDSLT = 'ALDSLT';
 
-    public const ARTSLT = 'F_SLT.ARTSLT';
+    public const ARTSLT = 'ARTSLT';
 }

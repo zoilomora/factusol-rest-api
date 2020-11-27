@@ -8,23 +8,23 @@ final class F_SLC
     public const TABLE_NAME = 'F_SLC';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLC = 'F_SLC.TIPSLC';
+    public const TIPSLC = 'TIPSLC';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLC = 'F_SLC.CODSLC';
+    public const CODSLC = 'CODSLC';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLC = 'F_SLC.POSSLC';
+    public const POSSLC = 'POSSLC';
 
     /** @var string Número de serie */
-    public const NSESLC = 'F_SLC.NSESLC';
+    public const NSESLC = 'NSESLC';
 
     /** @var string Fecha de fabricación */
-    public const FFASLC = 'F_SLC.FFASLC';
+    public const FFASLC = 'FFASLC';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLC = 'F_SLC.FCOSLC';
+    public const FCOSLC = 'FCOSLC';
 
     /** @var string Cantidad */
-    public const CANSLC = 'F_SLC.CANSLC';
+    public const CANSLC = 'CANSLC';
 }

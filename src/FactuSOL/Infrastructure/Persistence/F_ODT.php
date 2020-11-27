@@ -8,17 +8,17 @@ final class F_ODT
     public const TABLE_NAME = 'F_ODT';
 
     /** @var string Código */
-    public const CODODT = 'F_ODT.CODODT';
+    public const CODODT = 'CODODT';
 
     /** @var string Fecha de inicio */
-    public const FINODT = 'F_ODT.FINODT';
+    public const FINODT = 'FINODT';
 
     /** @var string Fecha de fin */
-    public const FFIODT = 'F_ODT.FFIODT';
+    public const FFIODT = 'FFIODT';
 
     /** @var string Artículo */
-    public const ARTODT = 'F_ODT.ARTODT';
+    public const ARTODT = 'ARTODT';
 
     /** @var string Descripción del artículo */
-    public const NARODT = 'F_ODT.NARODT';
+    public const NARODT = 'NARODT';
 }

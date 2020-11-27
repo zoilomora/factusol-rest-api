@@ -8,85 +8,85 @@ final class F_LEN
     public const TABLE_NAME = 'F_LEN';
 
     /** @var string Nº de serie */
-    public const TIPLEN = 'F_LEN.TIPLEN';
+    public const TIPLEN = 'TIPLEN';
 
     /** @var string [F=000000]Código */
-    public const CODLEN = 'F_LEN.CODLEN';
+    public const CODLEN = 'CODLEN';
 
     /** @var string [E]Posición de la línea */
-    public const POSLEN = 'F_LEN.POSLEN';
+    public const POSLEN = 'POSLEN';
 
     /** @var string Artículo */
-    public const ARTLEN = 'F_LEN.ARTLEN';
+    public const ARTLEN = 'ARTLEN';
 
     /** @var string Descripción */
-    public const DESLEN = 'F_LEN.DESLEN';
+    public const DESLEN = 'DESLEN';
 
     /** @var string Cantidad */
-    public const CANLEN = 'F_LEN.CANLEN';
+    public const CANLEN = 'CANLEN';
 
     /** @var string Descuento 1 */
-    public const DT1LEN = 'F_LEN.DT1LEN';
+    public const DT1LEN = 'DT1LEN';
 
     /** @var string Descuento 2 */
-    public const DT2LEN = 'F_LEN.DT2LEN';
+    public const DT2LEN = 'DT2LEN';
 
     /** @var string Descuento 3 */
-    public const DT3LEN = 'F_LEN.DT3LEN';
+    public const DT3LEN = 'DT3LEN';
 
     /** @var string Precio */
-    public const PRELEN = 'F_LEN.PRELEN';
+    public const PRELEN = 'PRELEN';
 
     /** @var string Total */
-    public const TOTLEN = 'F_LEN.TOTLEN';
+    public const TOTLEN = 'TOTLEN';
 
     /** @var string [L=#0;IVA1AUT#1;IVA2AUT#2;IVA3AUT#3;Exento]Porcentaje de IVA */
-    public const IVALEN = 'F_LEN.IVALEN';
+    public const IVALEN = 'IVALEN';
 
     /** @var string [E]Tipo de documento: V: Pedido de porveedores */
-    public const DOCLEN = 'F_LEN.DOCLEN';
+    public const DOCLEN = 'DOCLEN';
 
     /** @var string [E]Tipo de pedido de proveedor que la creo */
-    public const DTPLEN = 'F_LEN.DTPLEN';
+    public const DTPLEN = 'DTPLEN';
 
     /** @var string [E]Código de pedido de proveedor que la creo */
-    public const DCOLEN = 'F_LEN.DCOLEN';
+    public const DCOLEN = 'DCOLEN';
 
     /** @var string [E]Ejercicio */
-    public const EJELEN = 'F_LEN.EJELEN';
+    public const EJELEN = 'EJELEN';
 
     /** @var string Alto */
-    public const ALTLEN = 'F_LEN.ALTLEN';
+    public const ALTLEN = 'ALTLEN';
 
     /** @var string Ancho */
-    public const ANCLEN = 'F_LEN.ANCLEN';
+    public const ANCLEN = 'ANCLEN';
 
     /** @var string Fondo */
-    public const FONLEN = 'F_LEN.FONLEN';
+    public const FONLEN = 'FONLEN';
 
     /** @var string Bultos */
-    public const BULLEN = 'F_LEN.BULLEN';
+    public const BULLEN = 'BULLEN';
 
     /** @var string [E]Nº de serie */
-    public const MEMLEN = 'F_LEN.MEMLEN';
+    public const MEMLEN = 'MEMLEN';
 
     /** @var string [E]Fecha de fabricación */
-    public const FFALEN = 'F_LEN.FFALEN';
+    public const FFALEN = 'FFALEN';
 
     /** @var string [E]Fecha de consumo preferente */
-    public const FCOLEN = 'F_LEN.FCOLEN';
+    public const FCOLEN = 'FCOLEN';
 
-    public const FIMLEN = 'F_LEN.FIMLEN';
+    public const FIMLEN = 'FIMLEN';
 
     /** @var string Talla */
-    public const CE1LEN = 'F_LEN.CE1LEN';
+    public const CE1LEN = 'CE1LEN';
 
     /** @var string Color */
-    public const CE2LEN = 'F_LEN.CE2LEN';
+    public const CE2LEN = 'CE2LEN';
 
     /** @var string Imagen asociada a la línea */
-    public const IMALEN = 'F_LEN.IMALEN';
+    public const IMALEN = 'IMALEN';
 
     /** @var string Sumatorio donde se debe acumular el valor */
-    public const SUMLEN = 'F_LEN.SUMLEN';
+    public const SUMLEN = 'SUMLEN';
 }

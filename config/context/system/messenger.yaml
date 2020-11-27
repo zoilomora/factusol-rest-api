@@ -1,0 +1,18 @@
+services:
+  _defaults:
+    autowire: false
+
+  # Middleware return original exception
+  bus.middleware.handler_exception_catcher:
+    class: PcComponentes\SymfonyMessengerBundle\Middleware\HandlerExceptionCatcherMiddleware
+
+  bus.middleware.logging.processor.command:
+    autowire: true
+    class: PcComponentes\DddLogging\MessageLogger\MessageLoggerMiddleware
+    arguments:
+      $action: '@bus.middleware.logging.action.process'
+    tags:
+      - { name: monolog.logger, handler: commands, channel: command }
+
+  bus.middleware.logging.action.process:
+    class: PcComponentes\DddLogging\MessageLogger\Action\ProcessAction

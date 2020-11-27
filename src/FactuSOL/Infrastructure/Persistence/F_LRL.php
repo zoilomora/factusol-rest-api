@@ -7,29 +7,29 @@ final class F_LRL
 {
     public const TABLE_NAME = 'F_LRL';
 
-    public const CODLRL = 'F_LRL.CODLRL';
+    public const CODLRL = 'CODLRL';
 
-    public const POSLRL = 'F_LRL.POSLRL';
+    public const POSLRL = 'POSLRL';
 
-    public const LINLRL = 'F_LRL.LINLRL';
+    public const LINLRL = 'LINLRL';
 
-    public const TIPLRL = 'F_LRL.TIPLRL';
+    public const TIPLRL = 'TIPLRL';
 
-    public const HENLRL = 'F_LRL.HENLRL';
+    public const HENLRL = 'HENLRL';
 
-    public const HSALRL = 'F_LRL.HSALRL';
+    public const HSALRL = 'HSALRL';
 
-    public const HSCLRL = 'F_LRL.HSCLRL';
+    public const HSCLRL = 'HSCLRL';
 
-    public const HFCLRL = 'F_LRL.HFCLRL';
+    public const HFCLRL = 'HFCLRL';
 
-    public const WENLRL = 'F_LRL.WENLRL';
+    public const WENLRL = 'WENLRL';
 
-    public const WSALRL = 'F_LRL.WSALRL';
+    public const WSALRL = 'WSALRL';
 
-    public const SANLRL = 'F_LRL.SANLRL';
+    public const SANLRL = 'SANLRL';
 
-    public const OBELRL = 'F_LRL.OBELRL';
+    public const OBELRL = 'OBELRL';
 
-    public const OBSLRL = 'F_LRL.OBSLRL';
+    public const OBSLRL = 'OBSLRL';
 }

@@ -8,38 +8,38 @@ final class F_REP
     public const TABLE_NAME = 'F_REP';
 
     /** @var string Código */
-    public const CODREP = 'F_REP.CODREP';
+    public const CODREP = 'CODREP';
 
     /** @var string Nombre */
-    public const NOMREP = 'F_REP.NOMREP';
+    public const NOMREP = 'NOMREP';
 
     /** @var string Domicilio */
-    public const DOMREP = 'F_REP.DOMREP';
+    public const DOMREP = 'DOMREP';
 
     /** @var string Población */
-    public const POBREP = 'F_REP.POBREP';
+    public const POBREP = 'POBREP';
 
     /** @var string Cód. Postal */
-    public const CPOREP = 'F_REP.CPOREP';
+    public const CPOREP = 'CPOREP';
 
     /** @var string Provincia */
-    public const PROREP = 'F_REP.PROREP';
+    public const PROREP = 'PROREP';
 
     /** @var string D.N.I */
-    public const DNIREP = 'F_REP.DNIREP';
+    public const DNIREP = 'DNIREP';
 
     /** @var string Cargo */
-    public const CARREP = 'F_REP.CARREP';
+    public const CARREP = 'CARREP';
 
     /** @var string Teléfonos oficina */
-    public const TEOREP = 'F_REP.TEOREP';
+    public const TEOREP = 'TEOREP';
 
     /** @var string Teléfono particular */
-    public const TEPREP = 'F_REP.TEPREP';
+    public const TEPREP = 'TEPREP';
 
     /** @var string E-mail */
-    public const EMAREP = 'F_REP.EMAREP';
+    public const EMAREP = 'EMAREP';
 
     /** @var string Observaciones */
-    public const OBSREP = 'F_REP.OBSREP';
+    public const OBSREP = 'OBSREP';
 }

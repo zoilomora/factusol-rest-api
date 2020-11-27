@@ -8,23 +8,23 @@ final class F_LSA
     public const TABLE_NAME = 'F_LSA';
 
     /** @var string Código */
-    public const CODLSA = 'F_LSA.CODLSA';
+    public const CODLSA = 'CODLSA';
 
     /** @var string [E]Linea de fabricacion */
-    public const POSLSA = 'F_LSA.POSLSA';
+    public const POSLSA = 'POSLSA';
 
     /** @var string Artículo */
-    public const ARTLSA = 'F_LSA.ARTLSA';
+    public const ARTLSA = 'ARTLSA';
 
     /** @var string Descripcion */
-    public const DESLSA = 'F_LSA.DESLSA';
+    public const DESLSA = 'DESLSA';
 
     /** @var string Unidades fabricadas */
-    public const UNILSA = 'F_LSA.UNILSA';
+    public const UNILSA = 'UNILSA';
 
     /** @var string Talla */
-    public const CE1LSA = 'F_LSA.CE1LSA';
+    public const CE1LSA = 'CE1LSA';
 
     /** @var string Color */
-    public const CE2LSA = 'F_LSA.CE2LSA';
+    public const CE2LSA = 'CE2LSA';
 }

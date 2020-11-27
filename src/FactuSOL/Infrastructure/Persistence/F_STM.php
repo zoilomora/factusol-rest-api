@@ -8,80 +8,80 @@ final class F_STM
     public const TABLE_NAME = 'F_STM';
 
     /** @var string [E] */
-    public const ARTSTM = 'F_STM.ARTSTM';
+    public const ARTSTM = 'ARTSTM';
 
     /** @var string [E] */
-    public const ALMSTM = 'F_STM.ALMSTM';
+    public const ALMSTM = 'ALMSTM';
 
     /** @var string [E] */
-    public const A01STM = 'F_STM.A01STM';
+    public const A01STM = 'A01STM';
 
     /** @var string [E] */
-    public const D01STM = 'F_STM.D01STM';
+    public const D01STM = 'D01STM';
 
     /** @var string [E] */
-    public const A02STM = 'F_STM.A02STM';
+    public const A02STM = 'A02STM';
 
     /** @var string [E] */
-    public const D02STM = 'F_STM.D02STM';
+    public const D02STM = 'D02STM';
 
     /** @var string [E] */
-    public const A03STM = 'F_STM.A03STM';
+    public const A03STM = 'A03STM';
 
     /** @var string [E] */
-    public const D03STM = 'F_STM.D03STM';
+    public const D03STM = 'D03STM';
 
     /** @var string [E] */
-    public const A04STM = 'F_STM.A04STM';
+    public const A04STM = 'A04STM';
 
     /** @var string [E] */
-    public const D04STM = 'F_STM.D04STM';
+    public const D04STM = 'D04STM';
 
     /** @var string [E] */
-    public const A05STM = 'F_STM.A05STM';
+    public const A05STM = 'A05STM';
 
     /** @var string [E] */
-    public const D05STM = 'F_STM.D05STM';
+    public const D05STM = 'D05STM';
 
     /** @var string [E] */
-    public const A06STM = 'F_STM.A06STM';
+    public const A06STM = 'A06STM';
 
     /** @var string [E] */
-    public const D06STM = 'F_STM.D06STM';
+    public const D06STM = 'D06STM';
 
     /** @var string [E] */
-    public const A07STM = 'F_STM.A07STM';
+    public const A07STM = 'A07STM';
 
     /** @var string [E] */
-    public const D07STM = 'F_STM.D07STM';
+    public const D07STM = 'D07STM';
 
     /** @var string [E] */
-    public const A08STM = 'F_STM.A08STM';
+    public const A08STM = 'A08STM';
 
     /** @var string [E] */
-    public const D08STM = 'F_STM.D08STM';
+    public const D08STM = 'D08STM';
 
     /** @var string [E] */
-    public const A09STM = 'F_STM.A09STM';
+    public const A09STM = 'A09STM';
 
     /** @var string [E] */
-    public const D09STM = 'F_STM.D09STM';
+    public const D09STM = 'D09STM';
 
     /** @var string [E] */
-    public const A10STM = 'F_STM.A10STM';
+    public const A10STM = 'A10STM';
 
     /** @var string [E] */
-    public const D10STM = 'F_STM.D10STM';
+    public const D10STM = 'D10STM';
 
     /** @var string [E] */
-    public const A11STM = 'F_STM.A11STM';
+    public const A11STM = 'A11STM';
 
     /** @var string [E] */
-    public const D11STM = 'F_STM.D11STM';
+    public const D11STM = 'D11STM';
 
     /** @var string [E] */
-    public const A12STM = 'F_STM.A12STM';
+    public const A12STM = 'A12STM';
 
     /** @var string [E] */
-    public const D12STM = 'F_STM.D12STM';
+    public const D12STM = 'D12STM';
 }

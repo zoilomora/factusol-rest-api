@@ -8,23 +8,23 @@ final class F_SLV
     public const TABLE_NAME = 'F_SLV';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLV = 'F_SLV.TIPSLV';
+    public const TIPSLV = 'TIPSLV';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLV = 'F_SLV.CODSLV';
+    public const CODSLV = 'CODSLV';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLV = 'F_SLV.POSSLV';
+    public const POSSLV = 'POSSLV';
 
     /** @var string Número de serie */
-    public const NSESLV = 'F_SLV.NSESLV';
+    public const NSESLV = 'NSESLV';
 
     /** @var string Fecha de fabricación */
-    public const FFASLV = 'F_SLV.FFASLV';
+    public const FFASLV = 'FFASLV';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLV = 'F_SLV.FCOSLV';
+    public const FCOSLV = 'FCOSLV';
 
     /** @var string Cantidad */
-    public const CANSLV = 'F_SLV.CANSLV';
+    public const CANSLV = 'CANSLV';
 }

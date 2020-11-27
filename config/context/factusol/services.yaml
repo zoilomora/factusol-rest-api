@@ -1,0 +1,22 @@
+imports:
+  - { resource: entrypoint/console.yaml }
+  - { resource: entrypoint/web.yaml }
+  - { resource: connections.yaml }
+  - { resource: table_mapper.yaml }
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  ZoiloMora\FactuSOL\Application\:
+    resource: '../../../src/FactuSOL/Application/{Command,Query}/*/*/*Handler.php'
+    autoconfigure: false
+    tags:
+      - { name: messenger.message_handler, bus: execute_command.bus }
+
+  ZoiloMora\FactuSOL\Domain\:
+    resource: '../../../src/FactuSOL/Domain/*'
+
+  ZoiloMora\FactuSOL\Infrastructure\:
+    resource: '../../../src/FactuSOL/Infrastructure/*'

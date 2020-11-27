@@ -8,38 +8,38 @@ final class F_ACL
     public const TABLE_NAME = 'F_ACL';
 
     /** @var string Código */
-    public const CODACL = 'F_ACL.CODACL';
+    public const CODACL = 'CODACL';
 
     /** @var string [F=00000]Cliente */
-    public const CLIACL = 'F_ACL.CLIACL';
+    public const CLIACL = 'CLIACL';
 
     /** @var string Fecha */
-    public const FECACL = 'F_ACL.FECACL';
+    public const FECACL = 'FECACL';
 
     /** @var string [F=hh:mm]Hora */
-    public const HORACL = 'F_ACL.HORACL';
+    public const HORACL = 'HORACL';
 
     /** @var string [F=00000]Agente */
-    public const OPEACL = 'F_ACL.OPEACL';
+    public const OPEACL = 'OPEACL';
 
     /** @var string [E]Campaña */
-    public const CAMACL = 'F_ACL.CAMACL';
+    public const CAMACL = 'CAMACL';
 
     /** @var string [L=#0;Pendiente#1;En curso#2;Finalizada]Estado */
-    public const ESTACL = 'F_ACL.ESTACL';
+    public const ESTACL = 'ESTACL';
 
     /** @var string Tipo de acción */
-    public const ACOACL = 'F_ACL.ACOACL';
+    public const ACOACL = 'ACOACL';
 
     /** @var string Consulta */
-    public const SEGACL = 'F_ACL.SEGACL';
+    public const SEGACL = 'SEGACL';
 
     /** @var string Persona de contacto */
-    public const PCOACL = 'F_ACL.PCOACL';
+    public const PCOACL = 'PCOACL';
 
     /** @var string Fecha del fin de la acción */
-    public const FFIACL = 'F_ACL.FFIACL';
+    public const FFIACL = 'FFIACL';
 
     /** @var string [F=hh:mm]Hora del fin de la acción */
-    public const HFIACL = 'F_ACL.HFIACL';
+    public const HFIACL = 'HFIACL';
 }

@@ -8,35 +8,35 @@ final class F_LPD
     public const TABLE_NAME = 'F_LPD';
 
     /** @var string Código */
-    public const CODLPD = 'F_LPD.CODLPD';
+    public const CODLPD = 'CODLPD';
 
     /** @var string [E]POSICION DE LA LÍNEA DE PDA */
-    public const POSLPD = 'F_LPD.POSLPD';
+    public const POSLPD = 'POSLPD';
 
     /** @var string Descripción del documento */
-    public const DESLPD = 'F_LPD.DESLPD';
+    public const DESLPD = 'DESLPD';
 
     /** @var string Documento */
-    public const DOCLPD = 'F_LPD.DOCLPD';
+    public const DOCLPD = 'DOCLPD';
 
     /** @var string Nº de serie */
-    public const SERLPD = 'F_LPD.SERLPD';
+    public const SERLPD = 'SERLPD';
 
     /** @var string [E]PERMITIR CREAR DOCUMENTOS */
-    public const NUELPD = 'F_LPD.NUELPD';
+    public const NUELPD = 'NUELPD';
 
     /** @var string [E]PERMITIR MODIFICAR DOCUMENTOS */
-    public const MODLPD = 'F_LPD.MODLPD';
+    public const MODLPD = 'MODLPD';
 
     /** @var string [E]PERMITIR BORRAR DOCUMENTOS */
-    public const BORLPD = 'F_LPD.BORLPD';
+    public const BORLPD = 'BORLPD';
 
     /** @var string No exportar histórico */
-    public const NEXLPD = 'F_LPD.NEXLPD';
+    public const NEXLPD = 'NEXLPD';
 
-    public const CONLPD = 'F_LPD.CONLPD';
+    public const CONLPD = 'CONLPD';
 
-    public const COBLPD = 'F_LPD.COBLPD';
+    public const COBLPD = 'COBLPD';
 
-    public const MIMLPD = 'F_LPD.MIMLPD';
+    public const MIMLPD = 'MIMLPD';
 }

@@ -8,17 +8,17 @@ final class F_MCK
     public const TABLE_NAME = 'F_MCK';
 
     /** @var string Código control kilometraje */
-    public const CODMCK = 'F_MCK.CODMCK';
+    public const CODMCK = 'CODMCK';
 
     /** @var string Fecha del control */
-    public const FECMCK = 'F_MCK.FECMCK';
+    public const FECMCK = 'FECMCK';
 
     /** @var string Agente comercial */
-    public const AGEMCK = 'F_MCK.AGEMCK';
+    public const AGEMCK = 'AGEMCK';
 
     /** @var string Kilómetros inciales */
-    public const KMIMCK = 'F_MCK.KMIMCK';
+    public const KMIMCK = 'KMIMCK';
 
     /** @var string Kilómetros finales */
-    public const KMFMCK = 'F_MCK.KMFMCK';
+    public const KMFMCK = 'KMFMCK';
 }

@@ -8,14 +8,14 @@ final class F_CEG
     public const TABLE_NAME = 'F_CEG';
 
     /** @var string Código */
-    public const CODCEG = 'F_CEG.CODCEG';
+    public const CODCEG = 'CODCEG';
 
     /** @var string Talla */
-    public const CE1CEG = 'F_CEG.CE1CEG';
+    public const CE1CEG = 'CE1CEG';
 
     /** @var string Color */
-    public const CE2CEG = 'F_CEG.CE2CEG';
+    public const CE2CEG = 'CE2CEG';
 
     /** @var string Denominación */
-    public const DENCEG = 'F_CEG.DENCEG';
+    public const DENCEG = 'DENCEG';
 }

@@ -7,21 +7,21 @@ final class F_MVI
 {
     public const TABLE_NAME = 'F_MVI';
 
-    public const CODMVI = 'F_MVI.CODMVI';
+    public const CODMVI = 'CODMVI';
 
-    public const FECMVI = 'F_MVI.FECMVI';
+    public const FECMVI = 'FECMVI';
 
-    public const HORMVI = 'F_MVI.HORMVI';
+    public const HORMVI = 'HORMVI';
 
-    public const CLIMVI = 'F_MVI.CLIMVI';
+    public const CLIMVI = 'CLIMVI';
 
-    public const AGEMVI = 'F_MVI.AGEMVI';
+    public const AGEMVI = 'AGEMVI';
 
-    public const OBSMVI = 'F_MVI.OBSMVI';
+    public const OBSMVI = 'OBSMVI';
 
-    public const MOTMVI = 'F_MVI.MOTMVI';
+    public const MOTMVI = 'MOTMVI';
 
-    public const LOCMVI = 'F_MVI.LOCMVI';
+    public const LOCMVI = 'LOCMVI';
 
-    public const OBRMVI = 'F_MVI.OBRMVI';
+    public const OBRMVI = 'OBRMVI';
 }

@@ -8,22 +8,22 @@ final class F_STO
     public const TABLE_NAME = 'F_STO';
 
     /** @var string Artículo */
-    public const ARTSTO = 'F_STO.ARTSTO';
+    public const ARTSTO = 'ARTSTO';
 
     /** @var string Almacén */
-    public const ALMSTO = 'F_STO.ALMSTO';
+    public const ALMSTO = 'ALMSTO';
 
     /** @var string Stock mínimo */
-    public const MINSTO = 'F_STO.MINSTO';
+    public const MINSTO = 'MINSTO';
 
     /** @var string Stock máximo */
-    public const MAXSTO = 'F_STO.MAXSTO';
+    public const MAXSTO = 'MAXSTO';
 
     /** @var string Stock actual */
-    public const ACTSTO = 'F_STO.ACTSTO';
+    public const ACTSTO = 'ACTSTO';
 
     /** @var string Stock disponible */
-    public const DISSTO = 'F_STO.DISSTO';
+    public const DISSTO = 'DISSTO';
 
-    public const UBISTO = 'F_STO.UBISTO';
+    public const UBISTO = 'UBISTO';
 }

@@ -7,19 +7,19 @@ final class F_LTH
 {
     public const TABLE_NAME = 'F_LTH';
 
-    public const CODLTH = 'F_LTH.CODLTH';
+    public const CODLTH = 'CODLTH';
 
-    public const TIPLTH = 'F_LTH.TIPLTH';
+    public const TIPLTH = 'TIPLTH';
 
-    public const DIALTH = 'F_LTH.DIALTH';
+    public const DIALTH = 'DIALTH';
 
-    public const HENLTH = 'F_LTH.HENLTH';
+    public const HENLTH = 'HENLTH';
 
-    public const HSALTH = 'F_LTH.HSALTH';
+    public const HSALTH = 'HSALTH';
 
-    public const HETLTH = 'F_LTH.HETLTH';
+    public const HETLTH = 'HETLTH';
 
-    public const HSTLTH = 'F_LTH.HSTLTH';
+    public const HSTLTH = 'HSTLTH';
 
-    public const HJOLTH = 'F_LTH.HJOLTH';
+    public const HJOLTH = 'HJOLTH';
 }

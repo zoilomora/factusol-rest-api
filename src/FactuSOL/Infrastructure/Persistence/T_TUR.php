@@ -7,11 +7,11 @@ final class T_TUR
 {
     public const TABLE_NAME = 'T_TUR';
 
-    public const CODTUR = 'T_TUR.CODTUR';
+    public const CODTUR = 'CODTUR';
 
-    public const DESTUR = 'T_TUR.DESTUR';
+    public const DESTUR = 'DESTUR';
 
-    public const HINTUR = 'T_TUR.HINTUR';
+    public const HINTUR = 'HINTUR';
 
-    public const HFITUR = 'T_TUR.HFITUR';
+    public const HFITUR = 'HFITUR';
 }

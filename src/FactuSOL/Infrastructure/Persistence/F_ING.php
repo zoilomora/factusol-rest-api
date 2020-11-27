@@ -8,29 +8,29 @@ final class F_ING
     public const TABLE_NAME = 'F_ING';
 
     /** @var string CODIGO DE INGRESO */
-    public const CODING = 'F_ING.CODING';
+    public const CODING = 'CODING';
 
     /** @var string CODIGO DE CAJA */
-    public const CAJING = 'F_ING.CAJING';
+    public const CAJING = 'CAJING';
 
     /** @var string FECHA DEL MOVIMIENTO */
-    public const FECING = 'F_ING.FECING';
+    public const FECING = 'FECING';
 
     /** @var string HORA */
-    public const HORING = 'F_ING.HORING';
+    public const HORING = 'HORING';
 
     /** @var string CONCEPTO */
-    public const CONING = 'F_ING.CONING';
+    public const CONING = 'CONING';
 
     /** @var string IMPORTE */
-    public const IMPING = 'F_ING.IMPING';
+    public const IMPING = 'IMPING';
 
     /** @var string CLIENTE */
-    public const CLIING = 'F_ING.CLIING';
+    public const CLIING = 'CLIING';
 
-    public const TPVIDING = 'F_ING.TPVIDING';
+    public const TPVIDING = 'TPVIDING';
 
-    public const CFAING = 'F_ING.CFAING';
+    public const CFAING = 'CFAING';
 
-    public const PFAING = 'F_ING.PFAING';
+    public const PFAING = 'PFAING';
 }

@@ -8,29 +8,29 @@ final class F_SLR
     public const TABLE_NAME = 'F_SLR';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLR = 'F_SLR.TIPSLR';
+    public const TIPSLR = 'TIPSLR';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLR = 'F_SLR.CODSLR';
+    public const CODSLR = 'CODSLR';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLR = 'F_SLR.POSSLR';
+    public const POSSLR = 'POSSLR';
 
     /** @var string Número de serie */
-    public const NSESLR = 'F_SLR.NSESLR';
+    public const NSESLR = 'NSESLR';
 
     /** @var string Fecha de fabricación */
-    public const FFASLR = 'F_SLR.FFASLR';
+    public const FFASLR = 'FFASLR';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLR = 'F_SLR.FCOSLR';
+    public const FCOSLR = 'FCOSLR';
 
     /** @var string Cantidad */
-    public const CANSLR = 'F_SLR.CANSLR';
+    public const CANSLR = 'CANSLR';
 
-    public const FECSLR = 'F_SLR.FECSLR';
+    public const FECSLR = 'FECSLR';
 
-    public const ALMSLR = 'F_SLR.ALMSLR';
+    public const ALMSLR = 'ALMSLR';
 
-    public const ARTSLR = 'F_SLR.ARTSLR';
+    public const ARTSLR = 'ARTSLR';
 }

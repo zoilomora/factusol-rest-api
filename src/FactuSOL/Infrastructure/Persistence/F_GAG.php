@@ -8,22 +8,22 @@ final class F_GAG
     public const TABLE_NAME = 'F_GAG';
 
     /** @var string Código */
-    public const CODGAG = 'F_GAG.CODGAG';
+    public const CODGAG = 'CODGAG';
 
     /** @var string [F=00000]Agente */
-    public const AGEGAG = 'F_GAG.AGEGAG';
+    public const AGEGAG = 'AGEGAG';
 
     /** @var string Fecha */
-    public const FECGAG = 'F_GAG.FECGAG';
+    public const FECGAG = 'FECGAG';
 
     /** @var string Concepto */
-    public const CONGAG = 'F_GAG.CONGAG';
+    public const CONGAG = 'CONGAG';
 
     /** @var string Importe */
-    public const IMPGAG = 'F_GAG.IMPGAG';
+    public const IMPGAG = 'IMPGAG';
 
     /** @var string [E]Código del concepto de gasto del agente */
-    public const CCGGAG = 'F_GAG.CCGGAG';
+    public const CCGGAG = 'CCGGAG';
 
-    public const OBSGAG = 'F_GAG.OBSGAG';
+    public const OBSGAG = 'OBSGAG';
 }

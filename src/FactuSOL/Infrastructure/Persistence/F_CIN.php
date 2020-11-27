@@ -8,29 +8,29 @@ final class F_CIN
     public const TABLE_NAME = 'F_CIN';
 
     /** @var string Almacén */
-    public const ALMCIN = 'F_CIN.ALMCIN';
+    public const ALMCIN = 'ALMCIN';
 
     /** @var string Fecha */
-    public const FECCIN = 'F_CIN.FECCIN';
+    public const FECCIN = 'FECCIN';
 
     /** @var string Artículo */
-    public const ARTCIN = 'F_CIN.ARTCIN';
+    public const ARTCIN = 'ARTCIN';
 
     /** @var string Talla */
-    public const CE1CIN = 'F_CIN.CE1CIN';
+    public const CE1CIN = 'CE1CIN';
 
     /** @var string Color */
-    public const CE2CIN = 'F_CIN.CE2CIN';
+    public const CE2CIN = 'CE2CIN';
 
     /** @var string Stock actual */
-    public const UACCIN = 'F_CIN.UACCIN';
+    public const UACCIN = 'UACCIN';
 
     /** @var string Unidades contadas */
-    public const URECIN = 'F_CIN.URECIN';
+    public const URECIN = 'URECIN';
 
     /** @var string [E]Disponible antes de la consolidación */
-    public const DACCIN = 'F_CIN.DACCIN';
+    public const DACCIN = 'DACCIN';
 
     /** @var string [E]Disponible consolidado */
-    public const DRECIN = 'F_CIN.DRECIN';
+    public const DRECIN = 'DRECIN';
 }

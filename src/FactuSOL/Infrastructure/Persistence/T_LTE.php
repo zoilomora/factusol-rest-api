@@ -7,25 +7,25 @@ final class T_LTE
 {
     public const TABLE_NAME = 'T_LTE';
 
-    public const CODLTE = 'T_LTE.CODLTE';
+    public const CODLTE = 'CODLTE';
 
-    public const DOCLTE = 'T_LTE.DOCLTE';
+    public const DOCLTE = 'DOCLTE';
 
-    public const PUSLTE = 'T_LTE.PUSLTE';
+    public const PUSLTE = 'PUSLTE';
 
-    public const PIMLTE = 'T_LTE.PIMLTE';
+    public const PIMLTE = 'PIMLTE';
 
-    public const MODLTE = 'T_LTE.MODLTE';
+    public const MODLTE = 'MODLTE';
 
-    public const COPLTE = 'T_LTE.COPLTE';
+    public const COPLTE = 'COPLTE';
 
-    public const TFSLTE = 'T_LTE.TFSLTE';
+    public const TFSLTE = 'TFSLTE';
 
-    public const CMOLTE = 'T_LTE.CMOLTE';
+    public const CMOLTE = 'CMOLTE';
 
-    public const CM2LTE = 'T_LTE.CM2LTE';
+    public const CM2LTE = 'CM2LTE';
 
-    public const FICLTE = 'T_LTE.FICLTE';
+    public const FICLTE = 'FICLTE';
 
-    public const IUMLTE = 'T_LTE.IUMLTE';
+    public const IUMLTE = 'IUMLTE';
 }

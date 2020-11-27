@@ -7,17 +7,17 @@ final class T_TFI
 {
     public const TABLE_NAME = 'T_TFI';
 
-    public const CODTFI = 'T_TFI.CODTFI';
+    public const CODTFI = 'CODTFI';
 
-    public const TTFTFI = 'T_TFI.TTFTFI';
+    public const TTFTFI = 'TTFTFI';
 
-    public const IDETFI = 'T_TFI.IDETFI';
+    public const IDETFI = 'IDETFI';
 
-    public const CLITFI = 'T_TFI.CLITFI';
+    public const CLITFI = 'CLITFI';
 
-    public const FALTFI = 'T_TFI.FALTFI';
+    public const FALTFI = 'FALTFI';
 
-    public const FVATFI = 'T_TFI.FVATFI';
+    public const FVATFI = 'FVATFI';
 
-    public const TOTTFI = 'T_TFI.TOTTFI';
+    public const TOTTFI = 'TOTTFI';
 }

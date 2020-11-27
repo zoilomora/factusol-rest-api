@@ -8,26 +8,26 @@ final class F_LPA
     public const TABLE_NAME = 'F_LPA';
 
     /** @var string Artículo */
-    public const ARTLPA = 'F_LPA.ARTLPA';
+    public const ARTLPA = 'ARTLPA';
 
     /** @var string [F=00000]Proveedor */
-    public const PROLPA = 'F_LPA.PROLPA';
+    public const PROLPA = 'PROLPA';
 
     /** @var string Precio */
-    public const PRELPA = 'F_LPA.PRELPA';
+    public const PRELPA = 'PRELPA';
 
     /** @var string Descuento 1 */
-    public const DT1LPA = 'F_LPA.DT1LPA';
+    public const DT1LPA = 'DT1LPA';
 
     /** @var string Descuento 2 */
-    public const DT2LPA = 'F_LPA.DT2LPA';
+    public const DT2LPA = 'DT2LPA';
 
     /** @var string Descuento 3 */
-    public const DT3LPA = 'F_LPA.DT3LPA';
+    public const DT3LPA = 'DT3LPA';
 
     /** @var string Resultado */
-    public const RESLPA = 'F_LPA.RESLPA';
+    public const RESLPA = 'RESLPA';
 
     /** @var string Referencia */
-    public const REFLPA = 'F_LPA.REFLPA';
+    public const REFLPA = 'REFLPA';
 }

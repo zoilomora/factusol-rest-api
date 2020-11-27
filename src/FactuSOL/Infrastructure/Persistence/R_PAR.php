@@ -8,164 +8,164 @@ final class R_PAR
     public const TABLE_NAME = 'R_PAR';
 
     /** @var string Código */
-    public const CODPAR = 'R_PAR.CODPAR';
+    public const CODPAR = 'CODPAR';
 
     /** @var string Fecha de entrada */
-    public const FENPAR = 'R_PAR.FENPAR';
+    public const FENPAR = 'FENPAR';
 
     /** @var string [L=#0;Tipo 1#1;Tipo 2#2;Tipo 3#3;Tipo 4#4;Tipo 5#5;Tipo 6#6;Tipo 7#7;Tipo 8#8;Tipo 9]Tipo de parte */
-    public const TIPPAR = 'R_PAR.TIPPAR';
+    public const TIPPAR = 'TIPPAR';
 
     /** @var string [L=#0;Estado 1#1;Estado 2#2;Estado 3#3;Estado 4#4;Estado 5#5;Estado 6#6;Estado 7#7;Estado 8#8;Estado 9]Estado */
-    public const ESTPAR = 'R_PAR.ESTPAR';
+    public const ESTPAR = 'ESTPAR';
 
     /** @var string [F=00000]Cliente */
-    public const CLIPAR = 'R_PAR.CLIPAR';
+    public const CLIPAR = 'CLIPAR';
 
     /** @var string Persona de contacto */
-    public const PCOPAR = 'R_PAR.PCOPAR';
+    public const PCOPAR = 'PCOPAR';
 
     /** @var string Teléfono */
-    public const TELPAR = 'R_PAR.TELPAR';
+    public const TELPAR = 'TELPAR';
 
     /** @var string Observaciones */
-    public const OBSPAR = 'R_PAR.OBSPAR';
+    public const OBSPAR = 'OBSPAR';
 
     /** @var string Zona */
-    public const ZONPAR = 'R_PAR.ZONPAR';
+    public const ZONPAR = 'ZONPAR';
 
     /** @var string Fecha prevista visita */
-    public const FPVPAR = 'R_PAR.FPVPAR';
+    public const FPVPAR = 'FPVPAR';
 
     /** @var string Hora prevista visita */
-    public const HPVPAR = 'R_PAR.HPVPAR';
+    public const HPVPAR = 'HPVPAR';
 
     /** @var string Técnico */
-    public const TECPAR = 'R_PAR.TECPAR';
+    public const TECPAR = 'TECPAR';
 
     /** @var string Producto */
-    public const TAPPAR = 'R_PAR.TAPPAR';
+    public const TAPPAR = 'TAPPAR';
 
     /** @var string Marca */
-    public const MARPAR = 'R_PAR.MARPAR';
+    public const MARPAR = 'MARPAR';
 
     /** @var string Modelo */
-    public const MODPAR = 'R_PAR.MODPAR';
+    public const MODPAR = 'MODPAR';
 
     /** @var string Nº de serie */
-    public const NSEPAR = 'R_PAR.NSEPAR';
+    public const NSEPAR = 'NSEPAR';
 
     /** @var string Fecha de compra */
-    public const FCOPAR = 'R_PAR.FCOPAR';
+    public const FCOPAR = 'FCOPAR';
 
     /** @var string Fecha fin de garantía */
-    public const FFGPAR = 'R_PAR.FFGPAR';
+    public const FFGPAR = 'FFGPAR';
 
     /** @var string Síntoma de la avería */
-    public const AVEPAR = 'R_PAR.AVEPAR';
+    public const AVEPAR = 'AVEPAR';
 
     /** @var string [L=#0;No#1;Sí]Solicita presupuesto previo */
-    public const PREPAR = 'R_PAR.PREPAR';
+    public const PREPAR = 'PREPAR';
 
     /** @var string [L=#0;No#1;Sí]Reparación en garantía */
-    public const GARPAR = 'R_PAR.GARPAR';
+    public const GARPAR = 'GARPAR';
 
     /** @var string Tipo de intervención */
-    public const TINPAR = 'R_PAR.TINPAR';
+    public const TINPAR = 'TINPAR';
 
     /** @var string Nº de póliza */
-    public const NPOPAR = 'R_PAR.NPOPAR';
+    public const NPOPAR = 'NPOPAR';
 
     /** @var string Trabajo realizado */
-    public const TRAPAR = 'R_PAR.TRAPAR';
+    public const TRAPAR = 'TRAPAR';
 
     /** @var string [L=#0;No#1;Sí]Reparado en taller */
-    public const REPPAR = 'R_PAR.REPPAR';
+    public const REPPAR = 'REPPAR';
 
     /** @var string [L=#0;No#1;Sí]Intervención terminada */
-    public const INTPAR = 'R_PAR.INTPAR';
+    public const INTPAR = 'INTPAR';
 
     /** @var string Presupuesto. Piezas */
-    public const PIEPAR = 'R_PAR.PIEPAR';
+    public const PIEPAR = 'PIEPAR';
 
     /** @var string Presupuesto. Mano de obra */
-    public const MOBPAR = 'R_PAR.MOBPAR';
+    public const MOBPAR = 'MOBPAR';
 
     /** @var string Presupuesto. Total */
-    public const TPRPAR = 'R_PAR.TPRPAR';
+    public const TPRPAR = 'TPRPAR';
 
     /** @var string Nº horas de trabajo */
-    public const NHOPAR = 'R_PAR.NHOPAR';
+    public const NHOPAR = 'NHOPAR';
 
     /** @var string Trabajo, desde */
-    public const DESPAR = 'R_PAR.DESPAR';
+    public const DESPAR = 'DESPAR';
 
     /** @var string Trabajo, hasta */
-    public const HASPAR = 'R_PAR.HASPAR';
+    public const HASPAR = 'HASPAR';
 
     /** @var string Importe piezas */
-    public const TPIPAR = 'R_PAR.TPIPAR';
+    public const TPIPAR = 'TPIPAR';
 
     /** @var string Importemano de obra */
-    public const MAOPAR = 'R_PAR.MAOPAR';
+    public const MAOPAR = 'MAOPAR';
 
     /** @var string Importe disposición de servicio */
-    public const DISPAR = 'R_PAR.DISPAR';
+    public const DISPAR = 'DISPAR';
 
     /** @var string Importe transporte / almacenaje */
-    public const TALPAR = 'R_PAR.TALPAR';
+    public const TALPAR = 'TALPAR';
 
     /** @var string Base imponible */
-    public const BASPAR = 'R_PAR.BASPAR';
+    public const BASPAR = 'BASPAR';
 
     /** @var string Porcentaje de IVA */
-    public const PIVPAR = 'R_PAR.PIVPAR';
+    public const PIVPAR = 'PIVPAR';
 
     /** @var string Importe de IVA */
-    public const IIVPAR = 'R_PAR.IIVPAR';
+    public const IIVPAR = 'IIVPAR';
 
     /** @var string Total parte */
-    public const TOTPAR = 'R_PAR.TOTPAR';
+    public const TOTPAR = 'TOTPAR';
 
     /** @var string Fecha de salida */
-    public const FSAPAR = 'R_PAR.FSAPAR';
+    public const FSAPAR = 'FSAPAR';
 
     /** @var string [L=#0;No#1;Sí]Facturado */
-    public const FACPAR = 'R_PAR.FACPAR';
+    public const FACPAR = 'FACPAR';
 
     /** @var string NIF */
-    public const CNIPAR = 'R_PAR.CNIPAR';
+    public const CNIPAR = 'CNIPAR';
 
     /** @var string Nombre */
-    public const CNOPAR = 'R_PAR.CNOPAR';
+    public const CNOPAR = 'CNOPAR';
 
     /** @var string Domicilio */
-    public const CDOPAR = 'R_PAR.CDOPAR';
+    public const CDOPAR = 'CDOPAR';
 
     /** @var string Código postal */
-    public const CCPPAR = 'R_PAR.CCPPAR';
+    public const CCPPAR = 'CCPPAR';
 
     /** @var string Población */
-    public const CPOPAR = 'R_PAR.CPOPAR';
+    public const CPOPAR = 'CPOPAR';
 
     /** @var string Provincia */
-    public const CPRPAR = 'R_PAR.CPRPAR';
+    public const CPRPAR = 'CPRPAR';
 
     /** @var string Fax */
-    public const FAXPAR = 'R_PAR.FAXPAR';
+    public const FAXPAR = 'FAXPAR';
 
     /** @var string E-mail */
-    public const EMAPAR = 'R_PAR.EMAPAR';
+    public const EMAPAR = 'EMAPAR';
 
     /** @var string Porcentaje de recargo */
-    public const PRECPAR = 'R_PAR.PRECPAR';
+    public const PRECPAR = 'PRECPAR';
 
     /** @var string Importe de recargo */
-    public const IRECPAR = 'R_PAR.IRECPAR';
+    public const IRECPAR = 'IRECPAR';
 
     /** @var string Documento en que se facturó o albaraneó el parte */
-    public const DOCPAR = 'R_PAR.DOCPAR';
+    public const DOCPAR = 'DOCPAR';
 
     /** @var string Dirección de entrega */
-    public const OBRPAR = 'R_PAR.OBRPAR';
+    public const OBRPAR = 'OBRPAR';
 }

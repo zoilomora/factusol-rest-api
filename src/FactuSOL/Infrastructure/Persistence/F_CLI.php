@@ -8,559 +8,559 @@ final class F_CLI
     public const TABLE_NAME = 'F_CLI';
 
     /** @var string Código */
-    public const CODCLI = 'F_CLI.CODCLI';
+    public const CODCLI = 'CODCLI';
 
     /** @var string Código contable */
-    public const CCOCLI = 'F_CLI.CCOCLI';
+    public const CCOCLI = 'CCOCLI';
 
     /** @var string N.I.F. */
-    public const NIFCLI = 'F_CLI.NIFCLI';
+    public const NIFCLI = 'NIFCLI';
 
     /** @var string Nombre fiscal */
-    public const NOFCLI = 'F_CLI.NOFCLI';
+    public const NOFCLI = 'NOFCLI';
 
     /** @var string Nombre comercial */
-    public const NOCCLI = 'F_CLI.NOCCLI';
+    public const NOCCLI = 'NOCCLI';
 
     /** @var string Domicilio */
-    public const DOMCLI = 'F_CLI.DOMCLI';
+    public const DOMCLI = 'DOMCLI';
 
     /** @var string Población */
-    public const POBCLI = 'F_CLI.POBCLI';
+    public const POBCLI = 'POBCLI';
 
     /** @var string Cód. Postal */
-    public const CPOCLI = 'F_CLI.CPOCLI';
+    public const CPOCLI = 'CPOCLI';
 
     /** @var string Provincia */
-    public const PROCLI = 'F_CLI.PROCLI';
+    public const PROCLI = 'PROCLI';
 
     /** @var string Teléfono */
-    public const TELCLI = 'F_CLI.TELCLI';
+    public const TELCLI = 'TELCLI';
 
     /** @var string Fax */
-    public const FAXCLI = 'F_CLI.FAXCLI';
+    public const FAXCLI = 'FAXCLI';
 
     /** @var string Persona de contacto */
-    public const PCOCLI = 'F_CLI.PCOCLI';
+    public const PCOCLI = 'PCOCLI';
 
     /** @var string [F=00000]Agente comercial */
-    public const AGECLI = 'F_CLI.AGECLI';
+    public const AGECLI = 'AGECLI';
 
     /** @var string Banco */
-    public const BANCLI = 'F_CLI.BANCLI';
+    public const BANCLI = 'BANCLI';
 
     /** @var string Entidad */
-    public const ENTCLI = 'F_CLI.ENTCLI';
+    public const ENTCLI = 'ENTCLI';
 
     /** @var string Oficina */
-    public const OFICLI = 'F_CLI.OFICLI';
+    public const OFICLI = 'OFICLI';
 
     /** @var string Dígito de control */
-    public const DCOCLI = 'F_CLI.DCOCLI';
+    public const DCOCLI = 'DCOCLI';
 
     /** @var string Nº de cuenta */
-    public const CUECLI = 'F_CLI.CUECLI';
+    public const CUECLI = 'CUECLI';
 
     /** @var string Forma de pago */
-    public const FPACLI = 'F_CLI.FPACLI';
+    public const FPACLI = 'FPACLI';
 
     /** @var string Porcentaje de financiación */
-    public const FINCLI = 'F_CLI.FINCLI';
+    public const FINCLI = 'FINCLI';
 
     /** @var string Porcentaje de pronto pago */
-    public const PPACLI = 'F_CLI.PPACLI';
+    public const PPACLI = 'PPACLI';
 
     /** @var string [E]Tarifa */
-    public const TARCLI = 'F_CLI.TARCLI';
+    public const TARCLI = 'TARCLI';
 
     /** @var string Día de pago 1 */
-    public const DP1CLI = 'F_CLI.DP1CLI';
+    public const DP1CLI = 'DP1CLI';
 
     /** @var string Día de pago 2 */
-    public const DP2CLI = 'F_CLI.DP2CLI';
+    public const DP2CLI = 'DP2CLI';
 
     /** @var string Día de pago 3 */
-    public const DP3CLI = 'F_CLI.DP3CLI';
+    public const DP3CLI = 'DP3CLI';
 
     /** @var string Tipo de cliente */
-    public const TCLCLI = 'F_CLI.TCLCLI';
+    public const TCLCLI = 'TCLCLI';
 
     /** @var string Descuento 1 */
-    public const DT1CLI = 'F_CLI.DT1CLI';
+    public const DT1CLI = 'DT1CLI';
 
     /** @var string Descuento 2 */
-    public const DT2CLI = 'F_CLI.DT2CLI';
+    public const DT2CLI = 'DT2CLI';
 
     /** @var string Descuento 3 */
-    public const DT3CLI = 'F_CLI.DT3CLI';
+    public const DT3CLI = 'DT3CLI';
 
     /** @var string [E]Tarifa especial; 0: No, 1:si */
-    public const TESCLI = 'F_CLI.TESCLI';
+    public const TESCLI = 'TESCLI';
 
     /** @var string Código de proveedor */
-    public const CPRCLI = 'F_CLI.CPRCLI';
+    public const CPRCLI = 'CPRCLI';
 
     /** @var string [L=#Pagados#1;Debidos]Portes */
-    public const TPOCLI = 'F_CLI.TPOCLI';
+    public const TPOCLI = 'TPOCLI';
 
     /** @var string Portes (texto) */
-    public const PORCLI = 'F_CLI.PORCLI';
+    public const PORCLI = 'PORCLI';
 
     /** @var string [L=#0;Con IVA#1;Sin IVA#2;Intracomunitario#3;Importación]Tipo de IVA */
-    public const IVACLI = 'F_CLI.IVACLI';
+    public const IVACLI = 'IVACLI';
 
     /** @var string [L=#0;IVA1AUT#1;IVA2AUT#2;IVA3AUT#3;Exento]Porcentaje de IVA */
-    public const TIVCLI = 'F_CLI.TIVCLI';
+    public const TIVCLI = 'TIVCLI';
 
     /** @var string [L=#No#1;Sí]Recargo de equivalencia */
-    public const REQCLI = 'F_CLI.REQCLI';
+    public const REQCLI = 'REQCLI';
 
     /** @var string Fecha de alta */
-    public const FALCLI = 'F_CLI.FALCLI';
+    public const FALCLI = 'FALCLI';
 
     /** @var string E-mail */
-    public const EMACLI = 'F_CLI.EMACLI';
+    public const EMACLI = 'EMACLI';
 
     /** @var string Web */
-    public const WEBCLI = 'F_CLI.WEBCLI';
+    public const WEBCLI = 'WEBCLI';
 
     /** @var string Mensaje emergente */
-    public const MEMCLI = 'F_CLI.MEMCLI';
+    public const MEMCLI = 'MEMCLI';
 
     /** @var string Observaciones */
-    public const OBSCLI = 'F_CLI.OBSCLI';
+    public const OBSCLI = 'OBSCLI';
 
     /** @var string Horario */
-    public const HORCLI = 'F_CLI.HORCLI';
+    public const HORCLI = 'HORCLI';
 
     /** @var string Vacaciones (desde) */
-    public const VDECLI = 'F_CLI.VDECLI';
+    public const VDECLI = 'VDECLI';
 
     /** @var string Vacaciones (hasta) */
-    public const VHACLI = 'F_CLI.VHACLI';
+    public const VHACLI = 'VHACLI';
 
     /** @var string [E]Crear recibo al factura */
-    public const CRFCLI = 'F_CLI.CRFCLI';
+    public const CRFCLI = 'CRFCLI';
 
     /** @var string [E]No vender a este cliente */
-    public const NVCCLI = 'F_CLI.NVCCLI';
+    public const NVCCLI = 'NVCCLI';
 
     /** @var string [E]No facturar a este cliente */
-    public const NFCCLI = 'F_CLI.NFCCLI';
+    public const NFCCLI = 'NFCCLI';
 
     /** @var string [E]No imprimir este cliente */
-    public const NICCLI = 'F_CLI.NICCLI';
+    public const NICCLI = 'NICCLI';
 
     /** @var string [E]0: Euros;1:Pesetas */
-    public const MONCLI = 'F_CLI.MONCLI';
+    public const MONCLI = 'MONCLI';
 
     /** @var string País */
-    public const PAICLI = 'F_CLI.PAICLI';
+    public const PAICLI = 'PAICLI';
 
     /** @var string Nº de serie predeterminado */
-    public const DOCCLI = 'F_CLI.DOCCLI';
+    public const DOCCLI = 'DOCCLI';
 
     /** @var string Dirección del banco */
-    public const DBACLI = 'F_CLI.DBACLI';
+    public const DBACLI = 'DBACLI';
 
     /** @var string Población del banco */
-    public const PBACLI = 'F_CLI.PBACLI';
+    public const PBACLI = 'PBACLI';
 
     /** @var string IBAN del banco */
-    public const SWFCLI = 'F_CLI.SWFCLI';
+    public const SWFCLI = 'SWFCLI';
 
     /** @var string Concepto 1 de facturación */
-    public const CO1CLI = 'F_CLI.CO1CLI';
+    public const CO1CLI = 'CO1CLI';
 
     /** @var string Concepto 2 de facturación */
-    public const CO2CLI = 'F_CLI.CO2CLI';
+    public const CO2CLI = 'CO2CLI';
 
     /** @var string Concepto 3 de facturación */
-    public const CO3CLI = 'F_CLI.CO3CLI';
+    public const CO3CLI = 'CO3CLI';
 
     /** @var string Concepto 4 de facturación */
-    public const CO4CLI = 'F_CLI.CO4CLI';
+    public const CO4CLI = 'CO4CLI';
 
     /** @var string Concepto 5 de facturación */
-    public const CO5CLI = 'F_CLI.CO5CLI';
+    public const CO5CLI = 'CO5CLI';
 
     /** @var string Importe 1 de facturación */
-    public const IM1CLI = 'F_CLI.IM1CLI';
+    public const IM1CLI = 'IM1CLI';
 
     /** @var string Importe 2 de facturación */
-    public const IM2CLI = 'F_CLI.IM2CLI';
+    public const IM2CLI = 'IM2CLI';
 
     /** @var string Importe 3 de facturación */
-    public const IM3CLI = 'F_CLI.IM3CLI';
+    public const IM3CLI = 'IM3CLI';
 
     /** @var string Importe 4 de facturación */
-    public const IM4CLI = 'F_CLI.IM4CLI';
+    public const IM4CLI = 'IM4CLI';
 
     /** @var string Importe 5 de facturación */
-    public const IM5CLI = 'F_CLI.IM5CLI';
+    public const IM5CLI = 'IM5CLI';
 
     /** @var string Ruta */
-    public const RUTCLI = 'F_CLI.RUTCLI';
+    public const RUTCLI = 'RUTCLI';
 
     /** @var string SWIFT del banco */
-    public const SWICLI = 'F_CLI.SWICLI';
+    public const SWICLI = 'SWICLI';
 
     /** @var string Teléfonos de contacto */
-    public const GIRCLI = 'F_CLI.GIRCLI';
+    public const GIRCLI = 'GIRCLI';
 
     /** @var string [E]Código ususario web */
-    public const CUWCLI = 'F_CLI.CUWCLI';
+    public const CUWCLI = 'CUWCLI';
 
     /** @var string [E]Clave usuario web */
-    public const CAWCLI = 'F_CLI.CAWCLI';
+    public const CAWCLI = 'CAWCLI';
 
     /** @var string [E]Permitir su utilización en internet */
-    public const SUWCLI = 'F_CLI.SUWCLI';
+    public const SUWCLI = 'SUWCLI';
 
     /** @var string [E]Mensaje emergente web */
-    public const MEWCLI = 'F_CLI.MEWCLI';
+    public const MEWCLI = 'MEWCLI';
 
     /** @var string [L=#0;Sin seleccionar#1;Habitual#2;Esporádico#3;Dado de baja#4;En captación]Estado */
-    public const ESTCLI = 'F_CLI.ESTCLI';
+    public const ESTCLI = 'ESTCLI';
 
     /** @var string Artículo 1 de facturación */
-    public const AR1CLI = 'F_CLI.AR1CLI';
+    public const AR1CLI = 'AR1CLI';
 
     /** @var string Artículo 2 de facturación */
-    public const AR2CLI = 'F_CLI.AR2CLI';
+    public const AR2CLI = 'AR2CLI';
 
     /** @var string Artículo 3 de facturación */
-    public const AR3CLI = 'F_CLI.AR3CLI';
+    public const AR3CLI = 'AR3CLI';
 
     /** @var string Artículo 4 de facturación */
-    public const AR4CLI = 'F_CLI.AR4CLI';
+    public const AR4CLI = 'AR4CLI';
 
     /** @var string Artículo 5 de facturación */
-    public const AR5CLI = 'F_CLI.AR5CLI';
+    public const AR5CLI = 'AR5CLI';
 
     /** @var string [E]FACTURA ELECTRÓNICA DEL CLIENTE, 0 = NO; 1 = SI */
-    public const FELCLI = 'F_CLI.FELCLI';
+    public const FELCLI = 'FELCLI';
 
     /** @var string Transportista */
-    public const TRACLI = 'F_CLI.TRACLI';
+    public const TRACLI = 'TRACLI';
 
     /** @var string [E]Copias de factura a imprimir */
-    public const NCFCLI = 'F_CLI.NCFCLI';
+    public const NCFCLI = 'NCFCLI';
 
     /** @var string Fecha de nacimiento */
-    public const FNACLI = 'F_CLI.FNACLI';
+    public const FNACLI = 'FNACLI';
 
     /** @var string [E]Foto del cliente */
-    public const FOTCLI = 'F_CLI.FOTCLI';
+    public const FOTCLI = 'FOTCLI';
 
     /** @var string [E]Cuenta skype del cliente */
-    public const SKYCLI = 'F_CLI.SKYCLI';
+    public const SKYCLI = 'SKYCLI';
 
     /** @var string Nombre de la persona de contacto 1 */
-    public const NO1CLI = 'F_CLI.NO1CLI';
+    public const NO1CLI = 'NO1CLI';
 
     /** @var string Teléfono de la persona de contacto 1 */
-    public const TF1CLI = 'F_CLI.TF1CLI';
+    public const TF1CLI = 'TF1CLI';
 
     /** @var string E-mail de la persona de contacto 1 */
-    public const EM1CLI = 'F_CLI.EM1CLI';
+    public const EM1CLI = 'EM1CLI';
 
     /** @var string Nombre de la persona de contacto 2 */
-    public const NO2CLI = 'F_CLI.NO2CLI';
+    public const NO2CLI = 'NO2CLI';
 
     /** @var string Teléfono de la persona de contacto 2 */
-    public const TF2CLI = 'F_CLI.TF2CLI';
+    public const TF2CLI = 'TF2CLI';
 
     /** @var string E-mail de la persona de contacto 2 */
-    public const EM2CLI = 'F_CLI.EM2CLI';
+    public const EM2CLI = 'EM2CLI';
 
     /** @var string Nombre de la persona de contacto 3 */
-    public const NO3CLI = 'F_CLI.NO3CLI';
+    public const NO3CLI = 'NO3CLI';
 
     /** @var string Teléfono de la persona de contacto 3 */
-    public const TF3CLI = 'F_CLI.TF3CLI';
+    public const TF3CLI = 'TF3CLI';
 
     /** @var string E-mail de la persona de contacto 3 */
-    public const EM3CLI = 'F_CLI.EM3CLI';
+    public const EM3CLI = 'EM3CLI';
 
     /** @var string Nombre de la persona de contacto 4 */
-    public const NO4CLI = 'F_CLI.NO4CLI';
+    public const NO4CLI = 'NO4CLI';
 
     /** @var string Teléfono de la persona de contacto 4 */
-    public const TF4CLI = 'F_CLI.TF4CLI';
+    public const TF4CLI = 'TF4CLI';
 
     /** @var string E-mail de la persona de contacto 4 */
-    public const EM4CLI = 'F_CLI.EM4CLI';
+    public const EM4CLI = 'EM4CLI';
 
     /** @var string Nombre de la persona de contacto 5 */
-    public const NO5CLI = 'F_CLI.NO5CLI';
+    public const NO5CLI = 'NO5CLI';
 
     /** @var string Teléfono de la persona de contacto 5 */
-    public const TF5CLI = 'F_CLI.TF5CLI';
+    public const TF5CLI = 'TF5CLI';
 
     /** @var string E-mail de la persona de contacto 5 */
-    public const EM5CLI = 'F_CLI.EM5CLI';
+    public const EM5CLI = 'EM5CLI';
 
     /** @var string [L=#0;No#1;Sí]Retención */
-    public const RETCLI = 'F_CLI.RETCLI';
+    public const RETCLI = 'RETCLI';
 
     /** @var string Divisa */
-    public const CTMCLI = 'F_CLI.CTMCLI';
+    public const CTMCLI = 'CTMCLI';
 
-    public const MNPCLI = 'F_CLI.MNPCLI';
+    public const MNPCLI = 'MNPCLI';
 
-    public const IFICLI = 'F_CLI.IFICLI';
+    public const IFICLI = 'IFICLI';
 
     /** @var string [L=#0;IVA#1;IGIC]Tipo de impuesto */
-    public const IMPCLI = 'F_CLI.IMPCLI';
+    public const IMPCLI = 'IMPCLI';
 
     /** @var string [E]Número de copias de albaranes */
-    public const NCACLI = 'F_CLI.NCACLI';
+    public const NCACLI = 'NCACLI';
 
     /** @var string Comisión por defecto para agentes */
-    public const CAMCLI = 'F_CLI.CAMCLI';
+    public const CAMCLI = 'CAMCLI';
 
     /** @var string Concepto 6 de facturación */
-    public const CO6CLI = 'F_CLI.CO6CLI';
+    public const CO6CLI = 'CO6CLI';
 
     /** @var string Importe 6 de facturación */
-    public const IM6CLI = 'F_CLI.IM6CLI';
+    public const IM6CLI = 'IM6CLI';
 
     /** @var string Artículo 6 de facturación */
-    public const AR6CLI = 'F_CLI.AR6CLI';
+    public const AR6CLI = 'AR6CLI';
 
     /** @var string Concepto 7 de facturación */
-    public const CO7CLI = 'F_CLI.CO7CLI';
+    public const CO7CLI = 'CO7CLI';
 
     /** @var string Importe 7 de facturación */
-    public const IM7CLI = 'F_CLI.IM7CLI';
+    public const IM7CLI = 'IM7CLI';
 
     /** @var string Artículo 7 de facturación */
-    public const AR7CLI = 'F_CLI.AR7CLI';
+    public const AR7CLI = 'AR7CLI';
 
     /** @var string Concepto 8 de facturación */
-    public const CO8CLI = 'F_CLI.CO8CLI';
+    public const CO8CLI = 'CO8CLI';
 
     /** @var string Importe 8 de facturación */
-    public const IM8CLI = 'F_CLI.IM8CLI';
+    public const IM8CLI = 'IM8CLI';
 
     /** @var string Artículo 8 de facturación */
-    public const AR8CLI = 'F_CLI.AR8CLI';
+    public const AR8CLI = 'AR8CLI';
 
     /** @var string Concepto 9 de facturación */
-    public const CO9CLI = 'F_CLI.CO9CLI';
+    public const CO9CLI = 'CO9CLI';
 
     /** @var string Importe 9 de facturación */
-    public const IM9CLI = 'F_CLI.IM9CLI';
+    public const IM9CLI = 'IM9CLI';
 
     /** @var string Artículo 9 de facturación */
-    public const AR9CLI = 'F_CLI.AR9CLI';
+    public const AR9CLI = 'AR9CLI';
 
     /** @var string Concepto 10 de facturación */
-    public const CO10CLI = 'F_CLI.CO10CLI';
+    public const CO10CLI = 'CO10CLI';
 
     /** @var string Importe 10 de facturación */
-    public const IM10CLI = 'F_CLI.IM10CLI';
+    public const IM10CLI = 'IM10CLI';
 
     /** @var string Artículo 10 de facturación */
-    public const AR10CLI = 'F_CLI.AR10CLI';
+    public const AR10CLI = 'AR10CLI';
 
     /** @var string Concepto 11 de facturación */
-    public const CO11CLI = 'F_CLI.CO11CLI';
+    public const CO11CLI = 'CO11CLI';
 
     /** @var string Importe 11 de facturación */
-    public const IM11CLI = 'F_CLI.IM11CLI';
+    public const IM11CLI = 'IM11CLI';
 
     /** @var string Artículo 11 de facturación */
-    public const AR11CLI = 'F_CLI.AR11CLI';
+    public const AR11CLI = 'AR11CLI';
 
     /** @var string Concepto 12 de facturación */
-    public const CO12CLI = 'F_CLI.CO12CLI';
+    public const CO12CLI = 'CO12CLI';
 
     /** @var string Importe 12 de facturación */
-    public const IM12CLI = 'F_CLI.IM12CLI';
+    public const IM12CLI = 'IM12CLI';
 
     /** @var string Artículo 12 de facturación */
-    public const AR12CLI = 'F_CLI.AR12CLI';
+    public const AR12CLI = 'AR12CLI';
 
-    public const ME1CLI = 'F_CLI.ME1CLI';
+    public const ME1CLI = 'ME1CLI';
 
-    public const ME2CLI = 'F_CLI.ME2CLI';
+    public const ME2CLI = 'ME2CLI';
 
-    public const ME3CLI = 'F_CLI.ME3CLI';
+    public const ME3CLI = 'ME3CLI';
 
-    public const ME4CLI = 'F_CLI.ME4CLI';
+    public const ME4CLI = 'ME4CLI';
 
-    public const ME5CLI = 'F_CLI.ME5CLI';
+    public const ME5CLI = 'ME5CLI';
 
-    public const ME6CLI = 'F_CLI.ME6CLI';
+    public const ME6CLI = 'ME6CLI';
 
-    public const ME7CLI = 'F_CLI.ME7CLI';
+    public const ME7CLI = 'ME7CLI';
 
-    public const ME8CLI = 'F_CLI.ME8CLI';
+    public const ME8CLI = 'ME8CLI';
 
-    public const ME9CLI = 'F_CLI.ME9CLI';
+    public const ME9CLI = 'ME9CLI';
 
-    public const ME10CLI = 'F_CLI.ME10CLI';
+    public const ME10CLI = 'ME10CLI';
 
-    public const ME11CLI = 'F_CLI.ME11CLI';
+    public const ME11CLI = 'ME11CLI';
 
-    public const ME12CLI = 'F_CLI.ME12CLI';
+    public const ME12CLI = 'ME12CLI';
 
     /** @var string Carpeta asociada al cliente */
-    public const CASCLI = 'F_CLI.CASCLI';
+    public const CASCLI = 'CASCLI';
 
     /** @var string Exportar a movilsol (0 = Si, 1 = No) */
-    public const EMOCLI = 'F_CLI.EMOCLI';
+    public const EMOCLI = 'EMOCLI';
 
     /** @var string % de retención */
-    public const PRECLI = 'F_CLI.PRECLI';
+    public const PRECLI = 'PRECLI';
 
     /** @var string % dto. comercial */
-    public const DTCCLI = 'F_CLI.DTCCLI';
+    public const DTCCLI = 'DTCCLI';
 
-    public const EPETCLI = 'F_CLI.EPETCLI';
+    public const EPETCLI = 'EPETCLI';
 
-    public const ERECCLI = 'F_CLI.ERECCLI';
+    public const ERECCLI = 'ERECCLI';
 
-    public const ECLICLI = 'F_CLI.ECLICLI';
+    public const ECLICLI = 'ECLICLI';
 
-    public const EPAGCLI = 'F_CLI.EPAGCLI';
+    public const EPAGCLI = 'EPAGCLI';
 
-    public const FUMCLI = 'F_CLI.FUMCLI';
+    public const FUMCLI = 'FUMCLI';
 
-    public const PGCCLI = 'F_CLI.PGCCLI';
+    public const PGCCLI = 'PGCCLI';
 
-    public const RESCLI = 'F_CLI.RESCLI';
+    public const RESCLI = 'RESCLI';
 
-    public const RFICLI = 'F_CLI.RFICLI';
+    public const RFICLI = 'RFICLI';
 
-    public const PRACLI = 'F_CLI.PRACLI';
+    public const PRACLI = 'PRACLI';
 
-    public const ACTCLI = 'F_CLI.ACTCLI';
+    public const ACTCLI = 'ACTCLI';
 
-    public const ECOCLI = 'F_CLI.ECOCLI';
+    public const ECOCLI = 'ECOCLI';
 
-    public const ECNCLI = 'F_CLI.ECNCLI';
+    public const ECNCLI = 'ECNCLI';
 
-    public const EADCLI = 'F_CLI.EADCLI';
+    public const EADCLI = 'EADCLI';
 
-    public const TWICLI = 'F_CLI.TWICLI';
+    public const TWICLI = 'TWICLI';
 
-    public const A1KCLI = 'F_CLI.A1KCLI';
+    public const A1KCLI = 'A1KCLI';
 
-    public const MOVCLI = 'F_CLI.MOVCLI';
+    public const MOVCLI = 'MOVCLI';
 
-    public const CPFCLI = 'F_CLI.CPFCLI';
+    public const CPFCLI = 'CPFCLI';
 
-    public const RCCCLI = 'F_CLI.RCCCLI';
+    public const RCCCLI = 'RCCCLI';
 
-    public const MUTCLI = 'F_CLI.MUTCLI';
+    public const MUTCLI = 'MUTCLI';
 
-    public const MRECLI = 'F_CLI.MRECLI';
+    public const MRECLI = 'MRECLI';
 
-    public const MFECLI = 'F_CLI.MFECLI';
+    public const MFECLI = 'MFECLI';
 
     /** @var string O.Contable Código DIR3 */
-    public const ACO1CLI = 'F_CLI.ACO1CLI';
+    public const ACO1CLI = 'ACO1CLI';
 
     /** @var string O.Contable Domicilio */
-    public const ADO1CLI = 'F_CLI.ADO1CLI';
+    public const ADO1CLI = 'ADO1CLI';
 
     /** @var string O.Contable Código postal */
-    public const ACP1CLI = 'F_CLI.ACP1CLI';
+    public const ACP1CLI = 'ACP1CLI';
 
     /** @var string O.Contable Población */
-    public const APO1CLI = 'F_CLI.APO1CLI';
+    public const APO1CLI = 'APO1CLI';
 
     /** @var string O.Contable Provincia */
-    public const APR1CLI = 'F_CLI.APR1CLI';
+    public const APR1CLI = 'APR1CLI';
 
     /** @var string O.Contable País */
-    public const APA1CLI = 'F_CLI.APA1CLI';
+    public const APA1CLI = 'APA1CLI';
 
     /** @var string O. Gestor Código DIR3 */
-    public const ACO2CLI = 'F_CLI.ACO2CLI';
+    public const ACO2CLI = 'ACO2CLI';
 
     /** @var string O.Gestor Domicilio */
-    public const ADO2CLI = 'F_CLI.ADO2CLI';
+    public const ADO2CLI = 'ADO2CLI';
 
     /** @var string O. Gestor Código postal */
-    public const ACP2CLI = 'F_CLI.ACP2CLI';
+    public const ACP2CLI = 'ACP2CLI';
 
     /** @var string O.Gestor Población */
-    public const APO2CLI = 'F_CLI.APO2CLI';
+    public const APO2CLI = 'APO2CLI';
 
     /** @var string O.Gestor Provincia */
-    public const APR2CLI = 'F_CLI.APR2CLI';
+    public const APR2CLI = 'APR2CLI';
 
     /** @var string O.Gestor País */
-    public const APA2CLI = 'F_CLI.APA2CLI';
+    public const APA2CLI = 'APA2CLI';
 
     /** @var string U.Tramitadora Código DIR3 */
-    public const ACO3CLI = 'F_CLI.ACO3CLI';
+    public const ACO3CLI = 'ACO3CLI';
 
     /** @var string U.Tramitadora Domicilio */
-    public const ADO3CLI = 'F_CLI.ADO3CLI';
+    public const ADO3CLI = 'ADO3CLI';
 
     /** @var string U.Tramitadora Código postal */
-    public const ACP3CLI = 'F_CLI.ACP3CLI';
+    public const ACP3CLI = 'ACP3CLI';
 
     /** @var string U.Tramitadora Población */
-    public const APO3CLI = 'F_CLI.APO3CLI';
+    public const APO3CLI = 'APO3CLI';
 
     /** @var string U.Tramitadora Provincia */
-    public const APR3CLI = 'F_CLI.APR3CLI';
+    public const APR3CLI = 'APR3CLI';
 
     /** @var string U.Tramitadora País */
-    public const APA3CLI = 'F_CLI.APA3CLI';
+    public const APA3CLI = 'APA3CLI';
 
     /** @var string Iva en país de residencia */
-    public const IEUCLI = 'F_CLI.IEUCLI';
+    public const IEUCLI = 'IEUCLI';
 
     /** @var string O.Comprador Código DIR3 */
-    public const ACO4CLI = 'F_CLI.ACO4CLI';
+    public const ACO4CLI = 'ACO4CLI';
 
     /** @var string O.Comprador Domicilio */
-    public const ADO4CLI = 'F_CLI.ADO4CLI';
+    public const ADO4CLI = 'ADO4CLI';
 
     /** @var string O.Comprador Código postal */
-    public const ACP4CLI = 'F_CLI.ACP4CLI';
+    public const ACP4CLI = 'ACP4CLI';
 
     /** @var string O.Comprador Población */
-    public const APO4CLI = 'F_CLI.APO4CLI';
+    public const APO4CLI = 'APO4CLI';
 
     /** @var string O.Comprador Provincia */
-    public const APR4CLI = 'F_CLI.APR4CLI';
+    public const APR4CLI = 'APR4CLI';
 
     /** @var string O.Comprador País */
-    public const APA4CLI = 'F_CLI.APA4CLI';
+    public const APA4CLI = 'APA4CLI';
 
     /** @var string Banco para transferencias */
-    public const BTRCLI = 'F_CLI.BTRCLI';
+    public const BTRCLI = 'BTRCLI';
 
     /** @var string Configuración para generación de factura-e */
-    public const CFECLI = 'F_CLI.CFECLI';
+    public const CFECLI = 'CFECLI';
 
-    public const MDFCLI = 'F_CLI.MDFCLI';
+    public const MDFCLI = 'MDFCLI';
 
-    public const COPCLI = 'F_CLI.COPCLI';
+    public const COPCLI = 'COPCLI';
 
-    public const APDCLI = 'F_CLI.APDCLI';
+    public const APDCLI = 'APDCLI';
 
-    public const PECCLI = 'F_CLI.PECCLI';
+    public const PECCLI = 'PECCLI';
 
-    public const MDACLI = 'F_CLI.MDACLI';
+    public const MDACLI = 'MDACLI';
 
-    public const TRECLI = 'F_CLI.TRECLI';
+    public const TRECLI = 'TRECLI';
 
-    public const CVICLI = 'F_CLI.CVICLI';
+    public const CVICLI = 'CVICLI';
 
-    public const FAVCLI = 'F_CLI.FAVCLI';
+    public const FAVCLI = 'FAVCLI';
 
-    public const FCBCLI = 'F_CLI.FCBCLI';
+    public const FCBCLI = 'FCBCLI';
 
-    public const ITGCLI = 'F_CLI.ITGCLI';
+    public const ITGCLI = 'ITGCLI';
 
-    public const FEFCLI = 'F_CLI.FEFCLI';
+    public const FEFCLI = 'FEFCLI';
 }

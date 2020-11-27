@@ -7,17 +7,17 @@ final class F_TCD
 {
     public const TABLE_NAME = 'F_TCD';
 
-    public const CODTCD = 'F_TCD.CODTCD';
+    public const CODTCD = 'CODTCD';
 
-    public const DESTCD = 'F_TCD.DESTCD';
+    public const DESTCD = 'DESTCD';
 
-    public const FECTCD = 'F_TCD.FECTCD';
+    public const FECTCD = 'FECTCD';
 
-    public const HENTCD = 'F_TCD.HENTCD';
+    public const HENTCD = 'HENTCD';
 
-    public const HSATCD = 'F_TCD.HSATCD';
+    public const HSATCD = 'HSATCD';
 
-    public const HETTCD = 'F_TCD.HETTCD';
+    public const HETTCD = 'HETTCD';
 
-    public const HSTTCD = 'F_TCD.HSTTCD';
+    public const HSTTCD = 'HSTTCD';
 }

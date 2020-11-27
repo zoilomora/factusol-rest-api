@@ -8,26 +8,26 @@ final class F_LFC
     public const TABLE_NAME = 'F_LFC';
 
     /** @var string Código */
-    public const CODLFC = 'F_LFC.CODLFC';
+    public const CODLFC = 'CODLFC';
 
     /** @var string [E]Linea de fabricacion */
-    public const POSLFC = 'F_LFC.POSLFC';
+    public const POSLFC = 'POSLFC';
 
     /** @var string Artículo */
-    public const ARTLFC = 'F_LFC.ARTLFC';
+    public const ARTLFC = 'ARTLFC';
 
     /** @var string Descripción */
-    public const DESLFC = 'F_LFC.DESLFC';
+    public const DESLFC = 'DESLFC';
 
     /** @var string Unidades fabricadas */
-    public const CANLFC = 'F_LFC.CANLFC';
+    public const CANLFC = 'CANLFC';
 
     /** @var string Observaciones */
-    public const OBSLFC = 'F_LFC.OBSLFC';
+    public const OBSLFC = 'OBSLFC';
 
     /** @var string Talla */
-    public const CE1LFC = 'F_LFC.CE1LFC';
+    public const CE1LFC = 'CE1LFC';
 
     /** @var string Color */
-    public const CE2LFC = 'F_LFC.CE2LFC';
+    public const CE2LFC = 'CE2LFC';
 }

@@ -8,8 +8,8 @@ final class F_EAN
     public const TABLE_NAME = 'F_EAN';
 
     /** @var string Artículo */
-    public const ARTEAN = 'F_EAN.ARTEAN';
+    public const ARTEAN = 'ARTEAN';
 
     /** @var string Código de barras */
-    public const EANEAN = 'F_EAN.EANEAN';
+    public const EANEAN = 'EANEAN';
 }

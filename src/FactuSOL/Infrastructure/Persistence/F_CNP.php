@@ -8,26 +8,26 @@ final class F_CNP
     public const TABLE_NAME = 'F_CNP';
 
     /** @var string Código */
-    public const CODCNP = 'F_CNP.CODCNP';
+    public const CODCNP = 'CODCNP';
 
     /** @var string [L=#0;Cobros#1;Pagos]Tipo de contrapartida */
-    public const TIPCNP = 'F_CNP.TIPCNP';
+    public const TIPCNP = 'TIPCNP';
 
     /** @var string Descripción */
-    public const DESCNP = 'F_CNP.DESCNP';
+    public const DESCNP = 'DESCNP';
 
     /** @var string Cuenta contable */
-    public const CUECNP = 'F_CNP.CUECNP';
+    public const CUECNP = 'CUECNP';
 
     /** @var string [E]Crear apunte en caja, 0 = no, 1 = si */
-    public const CACCNP = 'F_CNP.CACCNP';
+    public const CACCNP = 'CACCNP';
 
     /** @var string [E]Tipo de documento con el que se creará el apunte en caja */
-    public const TDOCNP = 'F_CNP.TDOCNP';
+    public const TDOCNP = 'TDOCNP';
 
     /** @var string [E]Crear apunte a caja al utilizar la contrapartida (0 = No, 1 = Si) */
-    public const ACACNP = 'F_CNP.ACACNP';
+    public const ACACNP = 'ACACNP';
 
     /** @var string [E]Efectivo */
-    public const EFECNP = 'F_CNP.EFECNP';
+    public const EFECNP = 'EFECNP';
 }

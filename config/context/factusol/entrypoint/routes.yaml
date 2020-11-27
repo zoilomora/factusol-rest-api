@@ -1,0 +1,8 @@
+index:
+  path: /
+  controller: ZoiloMora\FactuSOL\Entrypoint\Web\DefaultController::index
+
+agents.get_all:
+  path: /agents
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Agent\GetAllAgents
+  methods: [GET]

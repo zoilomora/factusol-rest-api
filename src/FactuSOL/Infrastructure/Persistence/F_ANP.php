@@ -7,19 +7,19 @@ final class F_ANP
 {
     public const TABLE_NAME = 'F_ANP';
 
-    public const CODANP = 'F_ANP.CODANP';
+    public const CODANP = 'CODANP';
 
-    public const FECANP = 'F_ANP.FECANP';
+    public const FECANP = 'FECANP';
 
-    public const PROANP = 'F_ANP.PROANP';
+    public const PROANP = 'PROANP';
 
-    public const IMPANP = 'F_ANP.IMPANP';
+    public const IMPANP = 'IMPANP';
 
-    public const ESTANP = 'F_ANP.ESTANP';
+    public const ESTANP = 'ESTANP';
 
-    public const TDOANP = 'F_ANP.TDOANP';
+    public const TDOANP = 'TDOANP';
 
-    public const CDOANP = 'F_ANP.CDOANP';
+    public const CDOANP = 'CDOANP';
 
-    public const OBSANP = 'F_ANP.OBSANP';
+    public const OBSANP = 'OBSANP';
 }

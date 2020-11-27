@@ -7,15 +7,15 @@ final class F_VER
 {
     public const TABLE_NAME = 'F_VER';
 
-    public const CODVER = 'F_VER.CODVER';
+    public const CODVER = 'CODVER';
 
-    public const VERVER = 'F_VER.VERVER';
+    public const VERVER = 'VERVER';
 
-    public const EVEVER = 'F_VER.EVEVER';
+    public const EVEVER = 'EVEVER';
 
-    public const REVVER = 'F_VER.REVVER';
+    public const REVVER = 'REVVER';
 
-    public const MODVER = 'F_VER.MODVER';
+    public const MODVER = 'MODVER';
 
-    public const SEGVER = 'F_VER.SEGVER';
+    public const SEGVER = 'SEGVER';
 }

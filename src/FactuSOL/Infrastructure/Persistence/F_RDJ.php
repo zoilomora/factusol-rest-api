@@ -7,9 +7,9 @@ final class F_RDJ
 {
     public const TABLE_NAME = 'F_RDJ';
 
-    public const CODRDJ = 'F_RDJ.CODRDJ';
+    public const CODRDJ = 'CODRDJ';
 
-    public const PERRDJ = 'F_RDJ.PERRDJ';
+    public const PERRDJ = 'PERRDJ';
 
-    public const MESRDJ = 'F_RDJ.MESRDJ';
+    public const MESRDJ = 'MESRDJ';
 }

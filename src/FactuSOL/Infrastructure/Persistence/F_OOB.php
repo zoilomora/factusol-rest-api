@@ -8,17 +8,17 @@ final class F_OOB
     public const TABLE_NAME = 'F_OOB';
 
     /** @var string Código */
-    public const CODOOB = 'F_OOB.CODOOB';
+    public const CODOOB = 'CODOOB';
 
     /** @var string Artículo */
-    public const ARTOOB = 'F_OOB.ARTOOB';
+    public const ARTOOB = 'ARTOOB';
 
     /** @var string Descripción del artículo */
-    public const NAROOB = 'F_OOB.NAROOB';
+    public const NAROOB = 'NAROOB';
 
     /** @var string Precio / Descuento */
-    public const PREOOB = 'F_OOB.PREOOB';
+    public const PREOOB = 'PREOOB';
 
     /** @var string [L=#0;Precio fijo#1;Descuento]Tipo */
-    public const TOFOOB = 'F_OOB.TOFOOB';
+    public const TOFOOB = 'TOFOOB';
 }

@@ -89,9 +89,8 @@ final class TableMapperCommand extends Command
             }
 
             $content .= \sprintf(
-                "    public const %s = '%s.%s';%s",
+                "    public const %s = '%s';%s",
                 $column->getName(),
-                $table->getName(),
                 $column->getName(),
                 self::EOF,
             );
@@ -118,7 +117,7 @@ final class TableMapperCommand extends Command
     private function saveDatabaseVersion(int $version): void
     {
         \file_put_contents(
-            './config/factusol/table_mapper.yaml',
+            './config/context/factusol/table_mapper.yaml',
             \sprintf("parameters:\n  factusol.db_version: %d\n", $version),
         );
     }

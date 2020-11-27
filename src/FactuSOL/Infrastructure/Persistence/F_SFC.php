@@ -8,26 +8,26 @@ final class F_SFC
     public const TABLE_NAME = 'F_SFC';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSFC = 'F_SFC.CODSFC';
+    public const CODSFC = 'CODSFC';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE FABRICACIÓN */
-    public const POSSFC = 'F_SFC.POSSFC';
+    public const POSSFC = 'POSSFC';
 
     /** @var string Número de serie */
-    public const NSESFC = 'F_SFC.NSESFC';
+    public const NSESFC = 'NSESFC';
 
     /** @var string Fecha de fabricación */
-    public const FFASFC = 'F_SFC.FFASFC';
+    public const FFASFC = 'FFASFC';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSFC = 'F_SFC.FCOSFC';
+    public const FCOSFC = 'FCOSFC';
 
     /** @var string Cantidad */
-    public const CANSFC = 'F_SFC.CANSFC';
+    public const CANSFC = 'CANSFC';
 
-    public const FECSFC = 'F_SFC.FECSFC';
+    public const FECSFC = 'FECSFC';
 
-    public const ALMSFC = 'F_SFC.ALMSFC';
+    public const ALMSFC = 'ALMSFC';
 
-    public const ARTSFC = 'F_SFC.ARTSFC';
+    public const ARTSFC = 'ARTSFC';
 }

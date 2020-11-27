@@ -8,16 +8,16 @@ final class F_CAF
     public const TABLE_NAME = 'F_CAF';
 
     /** @var string Agente */
-    public const AGECAF = 'F_CAF.AGECAF';
+    public const AGECAF = 'AGECAF';
 
     /** @var string [L=#0;Artículo#1;Familia]Tipo de descuento */
-    public const TIPCAF = 'F_CAF.TIPCAF';
+    public const TIPCAF = 'TIPCAF';
 
     /** @var string Artículo/familia */
-    public const CODCAF = 'F_CAF.CODCAF';
+    public const CODCAF = 'CODCAF';
 
     /** @var string Comisión */
-    public const COMCAF = 'F_CAF.COMCAF';
+    public const COMCAF = 'COMCAF';
 
-    public const TCOCAF = 'F_CAF.TCOCAF';
+    public const TCOCAF = 'TCOCAF';
 }

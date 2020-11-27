@@ -8,105 +8,105 @@ final class F_LAL
     public const TABLE_NAME = 'F_LAL';
 
     /** @var string Nº de serie */
-    public const TIPLAL = 'F_LAL.TIPLAL';
+    public const TIPLAL = 'TIPLAL';
 
     /** @var string [F=000000]Código */
-    public const CODLAL = 'F_LAL.CODLAL';
+    public const CODLAL = 'CODLAL';
 
     /** @var string [E]Posicion de la linea de albaram */
-    public const POSLAL = 'F_LAL.POSLAL';
+    public const POSLAL = 'POSLAL';
 
     /** @var string Artículo */
-    public const ARTLAL = 'F_LAL.ARTLAL';
+    public const ARTLAL = 'ARTLAL';
 
     /** @var string Descripción */
-    public const DESLAL = 'F_LAL.DESLAL';
+    public const DESLAL = 'DESLAL';
 
     /** @var string Cantidad */
-    public const CANLAL = 'F_LAL.CANLAL';
+    public const CANLAL = 'CANLAL';
 
     /** @var string Descuento 1 */
-    public const DT1LAL = 'F_LAL.DT1LAL';
+    public const DT1LAL = 'DT1LAL';
 
     /** @var string Descuento 2 */
-    public const DT2LAL = 'F_LAL.DT2LAL';
+    public const DT2LAL = 'DT2LAL';
 
     /** @var string Descuento 3 */
-    public const DT3LAL = 'F_LAL.DT3LAL';
+    public const DT3LAL = 'DT3LAL';
 
     /** @var string Precio */
-    public const PRELAL = 'F_LAL.PRELAL';
+    public const PRELAL = 'PRELAL';
 
     /** @var string Total */
-    public const TOTLAL = 'F_LAL.TOTLAL';
+    public const TOTLAL = 'TOTLAL';
 
     /** @var string [L=#0;IVA1AUT#1;IVA2AUT#2;IVA3AUT#3;Exento]Porcentaje de IVA */
-    public const IVALAL = 'F_LAL.IVALAL';
+    public const IVALAL = 'IVALAL';
 
     /** @var string [E]Documento que lo creo: P :pesupuesto, C: Pedido de clientes E:Entrada de mercancias */
-    public const DOCLAL = 'F_LAL.DOCLAL';
+    public const DOCLAL = 'DOCLAL';
 
     /** @var string [E]Tipo del documento que lo creo */
-    public const DTPLAL = 'F_LAL.DTPLAL';
+    public const DTPLAL = 'DTPLAL';
 
     /** @var string [E]Código de pedido de cliente que la creo */
-    public const DCOLAL = 'F_LAL.DCOLAL';
+    public const DCOLAL = 'DCOLAL';
 
     /** @var string [E]Precio de costo cuando se crea la línea */
-    public const COSLAL = 'F_LAL.COSLAL';
+    public const COSLAL = 'COSLAL';
 
     /** @var string Número de bultos */
-    public const BULLAL = 'F_LAL.BULLAL';
+    public const BULLAL = 'BULLAL';
 
     /** @var string Comisión del agente */
-    public const COMLAL = 'F_LAL.COMLAL';
+    public const COMLAL = 'COMLAL';
 
     /** @var string Comentarios */
-    public const MEMLAL = 'F_LAL.MEMLAL';
+    public const MEMLAL = 'MEMLAL';
 
     /** @var string [E]Ejercicio del que proviene la validación de documento. */
-    public const EJELAL = 'F_LAL.EJELAL';
+    public const EJELAL = 'EJELAL';
 
     /** @var string Alto */
-    public const ALTLAL = 'F_LAL.ALTLAL';
+    public const ALTLAL = 'ALTLAL';
 
     /** @var string Ancho */
-    public const ANCLAL = 'F_LAL.ANCLAL';
+    public const ANCLAL = 'ANCLAL';
 
     /** @var string Fondo */
-    public const FONLAL = 'F_LAL.FONLAL';
+    public const FONLAL = 'FONLAL';
 
     /** @var string [E]Fecha de fabricación */
-    public const FFALAL = 'F_LAL.FFALAL';
+    public const FFALAL = 'FFALAL';
 
     /** @var string [E]Fecha de consumo preferente */
-    public const FCOLAL = 'F_LAL.FCOLAL';
+    public const FCOLAL = 'FCOLAL';
 
     /** @var string [E]IVA INCLUIDO EN LA LÍNEA */
-    public const IINLAL = 'F_LAL.IINLAL';
+    public const IINLAL = 'IINLAL';
 
     /** @var string [E]PRECIO IVA INCLUIDO EN LA LÍNEA */
-    public const PIVLAL = 'F_LAL.PIVLAL';
+    public const PIVLAL = 'PIVLAL';
 
     /** @var string [E]TOTAL IVA INCLUIDO EN LA LÍNEA */
-    public const TIVLAL = 'F_LAL.TIVLAL';
+    public const TIVLAL = 'TIVLAL';
 
-    public const FIMLAL = 'F_LAL.FIMLAL';
+    public const FIMLAL = 'FIMLAL';
 
     /** @var string Talla */
-    public const CE1LAL = 'F_LAL.CE1LAL';
+    public const CE1LAL = 'CE1LAL';
 
     /** @var string Color */
-    public const CE2LAL = 'F_LAL.CE2LAL';
+    public const CE2LAL = 'CE2LAL';
 
     /** @var string Imagen asociada a la línea */
-    public const IMALAL = 'F_LAL.IMALAL';
+    public const IMALAL = 'IMALAL';
 
     /** @var string Sumatorio donde se debe acumular el valor */
-    public const SUMLAL = 'F_LAL.SUMLAL';
+    public const SUMLAL = 'SUMLAL';
 
     /** @var string [L=#0;Imprimir#1;No imprimir]No imprimir la línea */
-    public const NIMLAL = 'F_LAL.NIMLAL';
+    public const NIMLAL = 'NIMLAL';
 
-    public const TCOLAL = 'F_LAL.TCOLAL';
+    public const TCOLAL = 'TCOLAL';
 }

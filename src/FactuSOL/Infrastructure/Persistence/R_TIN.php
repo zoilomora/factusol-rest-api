@@ -8,17 +8,17 @@ final class R_TIN
     public const TABLE_NAME = 'R_TIN';
 
     /** @var string Código */
-    public const CODTIN = 'R_TIN.CODTIN';
+    public const CODTIN = 'CODTIN';
 
     /** @var string Descripción */
-    public const DESTIN = 'R_TIN.DESTIN';
+    public const DESTIN = 'DESTIN';
 
     /** @var string [L=#0;No#1;Sí]Cobrar mano de obra */
-    public const CMOTIN = 'R_TIN.CMOTIN';
+    public const CMOTIN = 'CMOTIN';
 
     /** @var string [L=#0;No#1;Sí]Cobrar materiales */
-    public const CMATIN = 'R_TIN.CMATIN';
+    public const CMATIN = 'CMATIN';
 
     /** @var string [L=#0;No#1;Sí]Cobrar disposición de servicio */
-    public const CDSTIN = 'R_TIN.CDSTIN';
+    public const CDSTIN = 'CDSTIN';
 }

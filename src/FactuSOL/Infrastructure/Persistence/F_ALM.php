@@ -8,35 +8,35 @@ final class F_ALM
     public const TABLE_NAME = 'F_ALM';
 
     /** @var string Código */
-    public const CODALM = 'F_ALM.CODALM';
+    public const CODALM = 'CODALM';
 
     /** @var string Nombre */
-    public const NOMALM = 'F_ALM.NOMALM';
+    public const NOMALM = 'NOMALM';
 
     /** @var string Observaciones */
-    public const OBSALM = 'F_ALM.OBSALM';
+    public const OBSALM = 'OBSALM';
 
     /** @var string Dirección */
-    public const DIRALM = 'F_ALM.DIRALM';
+    public const DIRALM = 'DIRALM';
 
     /** @var string Código postal */
-    public const CPOALM = 'F_ALM.CPOALM';
+    public const CPOALM = 'CPOALM';
 
     /** @var string Población */
-    public const POBALM = 'F_ALM.POBALM';
+    public const POBALM = 'POBALM';
 
     /** @var string Provincia */
-    public const PROALM = 'F_ALM.PROALM';
+    public const PROALM = 'PROALM';
 
     /** @var string Persona de contacto */
-    public const PCOALM = 'F_ALM.PCOALM';
+    public const PCOALM = 'PCOALM';
 
     /** @var string Teléfono */
-    public const TELALM = 'F_ALM.TELALM';
+    public const TELALM = 'TELALM';
 
     /** @var string Fax */
-    public const FAXALM = 'F_ALM.FAXALM';
+    public const FAXALM = 'FAXALM';
 
     /** @var string E-mail */
-    public const EMAALM = 'F_ALM.EMAALM';
+    public const EMAALM = 'EMAALM';
 }

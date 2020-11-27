@@ -7,8 +7,8 @@ final class F_ACT
 {
     public const TABLE_NAME = 'F_ACT';
 
-    public const CODACT = 'F_ACT.CODACT';
+    public const CODACT = 'CODACT';
 
     /** @var string Descripción */
-    public const DESACT = 'F_ACT.DESACT';
+    public const DESACT = 'DESACT';
 }

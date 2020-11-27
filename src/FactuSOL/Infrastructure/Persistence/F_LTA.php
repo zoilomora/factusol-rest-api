@@ -8,14 +8,14 @@ final class F_LTA
     public const TABLE_NAME = 'F_LTA';
 
     /** @var string Código */
-    public const TARLTA = 'F_LTA.TARLTA';
+    public const TARLTA = 'TARLTA';
 
     /** @var string Artículo */
-    public const ARTLTA = 'F_LTA.ARTLTA';
+    public const ARTLTA = 'ARTLTA';
 
     /** @var string Margen */
-    public const MARLTA = 'F_LTA.MARLTA';
+    public const MARLTA = 'MARLTA';
 
     /** @var string Precio */
-    public const PRELTA = 'F_LTA.PRELTA';
+    public const PRELTA = 'PRELTA';
 }

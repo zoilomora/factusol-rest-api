@@ -8,26 +8,26 @@ final class F_COB
     public const TABLE_NAME = 'F_COB';
 
     /** @var string Código */
-    public const CODCOB = 'F_COB.CODCOB';
+    public const CODCOB = 'CODCOB';
 
     /** @var string Fecha */
-    public const FECCOB = 'F_COB.FECCOB';
+    public const FECCOB = 'FECCOB';
 
     /** @var string Importe */
-    public const IMPCOB = 'F_COB.IMPCOB';
+    public const IMPCOB = 'IMPCOB';
 
     /** @var string Concepto */
-    public const CPTCOB = 'F_COB.CPTCOB';
+    public const CPTCOB = 'CPTCOB';
 
     /** @var string Contrapartida */
-    public const CPACOB = 'F_COB.CPACOB';
+    public const CPACOB = 'CPACOB';
 
     /** @var string Observaciones */
-    public const OBSCOB = 'F_COB.OBSCOB';
+    public const OBSCOB = 'OBSCOB';
 
     /** @var string [L=#0;No traspasado#1;Traspasado]Traspasado a contabilidad */
-    public const TRACOB = 'F_COB.TRACOB';
+    public const TRACOB = 'TRACOB';
 
     /** @var string [L=#0;Albarán#1;Factura emitida#2;Recibo]Tipo de documento de cobro */
-    public const TIPCOB = 'F_COB.TIPCOB';
+    public const TIPCOB = 'TIPCOB';
 }

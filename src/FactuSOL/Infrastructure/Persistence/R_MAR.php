@@ -8,8 +8,8 @@ final class R_MAR
     public const TABLE_NAME = 'R_MAR';
 
     /** @var string Código de marca */
-    public const CODMAR = 'R_MAR.CODMAR';
+    public const CODMAR = 'CODMAR';
 
     /** @var string Nombre de la marca */
-    public const DESMAR = 'R_MAR.DESMAR';
+    public const DESMAR = 'DESMAR';
 }

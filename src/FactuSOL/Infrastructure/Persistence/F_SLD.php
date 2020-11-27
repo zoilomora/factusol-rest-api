@@ -8,29 +8,29 @@ final class F_SLD
     public const TABLE_NAME = 'F_SLD';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLD = 'F_SLD.TIPSLD';
+    public const TIPSLD = 'TIPSLD';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLD = 'F_SLD.CODSLD';
+    public const CODSLD = 'CODSLD';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLD = 'F_SLD.POSSLD';
+    public const POSSLD = 'POSSLD';
 
     /** @var string Número de serie */
-    public const NSESLD = 'F_SLD.NSESLD';
+    public const NSESLD = 'NSESLD';
 
     /** @var string Fecha de fabricación */
-    public const FFASLD = 'F_SLD.FFASLD';
+    public const FFASLD = 'FFASLD';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLD = 'F_SLD.FCOSLD';
+    public const FCOSLD = 'FCOSLD';
 
     /** @var string Cantidad */
-    public const CANSLD = 'F_SLD.CANSLD';
+    public const CANSLD = 'CANSLD';
 
-    public const FECSLD = 'F_SLD.FECSLD';
+    public const FECSLD = 'FECSLD';
 
-    public const ALMSLD = 'F_SLD.ALMSLD';
+    public const ALMSLD = 'ALMSLD';
 
-    public const ARTSLD = 'F_SLD.ARTSLD';
+    public const ARTSLD = 'ARTSLD';
 }

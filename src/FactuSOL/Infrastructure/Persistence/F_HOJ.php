@@ -8,19 +8,19 @@ final class F_HOJ
     public const TABLE_NAME = 'F_HOJ';
 
     /** @var string Nombre */
-    public const NOMHOJ = 'F_HOJ.NOMHOJ';
+    public const NOMHOJ = 'NOMHOJ';
 
     /** @var string Texto */
-    public const TEXHOJ = 'F_HOJ.TEXHOJ';
+    public const TEXHOJ = 'TEXHOJ';
 
     /** @var string [L=#0;Condiciones#1;Presentación]Tipo */
-    public const TIPHOJ = 'F_HOJ.TIPHOJ';
+    public const TIPHOJ = 'TIPHOJ';
 
     /** @var string [E]Margen izquierdo */
-    public const MIZHOJ = 'F_HOJ.MIZHOJ';
+    public const MIZHOJ = 'MIZHOJ';
 
     /** @var string [E]Margen derecho */
-    public const MDEHOJ = 'F_HOJ.MDEHOJ';
+    public const MDEHOJ = 'MDEHOJ';
 
-    public const DESHOJ = 'F_HOJ.DESHOJ';
+    public const DESHOJ = 'DESHOJ';
 }

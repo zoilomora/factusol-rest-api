@@ -8,23 +8,23 @@ final class F_SFD
     public const TABLE_NAME = 'F_SFD';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSFD = 'F_SFD.CODSFD';
+    public const CODSFD = 'CODSFD';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSFD = 'F_SFD.POSSFD';
+    public const POSSFD = 'POSSFD';
 
     /** @var string [E]LÍNEA DE FABRICACIÓN DENTRO DE LA POSICIÓN */
-    public const LINSFD = 'F_SFD.LINSFD';
+    public const LINSFD = 'LINSFD';
 
     /** @var string Número de serie */
-    public const NSESFD = 'F_SFD.NSESFD';
+    public const NSESFD = 'NSESFD';
 
     /** @var string Fecha de fabricación */
-    public const FFASFD = 'F_SFD.FFASFD';
+    public const FFASFD = 'FFASFD';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSFD = 'F_SFD.FCOSFD';
+    public const FCOSFD = 'FCOSFD';
 
     /** @var string Cantidad */
-    public const CANSFD = 'F_SFD.CANSFD';
+    public const CANSFD = 'CANSFD';
 }

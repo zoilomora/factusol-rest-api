@@ -7,11 +7,11 @@ final class F_EAC
 {
     public const TABLE_NAME = 'F_EAC';
 
-    public const ARTEAC = 'F_EAC.ARTEAC';
+    public const ARTEAC = 'ARTEAC';
 
-    public const EANEAC = 'F_EAC.EANEAC';
+    public const EANEAC = 'EANEAC';
 
-    public const CE1EAC = 'F_EAC.CE1EAC';
+    public const CE1EAC = 'CE1EAC';
 
-    public const CE2EAC = 'F_EAC.CE2EAC';
+    public const CE2EAC = 'CE2EAC';
 }

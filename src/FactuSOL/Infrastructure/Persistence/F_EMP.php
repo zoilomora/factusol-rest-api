@@ -8,148 +8,148 @@ final class F_EMP
     public const TABLE_NAME = 'F_EMP';
 
     /** @var string Código */
-    public const CODEMP = 'F_EMP.CODEMP';
+    public const CODEMP = 'CODEMP';
 
     /** @var string N.I.F. */
-    public const NIFEMP = 'F_EMP.NIFEMP';
+    public const NIFEMP = 'NIFEMP';
 
     /** @var string Denominación social */
-    public const DENEMP = 'F_EMP.DENEMP';
+    public const DENEMP = 'DENEMP';
 
     /** @var string Nombre comercial */
-    public const NOMEMP = 'F_EMP.NOMEMP';
+    public const NOMEMP = 'NOMEMP';
 
     /** @var string Sigla */
-    public const SIGEMP = 'F_EMP.SIGEMP';
+    public const SIGEMP = 'SIGEMP';
 
     /** @var string Domicilio */
-    public const DOMEMP = 'F_EMP.DOMEMP';
+    public const DOMEMP = 'DOMEMP';
 
     /** @var string Nº de calle */
-    public const NUMEMP = 'F_EMP.NUMEMP';
+    public const NUMEMP = 'NUMEMP';
 
     /** @var string Escalera */
-    public const ESCEMP = 'F_EMP.ESCEMP';
+    public const ESCEMP = 'ESCEMP';
 
     /** @var string Piso */
-    public const PISEMP = 'F_EMP.PISEMP';
+    public const PISEMP = 'PISEMP';
 
     /** @var string Puerta */
-    public const PRTEMP = 'F_EMP.PRTEMP';
+    public const PRTEMP = 'PRTEMP';
 
     /** @var string Población */
-    public const POBEMP = 'F_EMP.POBEMP';
+    public const POBEMP = 'POBEMP';
 
     /** @var string Municipio */
-    public const MUNEMP = 'F_EMP.MUNEMP';
+    public const MUNEMP = 'MUNEMP';
 
     /** @var string Cód. Postal */
-    public const CPOEMP = 'F_EMP.CPOEMP';
+    public const CPOEMP = 'CPOEMP';
 
     /** @var string Provincia */
-    public const PROEMP = 'F_EMP.PROEMP';
+    public const PROEMP = 'PROEMP';
 
     /** @var string Teléfono */
-    public const TELEMP = 'F_EMP.TELEMP';
+    public const TELEMP = 'TELEMP';
 
     /** @var string Fax */
-    public const FAXEMP = 'F_EMP.FAXEMP';
+    public const FAXEMP = 'FAXEMP';
 
     /** @var string [E]Ejercicio */
-    public const EJEEMP = 'F_EMP.EJEEMP';
+    public const EJEEMP = 'EJEEMP';
 
     /** @var string [E]Clave */
-    public const CLAEMP = 'F_EMP.CLAEMP';
+    public const CLAEMP = 'CLAEMP';
 
     /** @var string Registro mercantil */
-    public const REGEMP = 'F_EMP.REGEMP';
+    public const REGEMP = 'REGEMP';
 
     /** @var string Tomo */
-    public const TOMEMP = 'F_EMP.TOMEMP';
+    public const TOMEMP = 'TOMEMP';
 
     /** @var string Folio */
-    public const FOLEMP = 'F_EMP.FOLEMP';
+    public const FOLEMP = 'FOLEMP';
 
     /** @var string Hoja */
-    public const HOJEMP = 'F_EMP.HOJEMP';
+    public const HOJEMP = 'HOJEMP';
 
     /** @var string Inscripción */
-    public const INSEMP = 'F_EMP.INSEMP';
+    public const INSEMP = 'INSEMP';
 
     /** @var string E-mail */
-    public const EMAEMP = 'F_EMP.EMAEMP';
+    public const EMAEMP = 'EMAEMP';
 
     /** @var string Web */
-    public const WEBEMP = 'F_EMP.WEBEMP';
+    public const WEBEMP = 'WEBEMP';
 
     /** @var string Móvil */
-    public const MOVEMP = 'F_EMP.MOVEMP';
+    public const MOVEMP = 'MOVEMP';
 
     /** @var string E-mail comercial */
-    public const ECOEMP = 'F_EMP.ECOEMP';
+    public const ECOEMP = 'ECOEMP';
 
     /** @var string E-mail administración */
-    public const EADEMP = 'F_EMP.EADEMP';
+    public const EADEMP = 'EADEMP';
 
     /** @var string E-mail contabilidad */
-    public const ECBEMP = 'F_EMP.ECBEMP';
+    public const ECBEMP = 'ECBEMP';
 
     /** @var string Aplicación de gestión */
-    public const AGESEMP = 'F_EMP.AGESEMP';
+    public const AGESEMP = 'AGESEMP';
 
     /** @var string Tipo de aplicación de gestión */
-    public const AGETEMP = 'F_EMP.AGETEMP';
+    public const AGETEMP = 'AGETEMP';
 
     /** @var string Aplicación de contabilidad */
-    public const ACONEMP = 'F_EMP.ACONEMP';
+    public const ACONEMP = 'ACONEMP';
 
     /** @var string Tipo de aplicación de contabilidad */
-    public const ACOTEMP = 'F_EMP.ACOTEMP';
+    public const ACOTEMP = 'ACOTEMP';
 
     /** @var string Aplicación laboral */
-    public const ALABEMP = 'F_EMP.ALABEMP';
+    public const ALABEMP = 'ALABEMP';
 
     /** @var string Aplicación TPV */
-    public const ATPVEMP = 'F_EMP.ATPVEMP';
+    public const ATPVEMP = 'ATPVEMP';
 
     /** @var string Actividad 1 de la empresa */
-    public const AC1EMP = 'F_EMP.AC1EMP';
+    public const AC1EMP = 'AC1EMP';
 
     /** @var string Actividad 2 de la empresa */
-    public const AC2EMP = 'F_EMP.AC2EMP';
+    public const AC2EMP = 'AC2EMP';
 
     /** @var string Actividad 3 de la empresa */
-    public const AC3EMP = 'F_EMP.AC3EMP';
+    public const AC3EMP = 'AC3EMP';
 
     /** @var string Forma jurídica de la empresa */
-    public const FJUEMP = 'F_EMP.FJUEMP';
+    public const FJUEMP = 'FJUEMP';
 
     /** @var string Persona de contacto */
-    public const PCOEMP = 'F_EMP.PCOEMP';
+    public const PCOEMP = 'PCOEMP';
 
     /** @var string Ejercicio por defecto en gestión */
-    public const EJEGEMP = 'F_EMP.EJEGEMP';
+    public const EJEGEMP = 'EJEGEMP';
 
     /** @var string Ejercicio por defecto en contabilidad */
-    public const EJECEMP = 'F_EMP.EJECEMP';
+    public const EJECEMP = 'EJECEMP';
 
     /** @var string Ejercicio por defecto en laboral */
-    public const EJELEMP = 'F_EMP.EJELEMP';
+    public const EJELEMP = 'EJELEMP';
 
     /** @var string Ejercicio por defecto en tpv */
-    public const EJETEMP = 'F_EMP.EJETEMP';
+    public const EJETEMP = 'EJETEMP';
 
     /** @var string Utilizar varias direcciones */
-    public const UVDEMP = 'F_EMP.UVDEMP';
+    public const UVDEMP = 'UVDEMP';
 
     /** @var string Empresa en baja */
-    public const EBAEMP = 'F_EMP.EBAEMP';
+    public const EBAEMP = 'EBAEMP';
 
-    public const TRAEMP = 'F_EMP.TRAEMP';
+    public const TRAEMP = 'TRAEMP';
 
     /** @var string Ejercicio de la tienda virtual */
-    public const TVEEMP = 'F_EMP.TVEEMP';
+    public const TVEEMP = 'TVEEMP';
 
     /** @var string Clave para la tienda virtual */
-    public const TVCEMP = 'F_EMP.TVCEMP';
+    public const TVCEMP = 'TVCEMP';
 }

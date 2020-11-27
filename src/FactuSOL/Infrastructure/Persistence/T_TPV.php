@@ -8,239 +8,239 @@ final class T_TPV
     public const TABLE_NAME = 'T_TPV';
 
     /** @var string Código del punto de venta */
-    public const CODTPV = 'T_TPV.CODTPV';
+    public const CODTPV = 'CODTPV';
 
     /** @var string Descripción del punto de venta */
-    public const DESTPV = 'T_TPV.DESTPV';
+    public const DESTPV = 'DESTPV';
 
     /** @var string Código del cliente por defecto */
-    public const CLITPV = 'T_TPV.CLITPV';
+    public const CLITPV = 'CLITPV';
 
     /** @var string Forma de pago por defecto */
-    public const FPATPV = 'T_TPV.FPATPV';
+    public const FPATPV = 'FPATPV';
 
     /** @var string Almacén por defecto */
-    public const ALMTPV = 'T_TPV.ALMTPV';
+    public const ALMTPV = 'ALMTPV';
 
     /** @var string Mostrar texto cuando no haya ningún ticket activo */
-    public const TLITPV = 'T_TPV.TLITPV';
+    public const TLITPV = 'TLITPV';
 
     /** @var string Primera linea del texto */
-    public const PLITPV = 'T_TPV.PLITPV';
+    public const PLITPV = 'PLITPV';
 
     /** @var string Segunda linea del texto */
-    public const SLITPV = 'T_TPV.SLITPV';
+    public const SLITPV = 'SLITPV';
 
     /** @var string Tickets - Tipo de impresión para la cabecera 1 */
-    public const CTI1TPV = 'T_TPV.CTI1TPV';
+    public const CTI1TPV = 'CTI1TPV';
 
     /** @var string Tickets - Tipo de letra para la cabecera 1 */
-    public const CTL1TPV = 'T_TPV.CTL1TPV';
+    public const CTL1TPV = 'CTL1TPV';
 
     /** @var string Tickets - Texto para la cabecera 1 */
-    public const CTT1TPV = 'T_TPV.CTT1TPV';
+    public const CTT1TPV = 'CTT1TPV';
 
     /** @var string Tickets - Tipo de impresión para la cabecera 2 */
-    public const CTI2TPV = 'T_TPV.CTI2TPV';
+    public const CTI2TPV = 'CTI2TPV';
 
     /** @var string Tickets - Tipo de letra para la cabecera 2 */
-    public const CTL2TPV = 'T_TPV.CTL2TPV';
+    public const CTL2TPV = 'CTL2TPV';
 
     /** @var string Tickets - Texto para la cabecera 2 */
-    public const CTT2TPV = 'T_TPV.CTT2TPV';
+    public const CTT2TPV = 'CTT2TPV';
 
     /** @var string Tickets - Tipo de impresión para la cabecera 3 */
-    public const CTI3TPV = 'T_TPV.CTI3TPV';
+    public const CTI3TPV = 'CTI3TPV';
 
     /** @var string Tickets - Tipo de letra para la cabecera 3 */
-    public const CTL3TPV = 'T_TPV.CTL3TPV';
+    public const CTL3TPV = 'CTL3TPV';
 
     /** @var string Tickets - Texto para la cabecera 3 */
-    public const CTT3TPV = 'T_TPV.CTT3TPV';
+    public const CTT3TPV = 'CTT3TPV';
 
     /** @var string Tickets - Tipo de impresión para la cabecera 4 */
-    public const CTI4TPV = 'T_TPV.CTI4TPV';
+    public const CTI4TPV = 'CTI4TPV';
 
     /** @var string Tickets - Tipo de letra para la cabecera 4 */
-    public const CTL4TPV = 'T_TPV.CTL4TPV';
+    public const CTL4TPV = 'CTL4TPV';
 
     /** @var string Tickets - Texto para la cabecera 4 */
-    public const CTT4TPV = 'T_TPV.CTT4TPV';
+    public const CTT4TPV = 'CTT4TPV';
 
     /** @var string Tickets - Tipo de impresión para la cabecera 5 */
-    public const CTI5TPV = 'T_TPV.CTI5TPV';
+    public const CTI5TPV = 'CTI5TPV';
 
     /** @var string Tickets - Tipo de letra para la cabecera 5 */
-    public const CTL5TPV = 'T_TPV.CTL5TPV';
+    public const CTL5TPV = 'CTL5TPV';
 
     /** @var string Tickets - Texto para la cabecera 5 */
-    public const CTT5TPV = 'T_TPV.CTT5TPV';
+    public const CTT5TPV = 'CTT5TPV';
 
     /** @var string Tickets - Logotipo para la cabecera */
-    public const LOGTPV = 'T_TPV.LOGTPV';
+    public const LOGTPV = 'LOGTPV';
 
     /** @var string Tickets - Ancho del logotipo */
-    public const ANGTPV = 'T_TPV.ANGTPV';
+    public const ANGTPV = 'ANGTPV';
 
     /** @var string Tickets - Alto del logotipo */
-    public const ALGTPV = 'T_TPV.ALGTPV';
+    public const ALGTPV = 'ALGTPV';
 
     /** @var string Tickets - Eje X para el logotipo */
-    public const PXGTPV = 'T_TPV.PXGTPV';
+    public const PXGTPV = 'PXGTPV';
 
     /** @var string Tickets - Eje Y para el logotipo */
-    public const PYGTPV = 'T_TPV.PYGTPV';
+    public const PYGTPV = 'PYGTPV';
 
     /** @var string Tickets - Imprimir cabecera del cliente */
-    public const ICCTPV = 'T_TPV.ICCTPV';
+    public const ICCTPV = 'ICCTPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 1 */
-    public const PTI1TPV = 'T_TPV.PTI1TPV';
+    public const PTI1TPV = 'PTI1TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 1 */
-    public const PTL1TPV = 'T_TPV.PTL1TPV';
+    public const PTL1TPV = 'PTL1TPV';
 
     /** @var string Tickets - Texto para el pie 1 */
-    public const PTT1TPV = 'T_TPV.PTT1TPV';
+    public const PTT1TPV = 'PTT1TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 2 */
-    public const PTI2TPV = 'T_TPV.PTI2TPV';
+    public const PTI2TPV = 'PTI2TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 2 */
-    public const PTL2TPV = 'T_TPV.PTL2TPV';
+    public const PTL2TPV = 'PTL2TPV';
 
     /** @var string Tickets - Texto para el pie 2 */
-    public const PTT2TPV = 'T_TPV.PTT2TPV';
+    public const PTT2TPV = 'PTT2TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 3 */
-    public const PTI3TPV = 'T_TPV.PTI3TPV';
+    public const PTI3TPV = 'PTI3TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 3 */
-    public const PTL3TPV = 'T_TPV.PTL3TPV';
+    public const PTL3TPV = 'PTL3TPV';
 
     /** @var string Tickets - Texto para el pie 3 */
-    public const PTT3TPV = 'T_TPV.PTT3TPV';
+    public const PTT3TPV = 'PTT3TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 4 */
-    public const PTI4TPV = 'T_TPV.PTI4TPV';
+    public const PTI4TPV = 'PTI4TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 4 */
-    public const PTL4TPV = 'T_TPV.PTL4TPV';
+    public const PTL4TPV = 'PTL4TPV';
 
     /** @var string Tickets - Texto para el pie 4 */
-    public const PTT4TPV = 'T_TPV.PTT4TPV';
+    public const PTT4TPV = 'PTT4TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 5 */
-    public const PTI5TPV = 'T_TPV.PTI5TPV';
+    public const PTI5TPV = 'PTI5TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 5 */
-    public const PTL5TPV = 'T_TPV.PTL5TPV';
+    public const PTL5TPV = 'PTL5TPV';
 
     /** @var string Tickets - Texto para el pie 5 */
-    public const PTT5TPV = 'T_TPV.PTT5TPV';
+    public const PTT5TPV = 'PTT5TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 6 */
-    public const PTI6TPV = 'T_TPV.PTI6TPV';
+    public const PTI6TPV = 'PTI6TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 6 */
-    public const PTL6TPV = 'T_TPV.PTL6TPV';
+    public const PTL6TPV = 'PTL6TPV';
 
     /** @var string Tickets - Texto para el pie 6 */
-    public const PTT6TPV = 'T_TPV.PTT6TPV';
+    public const PTT6TPV = 'PTT6TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 7 */
-    public const PTI7TPV = 'T_TPV.PTI7TPV';
+    public const PTI7TPV = 'PTI7TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 7 */
-    public const PTL7TPV = 'T_TPV.PTL7TPV';
+    public const PTL7TPV = 'PTL7TPV';
 
     /** @var string Tickets - Texto para el pie 7 */
-    public const PTT7TPV = 'T_TPV.PTT7TPV';
+    public const PTT7TPV = 'PTT7TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 8 */
-    public const PTI8TPV = 'T_TPV.PTI8TPV';
+    public const PTI8TPV = 'PTI8TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 8 */
-    public const PTL8TPV = 'T_TPV.PTL8TPV';
+    public const PTL8TPV = 'PTL8TPV';
 
     /** @var string Tickets - Texto para el pie 8 */
-    public const PTT8TPV = 'T_TPV.PTT8TPV';
+    public const PTT8TPV = 'PTT8TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 9 */
-    public const PTI9TPV = 'T_TPV.PTI9TPV';
+    public const PTI9TPV = 'PTI9TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 9 */
-    public const PTL9TPV = 'T_TPV.PTL9TPV';
+    public const PTL9TPV = 'PTL9TPV';
 
     /** @var string Tickets - Texto para el pie 9 */
-    public const PTT9TPV = 'T_TPV.PTT9TPV';
+    public const PTT9TPV = 'PTT9TPV';
 
     /** @var string Tickets - Tipo de impresión para el pie 10 */
-    public const PTI10TPV = 'T_TPV.PTI10TPV';
+    public const PTI10TPV = 'PTI10TPV';
 
     /** @var string Tickets - Tipo de letra para el pie 10 */
-    public const PTL10TPV = 'T_TPV.PTL10TPV';
+    public const PTL10TPV = 'PTL10TPV';
 
     /** @var string Tickets - Texto para el pie 10 */
-    public const PTT10TPV = 'T_TPV.PTT10TPV';
+    public const PTT10TPV = 'PTT10TPV';
 
     /** @var string Vales - Tipo de impresión para la cabecera 1 */
-    public const CTIV1TPV = 'T_TPV.CTIV1TPV';
+    public const CTIV1TPV = 'CTIV1TPV';
 
     /** @var string Vales - Texto de impresión para la cabecera 1 */
-    public const CTTV1TPV = 'T_TPV.CTTV1TPV';
+    public const CTTV1TPV = 'CTTV1TPV';
 
     /** @var string Vales - Tipo de impresión para la cabecera 2 */
-    public const CTIV2TPV = 'T_TPV.CTIV2TPV';
+    public const CTIV2TPV = 'CTIV2TPV';
 
     /** @var string Vales - Texto de impresión para la cabecera 2 */
-    public const CTTV2TPV = 'T_TPV.CTTV2TPV';
+    public const CTTV2TPV = 'CTTV2TPV';
 
     /** @var string Vales - Tipo de impresión para la cabecera 3 */
-    public const CTIV3TPV = 'T_TPV.CTIV3TPV';
+    public const CTIV3TPV = 'CTIV3TPV';
 
     /** @var string Vales - Texto de impresión para la cabecera 3 */
-    public const CTTV3TPV = 'T_TPV.CTTV3TPV';
+    public const CTTV3TPV = 'CTTV3TPV';
 
     /** @var string Vales - Tipo de impresión para la cabecera 4 */
-    public const CTIV4TPV = 'T_TPV.CTIV4TPV';
+    public const CTIV4TPV = 'CTIV4TPV';
 
     /** @var string Vales - Texto de impresión para la cabecera 4 */
-    public const CTTV4TPV = 'T_TPV.CTTV4TPV';
+    public const CTTV4TPV = 'CTTV4TPV';
 
     /** @var string Vales - Tipo de impresión para la cabecera 5 */
-    public const CTIV5TPV = 'T_TPV.CTIV5TPV';
+    public const CTIV5TPV = 'CTIV5TPV';
 
     /** @var string Vales - Texto de impresión para la cabecera 5 */
-    public const CTTV5TPV = 'T_TPV.CTTV5TPV';
+    public const CTTV5TPV = 'CTTV5TPV';
 
     /** @var string Vales - Tipo de impresión para el pie 1 */
-    public const PTIV1TPV = 'T_TPV.PTIV1TPV';
+    public const PTIV1TPV = 'PTIV1TPV';
 
     /** @var string Vales - Texto de impresión para el pie 1 */
-    public const PTTV1TPV = 'T_TPV.PTTV1TPV';
+    public const PTTV1TPV = 'PTTV1TPV';
 
     /** @var string Vales - Tipo de impresión para el pie 2 */
-    public const PTIV2TPV = 'T_TPV.PTIV2TPV';
+    public const PTIV2TPV = 'PTIV2TPV';
 
     /** @var string Vales - Texto de impresión para el pie 2 */
-    public const PTTV2TPV = 'T_TPV.PTTV2TPV';
+    public const PTTV2TPV = 'PTTV2TPV';
 
     /** @var string Vales - Tipo de impresión para el pie 3 */
-    public const PTIV3TPV = 'T_TPV.PTIV3TPV';
+    public const PTIV3TPV = 'PTIV3TPV';
 
     /** @var string Vales - Texto de impresión para el pie 3 */
-    public const PTTV3TPV = 'T_TPV.PTTV3TPV';
+    public const PTTV3TPV = 'PTTV3TPV';
 
     /** @var string Vales - Tipo de impresión para el pie 4 */
-    public const PTIV4TPV = 'T_TPV.PTIV4TPV';
+    public const PTIV4TPV = 'PTIV4TPV';
 
     /** @var string Vales - Texto de impresión para el pie 4 */
-    public const PTTV4TPV = 'T_TPV.PTTV4TPV';
+    public const PTTV4TPV = 'PTTV4TPV';
 
-    public const IEVTPV = 'T_TPV.IEVTPV';
+    public const IEVTPV = 'IEVTPV';
 
-    public const TRDTPV = 'T_TPV.TRDTPV';
+    public const TRDTPV = 'TRDTPV';
 
-    public const ITRTPV = 'T_TPV.ITRTPV';
+    public const ITRTPV = 'ITRTPV';
 }

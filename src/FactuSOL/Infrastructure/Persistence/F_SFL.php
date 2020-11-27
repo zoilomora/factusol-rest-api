@@ -8,29 +8,29 @@ final class F_SFL
     public const TABLE_NAME = 'F_SFL';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSFL = 'F_SFL.CODSFL';
+    public const CODSFL = 'CODSFL';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE FABRICACIÓN */
-    public const POSSFL = 'F_SFL.POSSFL';
+    public const POSSFL = 'POSSFL';
 
     /** @var string [E]LINEA DEL COMPONENTE */
-    public const LINSFL = 'F_SFL.LINSFL';
+    public const LINSFL = 'LINSFL';
 
     /** @var string Número de serie */
-    public const NSESFL = 'F_SFL.NSESFL';
+    public const NSESFL = 'NSESFL';
 
     /** @var string Fecha de fabricación */
-    public const FFASFL = 'F_SFL.FFASFL';
+    public const FFASFL = 'FFASFL';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSFL = 'F_SFL.FCOSFL';
+    public const FCOSFL = 'FCOSFL';
 
     /** @var string Cantidad */
-    public const CANSFL = 'F_SFL.CANSFL';
+    public const CANSFL = 'CANSFL';
 
-    public const FECSFL = 'F_SFL.FECSFL';
+    public const FECSFL = 'FECSFL';
 
-    public const ALMSFL = 'F_SFL.ALMSFL';
+    public const ALMSFL = 'ALMSFL';
 
-    public const ARTSFL = 'F_SFL.ARTSFL';
+    public const ARTSFL = 'ARTSFL';
 }

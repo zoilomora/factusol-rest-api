@@ -8,25 +8,25 @@ final class F_DES
     public const TABLE_NAME = 'F_DES';
 
     /** @var string Tipo de cliente */
-    public const TIPDES = 'F_DES.TIPDES';
+    public const TIPDES = 'TIPDES';
 
     /** @var string Artículo / familia */
-    public const ARFDES = 'F_DES.ARFDES';
+    public const ARFDES = 'ARFDES';
 
     /** @var string Descripción del artículo / familia */
-    public const DESDES = 'F_DES.DESDES';
+    public const DESDES = 'DESDES';
 
     /** @var string [E]No dejar modificar */
-    public const FIJDES = 'F_DES.FIJDES';
+    public const FIJDES = 'FIJDES';
 
     /** @var string Porcentaje */
-    public const PORDES = 'F_DES.PORDES';
+    public const PORDES = 'PORDES';
 
     /** @var string [L=#0;Porcentaje#1;Importe]Tipo */
-    public const TDEDES = 'F_DES.TDEDES';
+    public const TDEDES = 'TDEDES';
 
     /** @var string Importe */
-    public const IMPDES = 'F_DES.IMPDES';
+    public const IMPDES = 'IMPDES';
 
-    public const TFIDES = 'F_DES.TFIDES';
+    public const TFIDES = 'TFIDES';
 }

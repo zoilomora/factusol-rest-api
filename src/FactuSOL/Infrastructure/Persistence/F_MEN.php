@@ -8,44 +8,44 @@ final class F_MEN
     public const TABLE_NAME = 'F_MEN';
 
     /** @var string Código */
-    public const CODMEN = 'F_MEN.CODMEN';
+    public const CODMEN = 'CODMEN';
 
     /** @var string Fecha de inicio */
-    public const FINMEN = 'F_MEN.FINMEN';
+    public const FINMEN = 'FINMEN';
 
     /** @var string Fecha de fin */
-    public const FFIMEN = 'F_MEN.FFIMEN';
+    public const FFIMEN = 'FFIMEN';
 
     /** @var string Mensaje 1 */
-    public const ME1MEN = 'F_MEN.ME1MEN';
+    public const ME1MEN = 'ME1MEN';
 
     /** @var string [E]factura */
-    public const FACMEN = 'F_MEN.FACMEN';
+    public const FACMEN = 'FACMEN';
 
     /** @var string Mensaje 2 */
-    public const ME2MEN = 'F_MEN.ME2MEN';
+    public const ME2MEN = 'ME2MEN';
 
     /** @var string [E]Albaran */
-    public const ALBMEN = 'F_MEN.ALBMEN';
+    public const ALBMEN = 'ALBMEN';
 
     /** @var string [E]Pedido Proveedor */
-    public const PPRMEN = 'F_MEN.PPRMEN';
+    public const PPRMEN = 'PPRMEN';
 
     /** @var string [E]Pedido cliente */
-    public const PCLMEN = 'F_MEN.PCLMEN';
+    public const PCLMEN = 'PCLMEN';
 
     /** @var string [E]Presupuestos */
-    public const PREMEN = 'F_MEN.PREMEN';
+    public const PREMEN = 'PREMEN';
 
     /** @var string [E]Abonos */
-    public const FABMEN = 'F_MEN.FABMEN';
+    public const FABMEN = 'FABMEN';
 
     /** @var string Mensaje 3 */
-    public const ME3MEN = 'F_MEN.ME3MEN';
+    public const ME3MEN = 'ME3MEN';
 
     /** @var string Mensaje 4 */
-    public const ME4MEN = 'F_MEN.ME4MEN';
+    public const ME4MEN = 'ME4MEN';
 
     /** @var string Logotipo a imprimir con el mensaje */
-    public const LOGMEN = 'F_MEN.LOGMEN';
+    public const LOGMEN = 'LOGMEN';
 }

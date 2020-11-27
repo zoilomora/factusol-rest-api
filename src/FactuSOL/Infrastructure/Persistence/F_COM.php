@@ -8,23 +8,23 @@ final class F_COM
     public const TABLE_NAME = 'F_COM';
 
     /** @var string Código */
-    public const CODCOM = 'F_COM.CODCOM';
+    public const CODCOM = 'CODCOM';
 
     /** @var string Artículo */
-    public const ARTCOM = 'F_COM.ARTCOM';
+    public const ARTCOM = 'ARTCOM';
 
     /** @var string Descripción */
-    public const DESCOM = 'F_COM.DESCOM';
+    public const DESCOM = 'DESCOM';
 
     /** @var string Precio de costo */
-    public const COSCOM = 'F_COM.COSCOM';
+    public const COSCOM = 'COSCOM';
 
     /** @var string Unidades */
-    public const UNICOM = 'F_COM.UNICOM';
+    public const UNICOM = 'UNICOM';
 
-    public const CE1COM = 'F_COM.CE1COM';
+    public const CE1COM = 'CE1COM';
 
-    public const CE2COM = 'F_COM.CE2COM';
+    public const CE2COM = 'CE2COM';
 
-    public const ORDCOM = 'F_COM.ORDCOM';
+    public const ORDCOM = 'ORDCOM';
 }

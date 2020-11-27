@@ -8,27 +8,27 @@ final class F_RIE
     public const TABLE_NAME = 'F_RIE';
 
     /** @var string [F=00000]Cliente */
-    public const CLIRIE = 'F_RIE.CLIRIE';
+    public const CLIRIE = 'CLIRIE';
 
     /** @var string Importe */
-    public const IMPRIE = 'F_RIE.IMPRIE';
+    public const IMPRIE = 'IMPRIE';
 
     /** @var string [E]¿Asegurado? */
-    public const ASERIE = 'F_RIE.ASERIE';
+    public const ASERIE = 'ASERIE';
 
     /** @var string Nº de póliza */
-    public const NPORIE = 'F_RIE.NPORIE';
+    public const NPORIE = 'NPORIE';
 
     /** @var string Fecha de solicitud */
-    public const FSORIE = 'F_RIE.FSORIE';
+    public const FSORIE = 'FSORIE';
 
     /** @var string Fecha de concesión */
-    public const FCORIE = 'F_RIE.FCORIE';
+    public const FCORIE = 'FCORIE';
 
     /** @var string Fecha de finalización */
-    public const FFIRIE = 'F_RIE.FFIRIE';
+    public const FFIRIE = 'FFIRIE';
 
-    public const CONRIE = 'F_RIE.CONRIE';
+    public const CONRIE = 'CONRIE';
 
-    public const IMARIE = 'F_RIE.IMARIE';
+    public const IMARIE = 'IMARIE';
 }

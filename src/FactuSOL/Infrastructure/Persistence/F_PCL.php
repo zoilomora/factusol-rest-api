@@ -8,301 +8,301 @@ final class F_PCL
     public const TABLE_NAME = 'F_PCL';
 
     /** @var string Nº de serie */
-    public const TIPPCL = 'F_PCL.TIPPCL';
+    public const TIPPCL = 'TIPPCL';
 
     /** @var string [F=000000]Código */
-    public const CODPCL = 'F_PCL.CODPCL';
+    public const CODPCL = 'CODPCL';
 
     /** @var string Referencia */
-    public const REFPCL = 'F_PCL.REFPCL';
+    public const REFPCL = 'REFPCL';
 
     /** @var string Fecha */
-    public const FECPCL = 'F_PCL.FECPCL';
+    public const FECPCL = 'FECPCL';
 
     /** @var string [F=00000]Agente */
-    public const AGEPCL = 'F_PCL.AGEPCL';
+    public const AGEPCL = 'AGEPCL';
 
     /** @var string Proveedor del cliente */
-    public const PROPCL = 'F_PCL.PROPCL';
+    public const PROPCL = 'PROPCL';
 
     /** @var string [F=00000]Cliente */
-    public const CLIPCL = 'F_PCL.CLIPCL';
+    public const CLIPCL = 'CLIPCL';
 
     /** @var string Nombre */
-    public const CNOPCL = 'F_PCL.CNOPCL';
+    public const CNOPCL = 'CNOPCL';
 
     /** @var string Domicilio */
-    public const CDOPCL = 'F_PCL.CDOPCL';
+    public const CDOPCL = 'CDOPCL';
 
     /** @var string Población */
-    public const CPOPCL = 'F_PCL.CPOPCL';
+    public const CPOPCL = 'CPOPCL';
 
     /** @var string Cód. Postal */
-    public const CCPPCL = 'F_PCL.CCPPCL';
+    public const CCPPCL = 'CCPPCL';
 
     /** @var string Provincia */
-    public const CPRPCL = 'F_PCL.CPRPCL';
+    public const CPRPCL = 'CPRPCL';
 
     /** @var string N.I.F. */
-    public const CNIPCL = 'F_PCL.CNIPCL';
+    public const CNIPCL = 'CNIPCL';
 
     /** @var string [L=#0;Con IVA#1;Sin IVA#2;Intracomunitario#3;Importación]Tipo de IVA */
-    public const TIVPCL = 'F_PCL.TIVPCL';
+    public const TIVPCL = 'TIVPCL';
 
     /** @var string [L=#No#1;Sí]Recargo de equivalencia */
-    public const REQPCL = 'F_PCL.REQPCL';
+    public const REQPCL = 'REQPCL';
 
     /** @var string Teléfono */
-    public const TELPCL = 'F_PCL.TELPCL';
+    public const TELPCL = 'TELPCL';
 
     /** @var string [L=#0;Pte.#1;Pte. Parcial#2;Enviado#3;En almacén]Estado */
-    public const ESTPCL = 'F_PCL.ESTPCL';
+    public const ESTPCL = 'ESTPCL';
 
     /** @var string Almacén */
-    public const ALMPCL = 'F_PCL.ALMPCL';
+    public const ALMPCL = 'ALMPCL';
 
     /** @var string Neto 1 */
-    public const NET1PCL = 'F_PCL.NET1PCL';
+    public const NET1PCL = 'NET1PCL';
 
     /** @var string Neto 2 */
-    public const NET2PCL = 'F_PCL.NET2PCL';
+    public const NET2PCL = 'NET2PCL';
 
     /** @var string Neto 3 */
-    public const NET3PCL = 'F_PCL.NET3PCL';
+    public const NET3PCL = 'NET3PCL';
 
     /** @var string Porcentaje de descuento 1 */
-    public const PDTO1PCL = 'F_PCL.PDTO1PCL';
+    public const PDTO1PCL = 'PDTO1PCL';
 
     /** @var string Porcentaje de descuento 2 */
-    public const PDTO2PCL = 'F_PCL.PDTO2PCL';
+    public const PDTO2PCL = 'PDTO2PCL';
 
     /** @var string Porcentaje de descuento 3 */
-    public const PDTO3PCL = 'F_PCL.PDTO3PCL';
+    public const PDTO3PCL = 'PDTO3PCL';
 
     /** @var string Importe de descuento 1 */
-    public const IDTO1PCL = 'F_PCL.IDTO1PCL';
+    public const IDTO1PCL = 'IDTO1PCL';
 
     /** @var string Importe de descuento 2 */
-    public const IDTO2PCL = 'F_PCL.IDTO2PCL';
+    public const IDTO2PCL = 'IDTO2PCL';
 
     /** @var string Importe de descuento 3 */
-    public const IDTO3PCL = 'F_PCL.IDTO3PCL';
+    public const IDTO3PCL = 'IDTO3PCL';
 
     /** @var string Porcentaje de pronto pago 1 */
-    public const PPPA1PCL = 'F_PCL.PPPA1PCL';
+    public const PPPA1PCL = 'PPPA1PCL';
 
     /** @var string Porcentaje de pronto pago 2 */
-    public const PPPA2PCL = 'F_PCL.PPPA2PCL';
+    public const PPPA2PCL = 'PPPA2PCL';
 
     /** @var string Porcentaje de pronto pago 3 */
-    public const PPPA3PCL = 'F_PCL.PPPA3PCL';
+    public const PPPA3PCL = 'PPPA3PCL';
 
     /** @var string Importe de pronto pago 1 */
-    public const IPPA1PCL = 'F_PCL.IPPA1PCL';
+    public const IPPA1PCL = 'IPPA1PCL';
 
     /** @var string Importe de pronto pago 2 */
-    public const IPPA2PCL = 'F_PCL.IPPA2PCL';
+    public const IPPA2PCL = 'IPPA2PCL';
 
     /** @var string Importe de pronto pago 3 */
-    public const IPPA3PCL = 'F_PCL.IPPA3PCL';
+    public const IPPA3PCL = 'IPPA3PCL';
 
     /** @var string Porcentaje de portes 1 */
-    public const PPOR1PCL = 'F_PCL.PPOR1PCL';
+    public const PPOR1PCL = 'PPOR1PCL';
 
     /** @var string Porcentaje de portes 2 */
-    public const PPOR2PCL = 'F_PCL.PPOR2PCL';
+    public const PPOR2PCL = 'PPOR2PCL';
 
     /** @var string Porcentaje de portes 3 */
-    public const PPOR3PCL = 'F_PCL.PPOR3PCL';
+    public const PPOR3PCL = 'PPOR3PCL';
 
     /** @var string Importe de portes 1 */
-    public const IPOR1PCL = 'F_PCL.IPOR1PCL';
+    public const IPOR1PCL = 'IPOR1PCL';
 
     /** @var string Importe de portes 2 */
-    public const IPOR2PCL = 'F_PCL.IPOR2PCL';
+    public const IPOR2PCL = 'IPOR2PCL';
 
     /** @var string Importe de portes 3 */
-    public const IPOR3PCL = 'F_PCL.IPOR3PCL';
+    public const IPOR3PCL = 'IPOR3PCL';
 
     /** @var string Porcentaje de financiación 1 */
-    public const PFIN1PCL = 'F_PCL.PFIN1PCL';
+    public const PFIN1PCL = 'PFIN1PCL';
 
     /** @var string Porcentaje de financiación 2 */
-    public const PFIN2PCL = 'F_PCL.PFIN2PCL';
+    public const PFIN2PCL = 'PFIN2PCL';
 
     /** @var string Porcentaje de financiación 3 */
-    public const PFIN3PCL = 'F_PCL.PFIN3PCL';
+    public const PFIN3PCL = 'PFIN3PCL';
 
     /** @var string Importe de financiación 1 */
-    public const IFIN1PCL = 'F_PCL.IFIN1PCL';
+    public const IFIN1PCL = 'IFIN1PCL';
 
     /** @var string Importe de financiación 2 */
-    public const IFIN2PCL = 'F_PCL.IFIN2PCL';
+    public const IFIN2PCL = 'IFIN2PCL';
 
     /** @var string Importe de financiación 3 */
-    public const IFIN3PCL = 'F_PCL.IFIN3PCL';
+    public const IFIN3PCL = 'IFIN3PCL';
 
     /** @var string Base imponible 1 */
-    public const BAS1PCL = 'F_PCL.BAS1PCL';
+    public const BAS1PCL = 'BAS1PCL';
 
     /** @var string Base imponible 2 */
-    public const BAS2PCL = 'F_PCL.BAS2PCL';
+    public const BAS2PCL = 'BAS2PCL';
 
     /** @var string Base imponible 3 */
-    public const BAS3PCL = 'F_PCL.BAS3PCL';
+    public const BAS3PCL = 'BAS3PCL';
 
     /** @var string Porcentaje de impuestos 1 */
-    public const PIVA1PCL = 'F_PCL.PIVA1PCL';
+    public const PIVA1PCL = 'PIVA1PCL';
 
     /** @var string Porcentaje de impuestos 2 */
-    public const PIVA2PCL = 'F_PCL.PIVA2PCL';
+    public const PIVA2PCL = 'PIVA2PCL';
 
     /** @var string Porcentaje de impuestos 3 */
-    public const PIVA3PCL = 'F_PCL.PIVA3PCL';
+    public const PIVA3PCL = 'PIVA3PCL';
 
     /** @var string Importe de impuestos 1 */
-    public const IIVA1PCL = 'F_PCL.IIVA1PCL';
+    public const IIVA1PCL = 'IIVA1PCL';
 
     /** @var string Importe de impuestos 2 */
-    public const IIVA2PCL = 'F_PCL.IIVA2PCL';
+    public const IIVA2PCL = 'IIVA2PCL';
 
     /** @var string Importe de impuestos 3 */
-    public const IIVA3PCL = 'F_PCL.IIVA3PCL';
+    public const IIVA3PCL = 'IIVA3PCL';
 
     /** @var string Porcentaje de recargo de equivalencia 1 */
-    public const PREC1PCL = 'F_PCL.PREC1PCL';
+    public const PREC1PCL = 'PREC1PCL';
 
     /** @var string Porcentaje de recargo de equivalencia 2 */
-    public const PREC2PCL = 'F_PCL.PREC2PCL';
+    public const PREC2PCL = 'PREC2PCL';
 
     /** @var string Porcentaje de recargo de equivalencia 3 */
-    public const PREC3PCL = 'F_PCL.PREC3PCL';
+    public const PREC3PCL = 'PREC3PCL';
 
     /** @var string Importe de recargo de equivalencia 1 */
-    public const IREC1PCL = 'F_PCL.IREC1PCL';
+    public const IREC1PCL = 'IREC1PCL';
 
     /** @var string Importe de recargo de equivalencia 2 */
-    public const IREC2PCL = 'F_PCL.IREC2PCL';
+    public const IREC2PCL = 'IREC2PCL';
 
     /** @var string Importe de recargo de equivalencia 3 */
-    public const IREC3PCL = 'F_PCL.IREC3PCL';
+    public const IREC3PCL = 'IREC3PCL';
 
     /** @var string Porcentaje de retención */
-    public const PRET1PCL = 'F_PCL.PRET1PCL';
+    public const PRET1PCL = 'PRET1PCL';
 
     /** @var string Importe de retención */
-    public const IRET1PCL = 'F_PCL.IRET1PCL';
+    public const IRET1PCL = 'IRET1PCL';
 
     /** @var string Total */
-    public const TOTPCL = 'F_PCL.TOTPCL';
+    public const TOTPCL = 'TOTPCL';
 
     /** @var string Forma de pago */
-    public const FOPPCL = 'F_PCL.FOPPCL';
+    public const FOPPCL = 'FOPPCL';
 
     /** @var string Plazo de entrega */
-    public const PENPCL = 'F_PCL.PENPCL';
+    public const PENPCL = 'PENPCL';
 
     /** @var string [L=#0;Pagados#1;Debidos]Portes */
-    public const PRTPCL = 'F_PCL.PRTPCL';
+    public const PRTPCL = 'PRTPCL';
 
     /** @var string Portes (texto) */
-    public const TPOPCL = 'F_PCL.TPOPCL';
+    public const TPOPCL = 'TPOPCL';
 
     /** @var string Línea 1 de observaciones */
-    public const OB1PCL = 'F_PCL.OB1PCL';
+    public const OB1PCL = 'OB1PCL';
 
     /** @var string Línea 2 de observaciones */
-    public const OB2PCL = 'F_PCL.OB2PCL';
+    public const OB2PCL = 'OB2PCL';
 
     /** @var string Código de la dirección de entrega */
-    public const OBRPCL = 'F_PCL.OBRPCL';
+    public const OBRPCL = 'OBRPCL';
 
     /** @var string Pedido por */
-    public const PPOPCL = 'F_PCL.PPOPCL';
+    public const PPOPCL = 'PPOPCL';
 
     /** @var string [E]CAMPO PARA ANOTACIONES PRIVADAS DEL DOCUMENTO */
-    public const PRIPCL = 'F_PCL.PRIPCL';
+    public const PRIPCL = 'PRIPCL';
 
     /** @var string [E]DOCUMENTOS EXTERNOS ASOCIADOS AL DOCUMENTO. */
-    public const ASOPCL = 'F_PCL.ASOPCL';
+    public const ASOPCL = 'ASOPCL';
 
     /** @var string [E]COMENTARIOS DESPUES DE LÍNEAS DE DETALLE */
-    public const COMPCL = 'F_PCL.COMPCL';
+    public const COMPCL = 'COMPCL';
 
     /** @var string Código del usuario que creó el documento */
-    public const USUPCL = 'F_PCL.USUPCL';
+    public const USUPCL = 'USUPCL';
 
     /** @var string Código del último usuario que creó el documento */
-    public const USMPCL = 'F_PCL.USMPCL';
+    public const USMPCL = 'USMPCL';
 
     /** @var string Fax */
-    public const FAXPCL = 'F_PCL.FAXPCL';
+    public const FAXPCL = 'FAXPCL';
 
     /** @var string Neto (Exento de impuestos) */
-    public const NET4PCL = 'F_PCL.NET4PCL';
+    public const NET4PCL = 'NET4PCL';
 
     /** @var string Porcentaje de descuento (Exento de impuestos) */
-    public const PDTO4PCL = 'F_PCL.PDTO4PCL';
+    public const PDTO4PCL = 'PDTO4PCL';
 
     /** @var string Importe de descuento (Exento de impuestos) */
-    public const IDTO4PCL = 'F_PCL.IDTO4PCL';
+    public const IDTO4PCL = 'IDTO4PCL';
 
     /** @var string Porcentaje de pronto pago (Exento de impuestos) */
-    public const PPPA4PCL = 'F_PCL.PPPA4PCL';
+    public const PPPA4PCL = 'PPPA4PCL';
 
     /** @var string Importe de pronto pago (Exento de impuestos) */
-    public const IPPA4PCL = 'F_PCL.IPPA4PCL';
+    public const IPPA4PCL = 'IPPA4PCL';
 
     /** @var string Porcentaje de portes (Exento de impuestos) */
-    public const PPOR4PCL = 'F_PCL.PPOR4PCL';
+    public const PPOR4PCL = 'PPOR4PCL';
 
     /** @var string Importe de portes (Exento de impuestos) */
-    public const IPOR4PCL = 'F_PCL.IPOR4PCL';
+    public const IPOR4PCL = 'IPOR4PCL';
 
     /** @var string Porcentaje de financiación (Exento de impuestos) */
-    public const PFIN4PCL = 'F_PCL.PFIN4PCL';
+    public const PFIN4PCL = 'PFIN4PCL';
 
     /** @var string Importe de financiación (Exento de impuestos) */
-    public const IFIN4PCL = 'F_PCL.IFIN4PCL';
+    public const IFIN4PCL = 'IFIN4PCL';
 
     /** @var string Base imponible (Exento de impuestos) */
-    public const BAS4PCL = 'F_PCL.BAS4PCL';
+    public const BAS4PCL = 'BAS4PCL';
 
     /** @var string [E]Enviado por e-mail */
-    public const EMAPCL = 'F_PCL.EMAPCL';
+    public const EMAPCL = 'EMAPCL';
 
     /** @var string [E]Permisos y contraseña del documento */
-    public const PASPCL = 'F_PCL.PASPCL';
+    public const PASPCL = 'PASPCL';
 
     /** @var string [F=hh:mm]Hora */
-    public const HORPCL = 'F_PCL.HORPCL';
+    public const HORPCL = 'HORPCL';
 
     /** @var string E-mail de destino */
-    public const CEMPCL = 'F_PCL.CEMPCL';
+    public const CEMPCL = 'CEMPCL';
 
     /** @var string País del cliente */
-    public const CPAPCL = 'F_PCL.CPAPCL';
+    public const CPAPCL = 'CPAPCL';
 
     /** @var string [L=#0;No#1;Sí]Pedido con incidencia */
-    public const INCPCL = 'F_PCL.INCPCL';
+    public const INCPCL = 'INCPCL';
 
     /** @var string [E]Tipo de iva al que pertenece el neto 1 (0 a 6) */
-    public const TIVA1PCL = 'F_PCL.TIVA1PCL';
+    public const TIVA1PCL = 'TIVA1PCL';
 
     /** @var string [E]Tipo de iva al que pertenece el neto 2 (0 a 6) */
-    public const TIVA2PCL = 'F_PCL.TIVA2PCL';
+    public const TIVA2PCL = 'TIVA2PCL';
 
     /** @var string [E]Tipo de iva al que pertenece el neto 3 (0 a 6) */
-    public const TIVA3PCL = 'F_PCL.TIVA3PCL';
+    public const TIVA3PCL = 'TIVA3PCL';
 
     /** @var string [F=000]Código del transportista */
-    public const TRNPCL = 'F_PCL.TRNPCL';
+    public const TRNPCL = 'TRNPCL';
 
-    public const TPVIDPCL = 'F_PCL.TPVIDPCL';
+    public const TPVIDPCL = 'TPVIDPCL';
 
-    public const TERPCL = 'F_PCL.TERPCL';
+    public const TERPCL = 'TERPCL';
 
-    public const IMPPCL = 'F_PCL.IMPPCL';
+    public const IMPPCL = 'IMPPCL';
 
-    public const CEWPCL = 'F_PCL.CEWPCL';
+    public const CEWPCL = 'CEWPCL';
 }

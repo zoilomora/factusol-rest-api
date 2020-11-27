@@ -8,105 +8,105 @@ final class F_LFA
     public const TABLE_NAME = 'F_LFA';
 
     /** @var string Nº de serie */
-    public const TIPLFA = 'F_LFA.TIPLFA';
+    public const TIPLFA = 'TIPLFA';
 
     /** @var string [F=000000]Código */
-    public const CODLFA = 'F_LFA.CODLFA';
+    public const CODLFA = 'CODLFA';
 
     /** @var string [E]Posicion */
-    public const POSLFA = 'F_LFA.POSLFA';
+    public const POSLFA = 'POSLFA';
 
     /** @var string Articulo */
-    public const ARTLFA = 'F_LFA.ARTLFA';
+    public const ARTLFA = 'ARTLFA';
 
     /** @var string Descripción */
-    public const DESLFA = 'F_LFA.DESLFA';
+    public const DESLFA = 'DESLFA';
 
     /** @var string Cantidad */
-    public const CANLFA = 'F_LFA.CANLFA';
+    public const CANLFA = 'CANLFA';
 
     /** @var string Descuento 1 */
-    public const DT1LFA = 'F_LFA.DT1LFA';
+    public const DT1LFA = 'DT1LFA';
 
     /** @var string Descuento 2 */
-    public const DT2LFA = 'F_LFA.DT2LFA';
+    public const DT2LFA = 'DT2LFA';
 
     /** @var string Descuento 3 */
-    public const DT3LFA = 'F_LFA.DT3LFA';
+    public const DT3LFA = 'DT3LFA';
 
     /** @var string Precio */
-    public const PRELFA = 'F_LFA.PRELFA';
+    public const PRELFA = 'PRELFA';
 
     /** @var string Total */
-    public const TOTLFA = 'F_LFA.TOTLFA';
+    public const TOTLFA = 'TOTLFA';
 
     /** @var string [L=#0;IVA1AUT#1;IVA2AUT#2;IVA3AUT#3;Exento]Porcentaje de IVA */
-    public const IVALFA = 'F_LFA.IVALFA';
+    public const IVALFA = 'IVALFA';
 
     /** @var string [E]documento que la creo P:presupuesto, C:cliente,A:Albaran */
-    public const DOCLFA = 'F_LFA.DOCLFA';
+    public const DOCLFA = 'DOCLFA';
 
     /** @var string [E]Tipo del documento que lo creo */
-    public const DTPLFA = 'F_LFA.DTPLFA';
+    public const DTPLFA = 'DTPLFA';
 
     /** @var string [E]Código del documento que lo creo */
-    public const DCOLFA = 'F_LFA.DCOLFA';
+    public const DCOLFA = 'DCOLFA';
 
     /** @var string [E]Precio de costo cuando se crea la línea */
-    public const COSLFA = 'F_LFA.COSLFA';
+    public const COSLFA = 'COSLFA';
 
     /** @var string Bultos */
-    public const BULLFA = 'F_LFA.BULLFA';
+    public const BULLFA = 'BULLFA';
 
     /** @var string Comisión del agente */
-    public const COMLFA = 'F_LFA.COMLFA';
+    public const COMLFA = 'COMLFA';
 
     /** @var string Comentarios */
-    public const MEMLFA = 'F_LFA.MEMLFA';
+    public const MEMLFA = 'MEMLFA';
 
     /** @var string [E]Ejercicio desde el que se valida */
-    public const EJELFA = 'F_LFA.EJELFA';
+    public const EJELFA = 'EJELFA';
 
     /** @var string Alto */
-    public const ALTLFA = 'F_LFA.ALTLFA';
+    public const ALTLFA = 'ALTLFA';
 
     /** @var string Ancho */
-    public const ANCLFA = 'F_LFA.ANCLFA';
+    public const ANCLFA = 'ANCLFA';
 
     /** @var string Fondo */
-    public const FONLFA = 'F_LFA.FONLFA';
+    public const FONLFA = 'FONLFA';
 
     /** @var string [E]Fecha de fabricación */
-    public const FFALFA = 'F_LFA.FFALFA';
+    public const FFALFA = 'FFALFA';
 
     /** @var string [E]Fecha de consumo preferente */
-    public const FCOLFA = 'F_LFA.FCOLFA';
+    public const FCOLFA = 'FCOLFA';
 
     /** @var string [E]IVA INCLUIDO EN LA LÍNEA */
-    public const IINLFA = 'F_LFA.IINLFA';
+    public const IINLFA = 'IINLFA';
 
     /** @var string [E]PRECIO IVA INCLUIDO EN LA LÍNEA */
-    public const PIVLFA = 'F_LFA.PIVLFA';
+    public const PIVLFA = 'PIVLFA';
 
     /** @var string [E]TOTAL IVA INCLUIDO EN LA LÍNEA */
-    public const TIVLFA = 'F_LFA.TIVLFA';
+    public const TIVLFA = 'TIVLFA';
 
-    public const FIMLFA = 'F_LFA.FIMLFA';
+    public const FIMLFA = 'FIMLFA';
 
     /** @var string Talla */
-    public const CE1LFA = 'F_LFA.CE1LFA';
+    public const CE1LFA = 'CE1LFA';
 
     /** @var string Color */
-    public const CE2LFA = 'F_LFA.CE2LFA';
+    public const CE2LFA = 'CE2LFA';
 
     /** @var string Imagen asociada a la línea */
-    public const IMALFA = 'F_LFA.IMALFA';
+    public const IMALFA = 'IMALFA';
 
     /** @var string Sumatorio donde se debe acumular el valor */
-    public const SUMLFA = 'F_LFA.SUMLFA';
+    public const SUMLFA = 'SUMLFA';
 
     /** @var string [L=#0;Imprimir#1;No imprimir]No imprimir la línea */
-    public const NIMLFA = 'F_LFA.NIMLFA';
+    public const NIMLFA = 'NIMLFA';
 
-    public const TCOLFA = 'F_LFA.TCOLFA';
+    public const TCOLFA = 'TCOLFA';
 }

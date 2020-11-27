@@ -8,26 +8,26 @@ final class F_LFL
     public const TABLE_NAME = 'F_LFL';
 
     /** @var string Código */
-    public const CODLFL = 'F_LFL.CODLFL';
+    public const CODLFL = 'CODLFL';
 
     /** @var string [E]Posición de la fabricación */
-    public const POSLFL = 'F_LFL.POSLFL';
+    public const POSLFL = 'POSLFL';
 
     /** @var string [E]Línea del componente */
-    public const LINLFL = 'F_LFL.LINLFL';
+    public const LINLFL = 'LINLFL';
 
     /** @var string Artículo */
-    public const ARTLFL = 'F_LFL.ARTLFL';
+    public const ARTLFL = 'ARTLFL';
 
     /** @var string Cantidad */
-    public const CANLFL = 'F_LFL.CANLFL';
+    public const CANLFL = 'CANLFL';
 
     /** @var string Precio de Costo */
-    public const COSLFL = 'F_LFL.COSLFL';
+    public const COSLFL = 'COSLFL';
 
     /** @var string Talla */
-    public const CE1LFL = 'F_LFL.CE1LFL';
+    public const CE1LFL = 'CE1LFL';
 
     /** @var string Color */
-    public const CE2LFL = 'F_LFL.CE2LFL';
+    public const CE2LFL = 'CE2LFL';
 }

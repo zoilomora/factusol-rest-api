@@ -8,146 +8,146 @@ final class F_BAN
     public const TABLE_NAME = 'F_BAN';
 
     /** @var string Código */
-    public const CODBAN = 'F_BAN.CODBAN';
+    public const CODBAN = 'CODBAN';
 
     /** @var string Nombre */
-    public const NOMBAN = 'F_BAN.NOMBAN';
+    public const NOMBAN = 'NOMBAN';
 
     /** @var string Domicilio */
-    public const DOMBAN = 'F_BAN.DOMBAN';
+    public const DOMBAN = 'DOMBAN';
 
     /** @var string Población */
-    public const POBBAN = 'F_BAN.POBBAN';
+    public const POBBAN = 'POBBAN';
 
     /** @var string Cód. Postal */
-    public const CPOBAN = 'F_BAN.CPOBAN';
+    public const CPOBAN = 'CPOBAN';
 
     /** @var string Provincia */
-    public const PROBAN = 'F_BAN.PROBAN';
+    public const PROBAN = 'PROBAN';
 
     /** @var string Teléfono */
-    public const TELBAN = 'F_BAN.TELBAN';
+    public const TELBAN = 'TELBAN';
 
     /** @var string Fax */
-    public const FAXBAN = 'F_BAN.FAXBAN';
+    public const FAXBAN = 'FAXBAN';
 
     /** @var string Director */
-    public const DIRBAN = 'F_BAN.DIRBAN';
+    public const DIRBAN = 'DIRBAN';
 
     /** @var string Teléfono director */
-    public const TDIBAN = 'F_BAN.TDIBAN';
+    public const TDIBAN = 'TDIBAN';
 
     /** @var string Interventor */
-    public const INTBAN = 'F_BAN.INTBAN';
+    public const INTBAN = 'INTBAN';
 
     /** @var string Teléfono interventor */
-    public const TINBAN = 'F_BAN.TINBAN';
+    public const TINBAN = 'TINBAN';
 
     /** @var string Comercial */
-    public const COMBAN = 'F_BAN.COMBAN';
+    public const COMBAN = 'COMBAN';
 
     /** @var string Teléfono comercial */
-    public const TCOBAN = 'F_BAN.TCOBAN';
+    public const TCOBAN = 'TCOBAN';
 
     /** @var string Entidad */
-    public const ENTBAN = 'F_BAN.ENTBAN';
+    public const ENTBAN = 'ENTBAN';
 
     /** @var string Oficina */
-    public const OFIBAN = 'F_BAN.OFIBAN';
+    public const OFIBAN = 'OFIBAN';
 
     /** @var string Dígitos de control */
-    public const DCOBAN = 'F_BAN.DCOBAN';
+    public const DCOBAN = 'DCOBAN';
 
     /** @var string Nº de cuenta */
-    public const CUEBAN = 'F_BAN.CUEBAN';
+    public const CUEBAN = 'CUEBAN';
 
     /** @var string [L=#0;Cuenta corriente#1;Póliza de crédito#2;Imposición a plazo fijo]Tipo de cuenta */
-    public const TCUBAN = 'F_BAN.TCUBAN';
+    public const TCUBAN = 'TCUBAN';
 
     /** @var string Vencimiento de la póliza de crédito */
-    public const VE1BAN = 'F_BAN.VE1BAN';
+    public const VE1BAN = 'VE1BAN';
 
     /** @var string Límite de la póliza de crédito */
-    public const LIMBAN = 'F_BAN.LIMBAN';
+    public const LIMBAN = 'LIMBAN';
 
     /** @var string Importe del plazo fijo */
-    public const IMPBAN = 'F_BAN.IMPBAN';
+    public const IMPBAN = 'IMPBAN';
 
     /** @var string Vencimiento del plazo fijo */
-    public const VE2BAN = 'F_BAN.VE2BAN';
+    public const VE2BAN = 'VE2BAN';
 
     /** @var string Interés */
-    public const IN1BAN = 'F_BAN.IN1BAN';
+    public const IN1BAN = 'IN1BAN';
 
     /** @var string Interés sobre descubiertos */
-    public const IN2BAN = 'F_BAN.IN2BAN';
+    public const IN2BAN = 'IN2BAN';
 
     /** @var string Fecha de alta */
-    public const FALBAN = 'F_BAN.FALBAN';
+    public const FALBAN = 'FALBAN';
 
     /** @var string Cuenta contable */
-    public const CCOBAN = 'F_BAN.CCOBAN';
+    public const CCOBAN = 'CCOBAN';
 
     /** @var string Cód. Plaza INE */
-    public const INEBAN = 'F_BAN.INEBAN';
+    public const INEBAN = 'INEBAN';
 
     /** @var string Cuaderno 19. CIF Presentador. */
-    public const CP19BAN = 'F_BAN.CP19BAN';
+    public const CP19BAN = 'CP19BAN';
 
     /** @var string Cuaderno 19. Nombre Presentador. */
-    public const NP19BAN = 'F_BAN.NP19BAN';
+    public const NP19BAN = 'NP19BAN';
 
     /** @var string Cuaderno 19. Sufijo Presentador. */
-    public const SP19BAN = 'F_BAN.SP19BAN';
+    public const SP19BAN = 'SP19BAN';
 
     /** @var string Cuaderno 19. CIF Ordenante. */
-    public const CO19BAN = 'F_BAN.CO19BAN';
+    public const CO19BAN = 'CO19BAN';
 
     /** @var string Cuaderno 19. Nombre Ordenante. */
-    public const NO19BAN = 'F_BAN.NO19BAN';
+    public const NO19BAN = 'NO19BAN';
 
     /** @var string Cuaderno 19. Sufijo Ordenante. */
-    public const SO19BAN = 'F_BAN.SO19BAN';
+    public const SO19BAN = 'SO19BAN';
 
     /** @var string Cuaderno 58. CIF Presentador. */
-    public const CP58BAN = 'F_BAN.CP58BAN';
+    public const CP58BAN = 'CP58BAN';
 
     /** @var string Cuaderno 58. Nombre Presentador. */
-    public const NP58BAN = 'F_BAN.NP58BAN';
+    public const NP58BAN = 'NP58BAN';
 
     /** @var string Cuaderno 58. Sufijo Presentador. */
-    public const SP58BAN = 'F_BAN.SP58BAN';
+    public const SP58BAN = 'SP58BAN';
 
     /** @var string Cuaderno 58. CIF Ordenante. */
-    public const CO58BAN = 'F_BAN.CO58BAN';
+    public const CO58BAN = 'CO58BAN';
 
     /** @var string Cuaderno 58. Nombre Ordenante. */
-    public const NO58BAN = 'F_BAN.NO58BAN';
+    public const NO58BAN = 'NO58BAN';
 
     /** @var string Cuaderno 58. Sufijo Ordenante. */
-    public const SO58BAN = 'F_BAN.SO58BAN';
+    public const SO58BAN = 'SO58BAN';
 
     /** @var string Transferencias. Código Ordenante. */
-    public const CO34BAN = 'F_BAN.CO34BAN';
+    public const CO34BAN = 'CO34BAN';
 
     /** @var string Transferencias. Nombre Ordenante. */
-    public const NO34BAN = 'F_BAN.NO34BAN';
+    public const NO34BAN = 'NO34BAN';
 
     /** @var string Transferencias. Domicilio Ordenante. */
-    public const DO34BAN = 'F_BAN.DO34BAN';
+    public const DO34BAN = 'DO34BAN';
 
     /** @var string Transferencias. Nombre Ordenante. */
-    public const PL34BAN = 'F_BAN.PL34BAN';
+    public const PL34BAN = 'PL34BAN';
 
     /** @var string Código IBAN */
-    public const IBABAN = 'F_BAN.IBABAN';
+    public const IBABAN = 'IBABAN';
 
     /** @var string Código BIC */
-    public const BICBAN = 'F_BAN.BICBAN';
+    public const BICBAN = 'BICBAN';
 
     /** @var string Sufijo transferencias */
-    public const RE34BAN = 'F_BAN.RE34BAN';
+    public const RE34BAN = 'RE34BAN';
 
     /** @var string Incluir en factura electronica */
-    public const BTRBAN = 'F_BAN.BTRBAN';
+    public const BTRBAN = 'BTRBAN';
 }

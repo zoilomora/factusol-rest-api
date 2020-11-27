@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  ZoiloMora\FactuSOL\Entrypoint\Web\:
+    resource: '../../../../src/FactuSOL/Entrypoint/Web/'
+    tags: ['controller.service_arguments']

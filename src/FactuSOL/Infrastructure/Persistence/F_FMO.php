@@ -8,14 +8,14 @@ final class F_FMO
     public const TABLE_NAME = 'F_FMO';
 
     /** @var string Código */
-    public const CODFMO = 'F_FMO.CODFMO';
+    public const CODFMO = 'CODFMO';
 
     /** @var string Fecha */
-    public const FECFMO = 'F_FMO.FECFMO';
+    public const FECFMO = 'FECFMO';
 
     /** @var string Turno */
-    public const TURFMO = 'F_FMO.TURFMO';
+    public const TURFMO = 'TURFMO';
 
     /** @var string Trabajador */
-    public const TRAFMO = 'F_FMO.TRAFMO';
+    public const TRAFMO = 'TRAFMO';
 }

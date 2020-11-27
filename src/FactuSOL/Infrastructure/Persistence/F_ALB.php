@@ -8,374 +8,374 @@ final class F_ALB
     public const TABLE_NAME = 'F_ALB';
 
     /** @var string Nº de serie */
-    public const TIPALB = 'F_ALB.TIPALB';
+    public const TIPALB = 'TIPALB';
 
     /** @var string [F=000000]Código */
-    public const CODALB = 'F_ALB.CODALB';
+    public const CODALB = 'CODALB';
 
     /** @var string Referencia */
-    public const REFALB = 'F_ALB.REFALB';
+    public const REFALB = 'REFALB';
 
     /** @var string Fecha */
-    public const FECALB = 'F_ALB.FECALB';
+    public const FECALB = 'FECALB';
 
     /** @var string [L=#0;Pte.#1;Facturado]Estado */
-    public const ESTALB = 'F_ALB.ESTALB';
+    public const ESTALB = 'ESTALB';
 
     /** @var string Almacén */
-    public const ALMALB = 'F_ALB.ALMALB';
+    public const ALMALB = 'ALMALB';
 
     /** @var string [F=00000]Agente */
-    public const AGEALB = 'F_ALB.AGEALB';
+    public const AGEALB = 'AGEALB';
 
     /** @var string Proveedor del cliente */
-    public const PROALB = 'F_ALB.PROALB';
+    public const PROALB = 'PROALB';
 
     /** @var string [F=00000]Cliente */
-    public const CLIALB = 'F_ALB.CLIALB';
+    public const CLIALB = 'CLIALB';
 
     /** @var string Nombre */
-    public const CNOALB = 'F_ALB.CNOALB';
+    public const CNOALB = 'CNOALB';
 
     /** @var string Domicilio */
-    public const CDOALB = 'F_ALB.CDOALB';
+    public const CDOALB = 'CDOALB';
 
     /** @var string Población */
-    public const CPOALB = 'F_ALB.CPOALB';
+    public const CPOALB = 'CPOALB';
 
     /** @var string Cód. Postal */
-    public const CCPALB = 'F_ALB.CCPALB';
+    public const CCPALB = 'CCPALB';
 
     /** @var string Provincia */
-    public const CPRALB = 'F_ALB.CPRALB';
+    public const CPRALB = 'CPRALB';
 
     /** @var string N.I.F. */
-    public const CNIALB = 'F_ALB.CNIALB';
+    public const CNIALB = 'CNIALB';
 
     /** @var string [L=#0;Con IVA#1;Sin IVA#2;Intracomunitario#3;Importación]Tipo de IVA */
-    public const TIVALB = 'F_ALB.TIVALB';
+    public const TIVALB = 'TIVALB';
 
     /** @var string [L=#No#1;Sí]Recargo de equivalencia */
-    public const REQALB = 'F_ALB.REQALB';
+    public const REQALB = 'REQALB';
 
     /** @var string Teléfono */
-    public const TELALB = 'F_ALB.TELALB';
+    public const TELALB = 'TELALB';
 
     /** @var string Neto 1 */
-    public const NET1ALB = 'F_ALB.NET1ALB';
+    public const NET1ALB = 'NET1ALB';
 
     /** @var string Neto 2 */
-    public const NET2ALB = 'F_ALB.NET2ALB';
+    public const NET2ALB = 'NET2ALB';
 
     /** @var string Neto 3 */
-    public const NET3ALB = 'F_ALB.NET3ALB';
+    public const NET3ALB = 'NET3ALB';
 
     /** @var string Porcentaje de descuento 1 */
-    public const PDTO1ALB = 'F_ALB.PDTO1ALB';
+    public const PDTO1ALB = 'PDTO1ALB';
 
     /** @var string Porcentaje de descuento 2 */
-    public const PDTO2ALB = 'F_ALB.PDTO2ALB';
+    public const PDTO2ALB = 'PDTO2ALB';
 
     /** @var string Porcentaje de descuento 3 */
-    public const PDTO3ALB = 'F_ALB.PDTO3ALB';
+    public const PDTO3ALB = 'PDTO3ALB';
 
     /** @var string Importe de descuento 1 */
-    public const IDTO1ALB = 'F_ALB.IDTO1ALB';
+    public const IDTO1ALB = 'IDTO1ALB';
 
     /** @var string Importe de descuento 2 */
-    public const IDTO2ALB = 'F_ALB.IDTO2ALB';
+    public const IDTO2ALB = 'IDTO2ALB';
 
     /** @var string Importe de descuento 3 */
-    public const IDTO3ALB = 'F_ALB.IDTO3ALB';
+    public const IDTO3ALB = 'IDTO3ALB';
 
     /** @var string Porcentaje de pronto pago 1 */
-    public const PPPA1ALB = 'F_ALB.PPPA1ALB';
+    public const PPPA1ALB = 'PPPA1ALB';
 
     /** @var string Porcentaje de pronto pago 2 */
-    public const PPPA2ALB = 'F_ALB.PPPA2ALB';
+    public const PPPA2ALB = 'PPPA2ALB';
 
     /** @var string Porcentaje de pronto pago 3 */
-    public const PPPA3ALB = 'F_ALB.PPPA3ALB';
+    public const PPPA3ALB = 'PPPA3ALB';
 
     /** @var string Importe de pronto pago 1 */
-    public const IPPA1ALB = 'F_ALB.IPPA1ALB';
+    public const IPPA1ALB = 'IPPA1ALB';
 
     /** @var string Importe de pronto pago 2 */
-    public const IPPA2ALB = 'F_ALB.IPPA2ALB';
+    public const IPPA2ALB = 'IPPA2ALB';
 
     /** @var string Importe de pronto pago 3 */
-    public const IPPA3ALB = 'F_ALB.IPPA3ALB';
+    public const IPPA3ALB = 'IPPA3ALB';
 
     /** @var string Porcentaje de portes 1 */
-    public const PPOR1ALB = 'F_ALB.PPOR1ALB';
+    public const PPOR1ALB = 'PPOR1ALB';
 
     /** @var string Porcentaje de portes 2 */
-    public const PPOR2ALB = 'F_ALB.PPOR2ALB';
+    public const PPOR2ALB = 'PPOR2ALB';
 
     /** @var string Porcentaje de portes 3 */
-    public const PPOR3ALB = 'F_ALB.PPOR3ALB';
+    public const PPOR3ALB = 'PPOR3ALB';
 
     /** @var string Importe de portes 1 */
-    public const IPOR1ALB = 'F_ALB.IPOR1ALB';
+    public const IPOR1ALB = 'IPOR1ALB';
 
     /** @var string Importe de portes 2 */
-    public const IPOR2ALB = 'F_ALB.IPOR2ALB';
+    public const IPOR2ALB = 'IPOR2ALB';
 
     /** @var string Importe de portes 3 */
-    public const IPOR3ALB = 'F_ALB.IPOR3ALB';
+    public const IPOR3ALB = 'IPOR3ALB';
 
     /** @var string Porcentaje de financiación 1 */
-    public const PFIN1ALB = 'F_ALB.PFIN1ALB';
+    public const PFIN1ALB = 'PFIN1ALB';
 
     /** @var string Porcentaje de financiación 2 */
-    public const PFIN2ALB = 'F_ALB.PFIN2ALB';
+    public const PFIN2ALB = 'PFIN2ALB';
 
     /** @var string Porcentaje de financiación 3 */
-    public const PFIN3ALB = 'F_ALB.PFIN3ALB';
+    public const PFIN3ALB = 'PFIN3ALB';
 
     /** @var string Importe de financiación 1 */
-    public const IFIN1ALB = 'F_ALB.IFIN1ALB';
+    public const IFIN1ALB = 'IFIN1ALB';
 
     /** @var string Importe de financiación 2 */
-    public const IFIN2ALB = 'F_ALB.IFIN2ALB';
+    public const IFIN2ALB = 'IFIN2ALB';
 
     /** @var string Importe de financiación 3 */
-    public const IFIN3ALB = 'F_ALB.IFIN3ALB';
+    public const IFIN3ALB = 'IFIN3ALB';
 
     /** @var string Base imponible 1 */
-    public const BAS1ALB = 'F_ALB.BAS1ALB';
+    public const BAS1ALB = 'BAS1ALB';
 
     /** @var string Base imponible 2 */
-    public const BAS2ALB = 'F_ALB.BAS2ALB';
+    public const BAS2ALB = 'BAS2ALB';
 
     /** @var string Base imponible 3 */
-    public const BAS3ALB = 'F_ALB.BAS3ALB';
+    public const BAS3ALB = 'BAS3ALB';
 
     /** @var string Porcentaje de impuestos 1 */
-    public const PIVA1ALB = 'F_ALB.PIVA1ALB';
+    public const PIVA1ALB = 'PIVA1ALB';
 
     /** @var string Porcentaje de impuestos 2 */
-    public const PIVA2ALB = 'F_ALB.PIVA2ALB';
+    public const PIVA2ALB = 'PIVA2ALB';
 
     /** @var string Porcentaje de impuestos 3 */
-    public const PIVA3ALB = 'F_ALB.PIVA3ALB';
+    public const PIVA3ALB = 'PIVA3ALB';
 
     /** @var string Importe de impuestos 1 */
-    public const IIVA1ALB = 'F_ALB.IIVA1ALB';
+    public const IIVA1ALB = 'IIVA1ALB';
 
     /** @var string Importe de impuestos 2 */
-    public const IIVA2ALB = 'F_ALB.IIVA2ALB';
+    public const IIVA2ALB = 'IIVA2ALB';
 
     /** @var string Importe de impuestos 3 */
-    public const IIVA3ALB = 'F_ALB.IIVA3ALB';
+    public const IIVA3ALB = 'IIVA3ALB';
 
     /** @var string Porcentaje de recargo de equivalencia 1 */
-    public const PREC1ALB = 'F_ALB.PREC1ALB';
+    public const PREC1ALB = 'PREC1ALB';
 
     /** @var string Porcentaje de recargo de equivalencia 2 */
-    public const PREC2ALB = 'F_ALB.PREC2ALB';
+    public const PREC2ALB = 'PREC2ALB';
 
     /** @var string Porcentaje de recargo de equivalencia 3 */
-    public const PREC3ALB = 'F_ALB.PREC3ALB';
+    public const PREC3ALB = 'PREC3ALB';
 
     /** @var string Importe de recargo de equivalencia 1 */
-    public const IREC1ALB = 'F_ALB.IREC1ALB';
+    public const IREC1ALB = 'IREC1ALB';
 
     /** @var string Importe de recargo de equivalencia 2 */
-    public const IREC2ALB = 'F_ALB.IREC2ALB';
+    public const IREC2ALB = 'IREC2ALB';
 
     /** @var string Importe de recargo de equivalencia 3 */
-    public const IREC3ALB = 'F_ALB.IREC3ALB';
+    public const IREC3ALB = 'IREC3ALB';
 
     /** @var string Porcentaje de retención */
-    public const PRET1ALB = 'F_ALB.PRET1ALB';
+    public const PRET1ALB = 'PRET1ALB';
 
     /** @var string Importe de retención */
-    public const IRET1ALB = 'F_ALB.IRET1ALB';
+    public const IRET1ALB = 'IRET1ALB';
 
     /** @var string Total */
-    public const TOTALB = 'F_ALB.TOTALB';
+    public const TOTALB = 'TOTALB';
 
     /** @var string Forma de pago */
-    public const FOPALB = 'F_ALB.FOPALB';
+    public const FOPALB = 'FOPALB';
 
     /** @var string [L=#Pagados#1;Debidos]Portes */
-    public const PRTALB = 'F_ALB.PRTALB';
+    public const PRTALB = 'PRTALB';
 
     /** @var string Portes (texto) */
-    public const TPOALB = 'F_ALB.TPOALB';
+    public const TPOALB = 'TPOALB';
 
     /** @var string Línea 1 de observaciones */
-    public const OB1ALB = 'F_ALB.OB1ALB';
+    public const OB1ALB = 'OB1ALB';
 
     /** @var string Línea 2 de observaciones */
-    public const OB2ALB = 'F_ALB.OB2ALB';
+    public const OB2ALB = 'OB2ALB';
 
     /** @var string Código de la dirección de entrega */
-    public const OBRALB = 'F_ALB.OBRALB';
+    public const OBRALB = 'OBRALB';
 
     /** @var string Remitido por */
-    public const REPALB = 'F_ALB.REPALB';
+    public const REPALB = 'REPALB';
 
     /** @var string Embalado por */
-    public const EMBALB = 'F_ALB.EMBALB';
+    public const EMBALB = 'EMBALB';
 
     /** @var string A la atención de */
-    public const AATALB = 'F_ALB.AATALB';
+    public const AATALB = 'AATALB';
 
     /** @var string Su referencia */
-    public const REAALB = 'F_ALB.REAALB';
+    public const REAALB = 'REAALB';
 
     /** @var string Nº de su pedido */
-    public const PEDALB = 'F_ALB.PEDALB';
+    public const PEDALB = 'PEDALB';
 
     /** @var string Fecha de su pedido */
-    public const FPEALB = 'F_ALB.FPEALB';
+    public const FPEALB = 'FPEALB';
 
     /** @var string [L=#0;Pte.#1;Cobrado#2;Cob. Parcial]Estado (cobros) */
-    public const COBALB = 'F_ALB.COBALB';
+    public const COBALB = 'COBALB';
 
     /** @var string [L=#No traspasado#1;Traspasado]Traspasado a contabilidad */
-    public const TRAALB = 'F_ALB.TRAALB';
+    public const TRAALB = 'TRAALB';
 
     /** @var string [E]Impresa */
-    public const IMPALB = 'F_ALB.IMPALB';
+    public const IMPALB = 'IMPALB';
 
     /** @var string Transportista */
-    public const TRNALB = 'F_ALB.TRNALB';
+    public const TRNALB = 'TRNALB';
 
     /** @var string Nº de expedición 1 */
-    public const CISALB = 'F_ALB.CISALB';
+    public const CISALB = 'CISALB';
 
     /** @var string Nº de expedición 2 */
-    public const TRCALB = 'F_ALB.TRCALB';
+    public const TRCALB = 'TRCALB';
 
     /** @var string [E]Campo para anotaciones privadas del documento */
-    public const PRIALB = 'F_ALB.PRIALB';
+    public const PRIALB = 'PRIALB';
 
     /** @var string [E]Documentos asociados al documento */
-    public const ASOALB = 'F_ALB.ASOALB';
+    public const ASOALB = 'ASOALB';
 
     /** @var string Banco del cliente */
-    public const CBAALB = 'F_ALB.CBAALB';
+    public const CBAALB = 'CBAALB';
 
     /** @var string [E]Enviado a través de fichero de ventas */
-    public const ENVALB = 'F_ALB.ENVALB';
+    public const ENVALB = 'ENVALB';
 
     /** @var string [F=hh:mm]Hora */
-    public const HORALB = 'F_ALB.HORALB';
+    public const HORALB = 'HORALB';
 
     /** @var string [E]Comentarios después de las líneas de detalle */
-    public const COMALB = 'F_ALB.COMALB';
+    public const COMALB = 'COMALB';
 
     /** @var string Código del usuario que creó el documento */
-    public const USUALB = 'F_ALB.USUALB';
+    public const USUALB = 'USUALB';
 
     /** @var string Código del último usuario que modificó el documento */
-    public const USMALB = 'F_ALB.USMALB';
+    public const USMALB = 'USMALB';
 
     /** @var string Fax */
-    public const FAXALB = 'F_ALB.FAXALB';
+    public const FAXALB = 'FAXALB';
 
     /** @var string [E]EFECTIVO COBRADO DEL DOCUMENTO (PARA TPV) */
-    public const EFEALB = 'F_ALB.EFEALB';
+    public const EFEALB = 'EFEALB';
 
     /** @var string [E]CAMBIO DEL DOCUMENTO (PARA TPV) */
-    public const CAMALB = 'F_ALB.CAMALB';
+    public const CAMALB = 'CAMALB';
 
     /** @var string Neto (Exento de impuestos) */
-    public const NET4ALB = 'F_ALB.NET4ALB';
+    public const NET4ALB = 'NET4ALB';
 
     /** @var string Porcentaje de descuento (Exento de impuestos) */
-    public const PDTO4ALB = 'F_ALB.PDTO4ALB';
+    public const PDTO4ALB = 'PDTO4ALB';
 
     /** @var string Importe de descuento (Exento de impuestos) */
-    public const IDTO4ALB = 'F_ALB.IDTO4ALB';
+    public const IDTO4ALB = 'IDTO4ALB';
 
     /** @var string Porcentaje de pronto pago (Exento de impuestos) */
-    public const PPPA4ALB = 'F_ALB.PPPA4ALB';
+    public const PPPA4ALB = 'PPPA4ALB';
 
     /** @var string Importe de pronto pago (Exento de impuestos) */
-    public const IPPA4ALB = 'F_ALB.IPPA4ALB';
+    public const IPPA4ALB = 'IPPA4ALB';
 
     /** @var string Porcentaje de portes (Exento de impuestos) */
-    public const PPOR4ALB = 'F_ALB.PPOR4ALB';
+    public const PPOR4ALB = 'PPOR4ALB';
 
     /** @var string Importe de portes (Exento de impuestos) */
-    public const IPOR4ALB = 'F_ALB.IPOR4ALB';
+    public const IPOR4ALB = 'IPOR4ALB';
 
     /** @var string Porcentaje de financiación (Exento de impuestos) */
-    public const PFIN4ALB = 'F_ALB.PFIN4ALB';
+    public const PFIN4ALB = 'PFIN4ALB';
 
     /** @var string Importe de financiación (Exento de impuestos) */
-    public const IFIN4ALB = 'F_ALB.IFIN4ALB';
+    public const IFIN4ALB = 'IFIN4ALB';
 
     /** @var string Base (Exenta de impuestos) */
-    public const BAS4ALB = 'F_ALB.BAS4ALB';
+    public const BAS4ALB = 'BAS4ALB';
 
     /** @var string [E]Enviado por e-mail */
-    public const EMAALB = 'F_ALB.EMAALB';
+    public const EMAALB = 'EMAALB';
 
     /** @var string [E]Permisos y contraseña del documento */
-    public const PASALB = 'F_ALB.PASALB';
+    public const PASALB = 'PASALB';
 
     /** @var string [E]Ticket, porcentaje de descuento */
-    public const TPDALB = 'F_ALB.TPDALB';
+    public const TPDALB = 'TPDALB';
 
     /** @var string [E]Ticket, importe de descuento */
-    public const TIDALB = 'F_ALB.TIDALB';
+    public const TIDALB = 'TIDALB';
 
     /** @var string E-mail de destino */
-    public const CEMALB = 'F_ALB.CEMALB';
+    public const CEMALB = 'CEMALB';
 
     /** @var string País del cliente */
-    public const CPAALB = 'F_ALB.CPAALB';
+    public const CPAALB = 'CPAALB';
 
     /** @var string Nombre del banco */
-    public const BNOALB = 'F_ALB.BNOALB';
+    public const BNOALB = 'BNOALB';
 
     /** @var string Banco: Entidad */
-    public const BENALB = 'F_ALB.BENALB';
+    public const BENALB = 'BENALB';
 
     /** @var string Banco: Oficina */
-    public const BOFALB = 'F_ALB.BOFALB';
+    public const BOFALB = 'BOFALB';
 
     /** @var string Banco: DC */
-    public const BDCALB = 'F_ALB.BDCALB';
+    public const BDCALB = 'BDCALB';
 
     /** @var string Banco: Cuenta */
-    public const BNUALB = 'F_ALB.BNUALB';
+    public const BNUALB = 'BNUALB';
 
     /** @var string [E]Tipo de iva al que pertenece el neto 1 (0 a 6) */
-    public const TIVA1ALB = 'F_ALB.TIVA1ALB';
+    public const TIVA1ALB = 'TIVA1ALB';
 
     /** @var string [E]Tipo de iva al que pertenece el neto 2 (0 a 6) */
-    public const TIVA2ALB = 'F_ALB.TIVA2ALB';
+    public const TIVA2ALB = 'TIVA2ALB';
 
     /** @var string [E]Tipo de iva al que pertenece el neto 3 (0 a 6) */
-    public const TIVA3ALB = 'F_ALB.TIVA3ALB';
+    public const TIVA3ALB = 'TIVA3ALB';
 
     /** @var string Banco: Código IBAN */
-    public const BIBALB = 'F_ALB.BIBALB';
+    public const BIBALB = 'BIBALB';
 
     /** @var string Banco: Código BIC */
-    public const BICALB = 'F_ALB.BICALB';
+    public const BICALB = 'BICALB';
 
     /** @var string Entregado en segunda forma de pago (para TPV) */
-    public const EFSALB = 'F_ALB.EFSALB';
+    public const EFSALB = 'EFSALB';
 
     /** @var string Entregado en vales (para TPV) */
-    public const EFVALB = 'F_ALB.EFVALB';
+    public const EFVALB = 'EFVALB';
 
-    public const TPVIDALB = 'F_ALB.TPVIDALB';
+    public const TPVIDALB = 'TPVIDALB';
 
-    public const TERALB = 'F_ALB.TERALB';
+    public const TERALB = 'TERALB';
 
-    public const TFIALB = 'F_ALB.TFIALB';
+    public const TFIALB = 'TFIALB';
 
-    public const TFAALB = 'F_ALB.TFAALB';
+    public const TFAALB = 'TFAALB';
 
-    public const DEPALB = 'F_ALB.DEPALB';
+    public const DEPALB = 'DEPALB';
 
-    public const NASALB = 'F_ALB.NASALB';
+    public const NASALB = 'NASALB';
 }

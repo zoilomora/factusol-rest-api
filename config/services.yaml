@@ -1,29 +1,3 @@
 imports:
-  - { resource: './factusol/table_mapper.yaml' }
-
-parameters:
-  factusol.dsn: '%env(FACTUSOL_DSN)%'
-
-services:
-  _defaults:
-    autowire: true
-    autoconfigure: true
-
-  ZoiloMora\:
-    resource: '../src/'
-    exclude:
-      - '../src/Kernel.php'
-
-  ZoiloMora\FactuSOL\Entrypoint\Web\:
-    resource: '../src/FactuSOL/Entrypoint/Web/'
-    tags: ['controller.service_arguments']
-
-  Doctrine\DBAL\Connection:
-    class: Doctrine\DBAL\Connection
-    factory: \Doctrine\DBAL\DriverManager::getConnection
-    arguments:
-      $params:
-        driverClass: '\ZoiloMora\Doctrine\DBAL\Driver\MicrosoftAccess\Driver'
-        driverOptions:
-          dsn: '%factusol.dsn%'
-          charset: 'UTF-8'
+  - { resource: context/system/services.yaml }
+  - { resource: context/factusol/services.yaml }

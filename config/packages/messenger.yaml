@@ -1,0 +1,20 @@
+framework:
+  messenger:
+    default_bus: execute_command.bus
+
+    buses:
+      execute_command.bus:
+        default_middleware: true
+        middleware:
+          - bus.middleware.logging.processor.command
+          - bus.middleware.handler_exception_catcher
+
+    transports:
+      # https://symfony.com/doc/current/messenger.html#transport-configuration
+      # async: '%env(MESSENGER_TRANSPORT_DSN)%'
+      # failed: 'doctrine://default?queue_name=failed'
+      # sync: 'sync://'
+
+    routing:
+      # Route your messages to the transports
+      # 'App\Message\YourMessage': async

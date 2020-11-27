@@ -8,35 +8,35 @@ final class F_RDO
     public const TABLE_NAME = 'F_RDO';
 
     /** @var string Código de la relación de documentos */
-    public const CODRDO = 'F_RDO.CODRDO';
+    public const CODRDO = 'CODRDO';
 
     /** @var string Documento origen (C=Pedido cliente, A=Albarán...) */
-    public const DORRDO = 'F_RDO.DORRDO';
+    public const DORRDO = 'DORRDO';
 
     /** @var string Serie del documento origen */
-    public const TORRDO = 'F_RDO.TORRDO';
+    public const TORRDO = 'TORRDO';
 
     /** @var string Código del documento origen */
-    public const CORRDO = 'F_RDO.CORRDO';
+    public const CORRDO = 'CORRDO';
 
     /** @var string Posición en el documento origen */
-    public const PORRDO = 'F_RDO.PORRDO';
+    public const PORRDO = 'PORRDO';
 
     /** @var string Línea dentro de la posición del documento origen (futuro uso - para fabricaciones, nº de serie...) */
-    public const LORRDO = 'F_RDO.LORRDO';
+    public const LORRDO = 'LORRDO';
 
     /** @var string Documento destino (V=Pedido proveedor, E=Entrada, A=Albarán...) */
-    public const DDERDO = 'F_RDO.DDERDO';
+    public const DDERDO = 'DDERDO';
 
     /** @var string Serie del documento destino */
-    public const TDERDO = 'F_RDO.TDERDO';
+    public const TDERDO = 'TDERDO';
 
     /** @var string Código del documento destino */
-    public const CDERDO = 'F_RDO.CDERDO';
+    public const CDERDO = 'CDERDO';
 
     /** @var string Posición en el documento destino */
-    public const PDERDO = 'F_RDO.PDERDO';
+    public const PDERDO = 'PDERDO';
 
     /** @var string Línea dentro de la posición del documento destino (futuro uso - para fabricaciones, nº de serie...) */
-    public const LDERDO = 'F_RDO.LDERDO';
+    public const LDERDO = 'LDERDO';
 }

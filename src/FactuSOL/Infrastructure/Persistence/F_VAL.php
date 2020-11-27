@@ -7,23 +7,23 @@ final class F_VAL
 {
     public const TABLE_NAME = 'F_VAL';
 
-    public const ARTVAL = 'F_VAL.ARTVAL';
+    public const ARTVAL = 'ARTVAL';
 
-    public const POSVAL = 'F_VAL.POSVAL';
+    public const POSVAL = 'POSVAL';
 
-    public const FECVAL = 'F_VAL.FECVAL';
+    public const FECVAL = 'FECVAL';
 
-    public const HORVAL = 'F_VAL.HORVAL';
+    public const HORVAL = 'HORVAL';
 
-    public const TITVAL = 'F_VAL.TITVAL';
+    public const TITVAL = 'TITVAL';
 
-    public const COMVAL = 'F_VAL.COMVAL';
+    public const COMVAL = 'COMVAL';
 
-    public const VCLVAL = 'F_VAL.VCLVAL';
+    public const VCLVAL = 'VCLVAL';
 
-    public const VISVAL = 'F_VAL.VISVAL';
+    public const VISVAL = 'VISVAL';
 
-    public const APRVAL = 'F_VAL.APRVAL';
+    public const APRVAL = 'APRVAL';
 
-    public const CLIVAL = 'F_VAL.CLIVAL';
+    public const CLIVAL = 'CLIVAL';
 }

@@ -8,13 +8,13 @@ final class F_LRU
     public const TABLE_NAME = 'F_LRU';
 
     /** @var string Código */
-    public const CODLRU = 'F_LRU.CODLRU';
+    public const CODLRU = 'CODLRU';
 
     /** @var string [E]Posición */
-    public const POSLRU = 'F_LRU.POSLRU';
+    public const POSLRU = 'POSLRU';
 
     /** @var string [F=00000]Cliente */
-    public const CLILRU = 'F_LRU.CLILRU';
+    public const CLILRU = 'CLILRU';
 
-    public const OBRLRU = 'F_LRU.OBRLRU';
+    public const OBRLRU = 'OBRLRU';
 }

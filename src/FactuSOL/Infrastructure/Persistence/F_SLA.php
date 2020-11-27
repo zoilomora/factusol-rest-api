@@ -8,29 +8,29 @@ final class F_SLA
     public const TABLE_NAME = 'F_SLA';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLA = 'F_SLA.TIPSLA';
+    public const TIPSLA = 'TIPSLA';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLA = 'F_SLA.CODSLA';
+    public const CODSLA = 'CODSLA';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLA = 'F_SLA.POSSLA';
+    public const POSSLA = 'POSSLA';
 
     /** @var string Número de serie */
-    public const NSESLA = 'F_SLA.NSESLA';
+    public const NSESLA = 'NSESLA';
 
     /** @var string Fecha de fabricación */
-    public const FFASLA = 'F_SLA.FFASLA';
+    public const FFASLA = 'FFASLA';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLA = 'F_SLA.FCOSLA';
+    public const FCOSLA = 'FCOSLA';
 
     /** @var string Cantidad */
-    public const CANSLA = 'F_SLA.CANSLA';
+    public const CANSLA = 'CANSLA';
 
-    public const FECSLA = 'F_SLA.FECSLA';
+    public const FECSLA = 'FECSLA';
 
-    public const ALMSLA = 'F_SLA.ALMSLA';
+    public const ALMSLA = 'ALMSLA';
 
-    public const ARTSLA = 'F_SLA.ARTSLA';
+    public const ARTSLA = 'ARTSLA';
 }

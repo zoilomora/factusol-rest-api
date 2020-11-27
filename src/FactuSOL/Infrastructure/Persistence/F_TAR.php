@@ -8,14 +8,14 @@ final class F_TAR
     public const TABLE_NAME = 'F_TAR';
 
     /** @var string Código */
-    public const CODTAR = 'F_TAR.CODTAR';
+    public const CODTAR = 'CODTAR';
 
     /** @var string Descripción */
-    public const DESTAR = 'F_TAR.DESTAR';
+    public const DESTAR = 'DESTAR';
 
     /** @var string Margen */
-    public const MARTAR = 'F_TAR.MARTAR';
+    public const MARTAR = 'MARTAR';
 
     /** @var string [E]Incluir impuesto */
-    public const IVATAR = 'F_TAR.IVATAR';
+    public const IVATAR = 'IVATAR';
 }

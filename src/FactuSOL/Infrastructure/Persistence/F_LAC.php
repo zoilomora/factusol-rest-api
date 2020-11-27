@@ -8,51 +8,51 @@ final class F_LAC
     public const TABLE_NAME = 'F_LAC';
 
     /** @var string Nº Serie */
-    public const TFALAC = 'F_LAC.TFALAC';
+    public const TFALAC = 'TFALAC';
 
     /** @var string [F=000000]Código */
-    public const CALLAC = 'F_LAC.CALLAC';
+    public const CALLAC = 'CALLAC';
 
     /** @var string [E]Código de la línea */
-    public const LINLAC = 'F_LAC.LINLAC';
+    public const LINLAC = 'LINLAC';
 
     /** @var string Fecha */
-    public const FECLAC = 'F_LAC.FECLAC';
+    public const FECLAC = 'FECLAC';
 
     /** @var string Importe */
-    public const IMPLAC = 'F_LAC.IMPLAC';
+    public const IMPLAC = 'IMPLAC';
 
     /** @var string Concepto */
-    public const CPTLAC = 'F_LAC.CPTLAC';
+    public const CPTLAC = 'CPTLAC';
 
     /** @var string [E]Contrapartida(De 0 a 9 : se selecciona de las 10 opciones de la tabla F_AUT) */
-    public const CPALAC = 'F_LAC.CPALAC';
+    public const CPALAC = 'CPALAC';
 
     /** @var string [L=#0;No traspasado#1;Traspasado]Traspasado a contabilidad */
-    public const TRALAC = 'F_LAC.TRALAC';
+    public const TRALAC = 'TRALAC';
 
     /** @var string Anticipo */
-    public const ANTLAC = 'F_LAC.ANTLAC';
+    public const ANTLAC = 'ANTLAC';
 
     /** @var string [L=#0;Cobro#1;Devolución]Tipo */
-    public const TIPLAC = 'F_LAC.TIPLAC';
+    public const TIPLAC = 'TIPLAC';
 
     /** @var string Forma de pago */
-    public const FPALAC = 'F_LAC.FPALAC';
+    public const FPALAC = 'FPALAC';
 
     /** @var string Observaciones */
-    public const OBSLAC = 'F_LAC.OBSLAC';
+    public const OBSLAC = 'OBSLAC';
 
     /** @var string [E]CODIGO DEL COBRO MÚLTIPLE EN EL QUE FUE INCLUIDA ESTA LÍNEA DE COBRO */
-    public const MULLAC = 'F_LAC.MULLAC';
+    public const MULLAC = 'MULLAC';
 
     /** @var string [E]Caja */
-    public const CAJLAC = 'F_LAC.CAJLAC';
+    public const CAJLAC = 'CAJLAC';
 
     /** @var string [E]Posición de la línea de caja */
-    public const PCALAC = 'F_LAC.PCALAC';
+    public const PCALAC = 'PCALAC';
 
-    public const TPVIDLAC = 'F_LAC.TPVIDLAC';
+    public const TPVIDLAC = 'TPVIDLAC';
 
-    public const TERLAC = 'F_LAC.TERLAC';
+    public const TERLAC = 'TERLAC';
 }

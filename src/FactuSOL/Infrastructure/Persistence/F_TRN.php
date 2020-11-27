@@ -8,46 +8,46 @@ final class F_TRN
     public const TABLE_NAME = 'F_TRN';
 
     /** @var string Código */
-    public const CODTRN = 'F_TRN.CODTRN';
+    public const CODTRN = 'CODTRN';
 
     /** @var string Nombre */
-    public const NOMTRN = 'F_TRN.NOMTRN';
+    public const NOMTRN = 'NOMTRN';
 
     /** @var string Domicilio */
-    public const DOMTRN = 'F_TRN.DOMTRN';
+    public const DOMTRN = 'DOMTRN';
 
     /** @var string Población */
-    public const POBTRN = 'F_TRN.POBTRN';
+    public const POBTRN = 'POBTRN';
 
     /** @var string Cód. Postal */
-    public const CPOTRN = 'F_TRN.CPOTRN';
+    public const CPOTRN = 'CPOTRN';
 
     /** @var string Provincia */
-    public const PROTRN = 'F_TRN.PROTRN';
+    public const PROTRN = 'PROTRN';
 
     /** @var string D.N.I. */
-    public const DNITRN = 'F_TRN.DNITRN';
+    public const DNITRN = 'DNITRN';
 
     /** @var string Teléfono */
-    public const TELTRN = 'F_TRN.TELTRN';
+    public const TELTRN = 'TELTRN';
 
     /** @var string Fax */
-    public const FAXTRN = 'F_TRN.FAXTRN';
+    public const FAXTRN = 'FAXTRN';
 
     /** @var string Persona de contacto */
-    public const PCOTRN = 'F_TRN.PCOTRN';
+    public const PCOTRN = 'PCOTRN';
 
     /** @var string País */
-    public const PAITRN = 'F_TRN.PAITRN';
+    public const PAITRN = 'PAITRN';
 
     /** @var string E-mail */
-    public const EMATRN = 'F_TRN.EMATRN';
+    public const EMATRN = 'EMATRN';
 
     /** @var string Web */
-    public const WEBTRN = 'F_TRN.WEBTRN';
+    public const WEBTRN = 'WEBTRN';
 
     /** @var string Observaciones */
-    public const OBSTRN = 'F_TRN.OBSTRN';
+    public const OBSTRN = 'OBSTRN';
 
-    public const UWETRN = 'F_TRN.UWETRN';
+    public const UWETRN = 'UWETRN';
 }

@@ -8,17 +8,17 @@ final class F_PRC
     public const TABLE_NAME = 'F_PRC';
 
     /** @var string [F=00000]Cliente */
-    public const CLIPRC = 'F_PRC.CLIPRC';
+    public const CLIPRC = 'CLIPRC';
 
     /** @var string Artículo */
-    public const ARTPRC = 'F_PRC.ARTPRC';
+    public const ARTPRC = 'ARTPRC';
 
     /** @var string Precio/Descuento */
-    public const PREPRC = 'F_PRC.PREPRC';
+    public const PREPRC = 'PREPRC';
 
     /** @var string [L=#0;Importe de venta#1;% Descuento]Tipo */
-    public const TIPPRC = 'F_PRC.TIPPRC';
+    public const TIPPRC = 'TIPPRC';
 
     /** @var string [L=#0;Artículo#1;Familia]Aplicar descuento sobre artículo o familia */
-    public const AOFPRC = 'F_PRC.AOFPRC';
+    public const AOFPRC = 'AOFPRC';
 }

@@ -7,13 +7,13 @@ final class F_LPH
 {
     public const TABLE_NAME = 'F_LPH';
 
-    public const CODLPH = 'F_LPH.CODLPH';
+    public const CODLPH = 'CODLPH';
 
-    public const POSLPH = 'F_LPH.POSLPH';
+    public const POSLPH = 'POSLPH';
 
-    public const FDELPH = 'F_LPH.FDELPH';
+    public const FDELPH = 'FDELPH';
 
-    public const FHALPH = 'F_LPH.FHALPH';
+    public const FHALPH = 'FHALPH';
 
-    public const TCHLPH = 'F_LPH.TCHLPH';
+    public const TCHLPH = 'TCHLPH';
 }

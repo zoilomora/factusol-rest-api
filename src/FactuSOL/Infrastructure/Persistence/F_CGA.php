@@ -8,8 +8,8 @@ final class F_CGA
     public const TABLE_NAME = 'F_CGA';
 
     /** @var string Código */
-    public const CODCGA = 'F_CGA.CODCGA';
+    public const CODCGA = 'CODCGA';
 
     /** @var string Descripción */
-    public const DESCGA = 'F_CGA.DESCGA';
+    public const DESCGA = 'DESCGA';
 }

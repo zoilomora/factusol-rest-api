@@ -8,8 +8,8 @@ final class F_TCA
     public const TABLE_NAME = 'F_TCA';
 
     /** @var string Fecha */
-    public const FECTCA = 'F_TCA.FECTCA';
+    public const FECTCA = 'FECTCA';
 
     /** @var string Tipo de cambio */
-    public const CAMTCA = 'F_TCA.CAMTCA';
+    public const CAMTCA = 'CAMTCA';
 }

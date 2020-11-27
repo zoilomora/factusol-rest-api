@@ -1,3 +1,2 @@
-index:
-  path: /
-  controller: ZoiloMora\FactuSOL\Entrypoint\Web\DefaultController::index
+factusol:
+  resource: 'context/factusol/entrypoint/routes.yaml'

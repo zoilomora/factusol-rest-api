@@ -8,23 +8,23 @@ final class F_SLP
     public const TABLE_NAME = 'F_SLP';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLP = 'F_SLP.TIPSLP';
+    public const TIPSLP = 'TIPSLP';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLP = 'F_SLP.CODSLP';
+    public const CODSLP = 'CODSLP';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLP = 'F_SLP.POSSLP';
+    public const POSSLP = 'POSSLP';
 
     /** @var string Número de serie */
-    public const NSESLP = 'F_SLP.NSESLP';
+    public const NSESLP = 'NSESLP';
 
     /** @var string Fecha de fabricación */
-    public const FFASLP = 'F_SLP.FFASLP';
+    public const FFASLP = 'FFASLP';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLP = 'F_SLP.FCOSLP';
+    public const FCOSLP = 'FCOSLP';
 
     /** @var string Cantidad */
-    public const CANSLP = 'F_SLP.CANSLP';
+    public const CANSLP = 'CANSLP';
 }

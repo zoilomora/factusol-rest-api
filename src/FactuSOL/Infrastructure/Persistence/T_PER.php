@@ -8,11 +8,11 @@ final class T_PER
     public const TABLE_NAME = 'T_PER';
 
     /** @var string Código del perfil de acceso */
-    public const CODPER = 'T_PER.CODPER';
+    public const CODPER = 'CODPER';
 
     /** @var string Descripción del perfil de acceso */
-    public const DESPER = 'T_PER.DESPER';
+    public const DESPER = 'DESPER';
 
     /** @var string Cadena de permisos */
-    public const CADPER = 'T_PER.CADPER';
+    public const CADPER = 'CADPER';
 }

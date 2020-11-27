@@ -8,41 +8,41 @@ final class F_PAG
     public const TABLE_NAME = 'F_PAG';
 
     /** @var string Código */
-    public const CODPAG = 'F_PAG.CODPAG';
+    public const CODPAG = 'CODPAG';
 
     /** @var string Lugar de emisión */
-    public const LUGPAG = 'F_PAG.LUGPAG';
+    public const LUGPAG = 'LUGPAG';
 
     /** @var string Importe */
-    public const IMPPAG = 'F_PAG.IMPPAG';
+    public const IMPPAG = 'IMPPAG';
 
     /** @var string Fecha de emisión */
-    public const FEMPAG = 'F_PAG.FEMPAG';
+    public const FEMPAG = 'FEMPAG';
 
     /** @var string Fecha de vencimiento */
-    public const FVEPAG = 'F_PAG.FVEPAG';
+    public const FVEPAG = 'FVEPAG';
 
     /** @var string [F=00000]Proveedor/Acreedor */
-    public const PROPAG = 'F_PAG.PROPAG';
+    public const PROPAG = 'PROPAG';
 
     /** @var string Banco */
-    public const BANPAG = 'F_PAG.BANPAG';
+    public const BANPAG = 'BANPAG';
 
     /** @var string Claúsula */
-    public const CLAPAG = 'F_PAG.CLAPAG';
+    public const CLAPAG = 'CLAPAG';
 
     /** @var string [E]0:Sin imprimir,1:Impreso,2:enviado */
-    public const ESTPAG = 'F_PAG.ESTPAG';
+    public const ESTPAG = 'ESTPAG';
 
     /** @var string Clave documento */
-    public const CHEPAG = 'F_PAG.CHEPAG';
+    public const CHEPAG = 'CHEPAG';
 
     /** @var string Nombre del proveedor */
-    public const PNOPAG = 'F_PAG.PNOPAG';
+    public const PNOPAG = 'PNOPAG';
 
     /** @var string 1=Pagaré;2=Cheque */
-    public const TPAPAG = 'F_PAG.TPAPAG';
+    public const TPAPAG = 'TPAPAG';
 
     /** @var string TRASPASADO A CONTABILIDAD */
-    public const TRAPAG = 'F_PAG.TRAPAG';
+    public const TRAPAG = 'TRAPAG';
 }

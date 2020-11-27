@@ -8,102 +8,102 @@ final class F_LPC
     public const TABLE_NAME = 'F_LPC';
 
     /** @var string Nº de serie */
-    public const TIPLPC = 'F_LPC.TIPLPC';
+    public const TIPLPC = 'TIPLPC';
 
     /** @var string [F=000000]Código */
-    public const CODLPC = 'F_LPC.CODLPC';
+    public const CODLPC = 'CODLPC';
 
     /** @var string [E]Posicion de la línea del ped. de cliente */
-    public const POSLPC = 'F_LPC.POSLPC';
+    public const POSLPC = 'POSLPC';
 
     /** @var string Artículo */
-    public const ARTLPC = 'F_LPC.ARTLPC';
+    public const ARTLPC = 'ARTLPC';
 
     /** @var string Descripción */
-    public const DESLPC = 'F_LPC.DESLPC';
+    public const DESLPC = 'DESLPC';
 
     /** @var string Cantidad */
-    public const CANLPC = 'F_LPC.CANLPC';
+    public const CANLPC = 'CANLPC';
 
     /** @var string Descuento 1 */
-    public const DT1LPC = 'F_LPC.DT1LPC';
+    public const DT1LPC = 'DT1LPC';
 
     /** @var string Descuento 2 */
-    public const DT2LPC = 'F_LPC.DT2LPC';
+    public const DT2LPC = 'DT2LPC';
 
     /** @var string Descuento 3 */
-    public const DT3LPC = 'F_LPC.DT3LPC';
+    public const DT3LPC = 'DT3LPC';
 
     /** @var string Precio */
-    public const PRELPC = 'F_LPC.PRELPC';
+    public const PRELPC = 'PRELPC';
 
     /** @var string Total */
-    public const TOTLPC = 'F_LPC.TOTLPC';
+    public const TOTLPC = 'TOTLPC';
 
     /** @var string Pendiente */
-    public const PENLPC = 'F_LPC.PENLPC';
+    public const PENLPC = 'PENLPC';
 
     /** @var string [L=#0;IVA1AUT#1;IVA2AUT#2;IVA3AUT#3;Exento]Porcentaje de IVA */
-    public const IVALPC = 'F_LPC.IVALPC';
+    public const IVALPC = 'IVALPC';
 
     /** @var string [E]Documento que lo creo P: presupuesto */
-    public const DOCLPC = 'F_LPC.DOCLPC';
+    public const DOCLPC = 'DOCLPC';
 
     /** @var string [E]Tipo del documento que lo creo */
-    public const DTPLPC = 'F_LPC.DTPLPC';
+    public const DTPLPC = 'DTPLPC';
 
     /** @var string [E]Código del documento que lo creo */
-    public const DCOLPC = 'F_LPC.DCOLPC';
+    public const DCOLPC = 'DCOLPC';
 
     /** @var string Comentarios */
-    public const MEMLPC = 'F_LPC.MEMLPC';
+    public const MEMLPC = 'MEMLPC';
 
     /** @var string [E]Ejercicio */
-    public const EJELPC = 'F_LPC.EJELPC';
+    public const EJELPC = 'EJELPC';
 
     /** @var string Alto */
-    public const ALTLPC = 'F_LPC.ALTLPC';
+    public const ALTLPC = 'ALTLPC';
 
     /** @var string Ancho */
-    public const ANCLPC = 'F_LPC.ANCLPC';
+    public const ANCLPC = 'ANCLPC';
 
     /** @var string Fondo */
-    public const FONLPC = 'F_LPC.FONLPC';
+    public const FONLPC = 'FONLPC';
 
     /** @var string [E]Fecha de fabricación */
-    public const FFALPC = 'F_LPC.FFALPC';
+    public const FFALPC = 'FFALPC';
 
     /** @var string [E]Fecha de consumo preferente */
-    public const FCOLPC = 'F_LPC.FCOLPC';
+    public const FCOLPC = 'FCOLPC';
 
     /** @var string [E]IVA INCLUIDO EN LA LÍNEA */
-    public const IINLPC = 'F_LPC.IINLPC';
+    public const IINLPC = 'IINLPC';
 
     /** @var string [E]PRECIO IVA INCLUIDO EN LA LÍNEA */
-    public const PIVLPC = 'F_LPC.PIVLPC';
+    public const PIVLPC = 'PIVLPC';
 
     /** @var string [E]TOTAL IVA INCLUIDO EN LA LÍNEA */
-    public const TIVLPC = 'F_LPC.TIVLPC';
+    public const TIVLPC = 'TIVLPC';
 
-    public const FIMLPC = 'F_LPC.FIMLPC';
+    public const FIMLPC = 'FIMLPC';
 
     /** @var string [E]PRECIO DE COSTO CUANDO SE CREÓ LA LÍNEA */
-    public const COSLPC = 'F_LPC.COSLPC';
+    public const COSLPC = 'COSLPC';
 
     /** @var string Bultos */
-    public const BULLPC = 'F_LPC.BULLPC';
+    public const BULLPC = 'BULLPC';
 
     /** @var string Talla */
-    public const CE1LPC = 'F_LPC.CE1LPC';
+    public const CE1LPC = 'CE1LPC';
 
     /** @var string Color */
-    public const CE2LPC = 'F_LPC.CE2LPC';
+    public const CE2LPC = 'CE2LPC';
 
     /** @var string Imagen asociada a la línea */
-    public const IMALPC = 'F_LPC.IMALPC';
+    public const IMALPC = 'IMALPC';
 
     /** @var string Sumatorio donde se debe acumular el valor */
-    public const SUMLPC = 'F_LPC.SUMLPC';
+    public const SUMLPC = 'SUMLPC';
 
-    public const ANULPC = 'F_LPC.ANULPC';
+    public const ANULPC = 'ANULPC';
 }

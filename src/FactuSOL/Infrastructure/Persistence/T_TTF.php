@@ -7,43 +7,43 @@ final class T_TTF
 {
     public const TABLE_NAME = 'T_TTF';
 
-    public const CODTTF = 'T_TTF.CODTTF';
+    public const CODTTF = 'CODTTF';
 
-    public const NOMTTF = 'T_TTF.NOMTTF';
+    public const NOMTTF = 'NOMTTF';
 
-    public const ATATTF = 'T_TTF.ATATTF';
+    public const ATATTF = 'ATATTF';
 
-    public const TARTTF = 'T_TTF.TARTTF';
+    public const TARTTF = 'TARTTF';
 
-    public const ATETTF = 'T_TTF.ATETTF';
+    public const ATETTF = 'ATETTF';
 
-    public const ACETTF = 'T_TTF.ACETTF';
+    public const ACETTF = 'ACETTF';
 
-    public const CLITTF = 'T_TTF.CLITTF';
+    public const CLITTF = 'CLITTF';
 
-    public const ADTTTF = 'T_TTF.ADTTTF';
+    public const ADTTTF = 'ADTTTF';
 
-    public const TCLTTF = 'T_TTF.TCLTTF';
+    public const TCLTTF = 'TCLTTF';
 
-    public const ADFTTF = 'T_TTF.ADFTTF';
+    public const ADFTTF = 'ADFTTF';
 
-    public const DTFTTF = 'T_TTF.DTFTTF';
+    public const DTFTTF = 'DTFTTF';
 
-    public const FOATTF = 'T_TTF.FOATTF';
+    public const FOATTF = 'FOATTF';
 
-    public const PACTTF = 'T_TTF.PACTTF';
+    public const PACTTF = 'PACTTF';
 
-    public const TACTTF = 'T_TTF.TACTTF';
+    public const TACTTF = 'TACTTF';
 
-    public const UDATTF = 'T_TTF.UDATTF';
+    public const UDATTF = 'UDATTF';
 
-    public const IAVTTF = 'T_TTF.IAVTTF';
+    public const IAVTTF = 'IAVTTF';
 
-    public const IATTTF = 'T_TTF.IATTTF';
+    public const IATTTF = 'IATTTF';
 
-    public const COBTTF = 'T_TTF.COBTTF';
+    public const COBTTF = 'COBTTF';
 
-    public const LIMTTF = 'T_TTF.LIMTTF';
+    public const LIMTTF = 'LIMTTF';
 
-    public const IMMTTF = 'T_TTF.IMMTTF';
+    public const IMMTTF = 'IMMTTF';
 }

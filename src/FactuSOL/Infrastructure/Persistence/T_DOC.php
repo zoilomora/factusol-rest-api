@@ -7,13 +7,13 @@ final class T_DOC
 {
     public const TABLE_NAME = 'T_DOC';
 
-    public const CODDOC = 'T_DOC.CODDOC';
+    public const CODDOC = 'CODDOC';
 
-    public const NOMDOC = 'T_DOC.NOMDOC';
+    public const NOMDOC = 'NOMDOC';
 
-    public const DOCDOC = 'T_DOC.DOCDOC';
+    public const DOCDOC = 'DOCDOC';
 
-    public const TIPDOC = 'T_DOC.TIPDOC';
+    public const TIPDOC = 'TIPDOC';
 
-    public const FSIDOC = 'T_DOC.FSIDOC';
+    public const FSIDOC = 'FSIDOC';
 }

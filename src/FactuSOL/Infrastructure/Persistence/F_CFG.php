@@ -7,11 +7,11 @@ final class F_CFG
 {
     public const TABLE_NAME = 'F_CFG';
 
-    public const CODCFG = 'F_CFG.CODCFG';
+    public const CODCFG = 'CODCFG';
 
-    public const NUMCFG = 'F_CFG.NUMCFG';
+    public const NUMCFG = 'NUMCFG';
 
-    public const TEXCFG = 'F_CFG.TEXCFG';
+    public const TEXCFG = 'TEXCFG';
 
-    public const TIPCFG = 'F_CFG.TIPCFG';
+    public const TIPCFG = 'TIPCFG';
 }

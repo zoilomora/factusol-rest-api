@@ -7,24 +7,24 @@ final class T_DEP
 {
     public const TABLE_NAME = 'T_DEP';
 
-    public const CODDEP = 'T_DEP.CODDEP';
+    public const CODDEP = 'CODDEP';
 
-    public const NOMDEP = 'T_DEP.NOMDEP';
+    public const NOMDEP = 'NOMDEP';
 
-    public const PERDEP = 'T_DEP.PERDEP';
+    public const PERDEP = 'PERDEP';
 
     /** @var string [E]Imagen del dependiente */
-    public const IMADEP = 'T_DEP.IMADEP';
+    public const IMADEP = 'IMADEP';
 
-    public const CLADEP = 'T_DEP.CLADEP';
+    public const CLADEP = 'CLADEP';
 
-    public const CCLDEP = 'T_DEP.CCLDEP';
+    public const CCLDEP = 'CCLDEP';
 
     /** @var string Estado del dependiente (0 - Inactivo, 1 - Activo) */
-    public const ESTDEP = 'T_DEP.ESTDEP';
+    public const ESTDEP = 'ESTDEP';
 
-    public const AGEDEP = 'T_DEP.AGEDEP';
+    public const AGEDEP = 'AGEDEP';
 
     /** @var string Idioma del dependiente (0=Sin seleccionar, 1 = Castellano, 2 = Catalán) */
-    public const IDIDEP = 'T_DEP.IDIDEP';
+    public const IDIDEP = 'IDIDEP';
 }

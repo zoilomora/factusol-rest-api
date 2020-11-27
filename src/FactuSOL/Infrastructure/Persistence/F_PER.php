@@ -8,101 +8,101 @@ final class F_PER
     public const TABLE_NAME = 'F_PER';
 
     /** @var string Personal */
-    public const CODPER = 'F_PER.CODPER';
+    public const CODPER = 'CODPER';
 
-    public const NOMPER = 'F_PER.NOMPER';
+    public const NOMPER = 'NOMPER';
 
-    public const DOMPER = 'F_PER.DOMPER';
+    public const DOMPER = 'DOMPER';
 
-    public const POBPER = 'F_PER.POBPER';
+    public const POBPER = 'POBPER';
 
-    public const FNAPER = 'F_PER.FNAPER';
+    public const FNAPER = 'FNAPER';
 
-    public const NSSPER = 'F_PER.NSSPER';
+    public const NSSPER = 'NSSPER';
 
-    public const CATPER = 'F_PER.CATPER';
+    public const CATPER = 'CATPER';
 
-    public const TICPER = 'F_PER.TICPER';
+    public const TICPER = 'TICPER';
 
-    public const ANTPER = 'F_PER.ANTPER';
+    public const ANTPER = 'ANTPER';
 
-    public const PRXPER = 'F_PER.PRXPER';
+    public const PRXPER = 'PRXPER';
 
-    public const SUEPER = 'F_PER.SUEPER';
+    public const SUEPER = 'SUEPER';
 
-    public const DEPPER = 'F_PER.DEPPER';
+    public const DEPPER = 'DEPPER';
 
-    public const COLPER = 'F_PER.COLPER';
+    public const COLPER = 'COLPER';
 
-    public const FOTPER = 'F_PER.FOTPER';
+    public const FOTPER = 'FOTPER';
 
-    public const ESTPER = 'F_PER.ESTPER';
+    public const ESTPER = 'ESTPER';
 
-    public const PR0PER = 'F_PER.PR0PER';
+    public const PR0PER = 'PR0PER';
 
-    public const PR1PER = 'F_PER.PR1PER';
+    public const PR1PER = 'PR1PER';
 
-    public const PR2PER = 'F_PER.PR2PER';
+    public const PR2PER = 'PR2PER';
 
-    public const PR3PER = 'F_PER.PR3PER';
+    public const PR3PER = 'PR3PER';
 
-    public const DNIPER = 'F_PER.DNIPER';
+    public const DNIPER = 'DNIPER';
 
-    public const PR4PER = 'F_PER.PR4PER';
+    public const PR4PER = 'PR4PER';
 
-    public const PR5PER = 'F_PER.PR5PER';
+    public const PR5PER = 'PR5PER';
 
-    public const PR6PER = 'F_PER.PR6PER';
+    public const PR6PER = 'PR6PER';
 
-    public const PR7PER = 'F_PER.PR7PER';
+    public const PR7PER = 'PR7PER';
 
-    public const PR8PER = 'F_PER.PR8PER';
+    public const PR8PER = 'PR8PER';
 
-    public const PR9PER = 'F_PER.PR9PER';
+    public const PR9PER = 'PR9PER';
 
-    public const CPOPER = 'F_PER.CPOPER';
+    public const CPOPER = 'CPOPER';
 
-    public const PROPER = 'F_PER.PROPER';
+    public const PROPER = 'PROPER';
 
-    public const ENTPER = 'F_PER.ENTPER';
+    public const ENTPER = 'ENTPER';
 
-    public const OFIPER = 'F_PER.OFIPER';
+    public const OFIPER = 'OFIPER';
 
-    public const DCOPER = 'F_PER.DCOPER';
+    public const DCOPER = 'DCOPER';
 
-    public const CUEPER = 'F_PER.CUEPER';
+    public const CUEPER = 'CUEPER';
 
-    public const BANPER = 'F_PER.BANPER';
+    public const BANPER = 'BANPER';
 
-    public const TELPER = 'F_PER.TELPER';
+    public const TELPER = 'TELPER';
 
-    public const OBSPER = 'F_PER.OBSPER';
+    public const OBSPER = 'OBSPER';
 
-    public const RPRPER = 'F_PER.RPRPER';
+    public const RPRPER = 'RPRPER';
 
-    public const SEXPER = 'F_PER.SEXPER';
+    public const SEXPER = 'SEXPER';
 
-    public const NHIPER = 'F_PER.NHIPER';
+    public const NHIPER = 'NHIPER';
 
-    public const ECIPER = 'F_PER.ECIPER';
+    public const ECIPER = 'ECIPER';
 
-    public const MAIPER = 'F_PER.MAIPER';
+    public const MAIPER = 'MAIPER';
 
-    public const CARPER = 'F_PER.CARPER';
+    public const CARPER = 'CARPER';
 
-    public const IBAPER = 'F_PER.IBAPER';
+    public const IBAPER = 'IBAPER';
 
-    public const BICPER = 'F_PER.BICPER';
+    public const BICPER = 'BICPER';
 
-    public const IMGPER = 'F_PER.IMGPER';
+    public const IMGPER = 'IMGPER';
 
-    public const NFCPER = 'F_PER.NFCPER';
+    public const NFCPER = 'NFCPER';
 
-    public const PJOPER = 'F_PER.PJOPER';
+    public const PJOPER = 'PJOPER';
 
-    public const EANPER = 'F_PER.EANPER';
+    public const EANPER = 'EANPER';
 
-    public const CENPER = 'F_PER.CENPER';
+    public const CENPER = 'CENPER';
 
-    public const ADWPER = 'F_PER.ADWPER';
+    public const ADWPER = 'ADWPER';
 }

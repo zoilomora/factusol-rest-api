@@ -7,19 +7,19 @@ final class F_LRD
 {
     public const TABLE_NAME = 'F_LRD';
 
-    public const CODLRD = 'F_LRD.CODLRD';
+    public const CODLRD = 'CODLRD';
 
-    public const POSLRD = 'F_LRD.POSLRD';
+    public const POSLRD = 'POSLRD';
 
-    public const DIALRD = 'F_LRD.DIALRD';
+    public const DIALRD = 'DIALRD';
 
-    public const HORLRD = 'F_LRD.HORLRD';
+    public const HORLRD = 'HORLRD';
 
-    public const HEXLRD = 'F_LRD.HEXLRD';
+    public const HEXLRD = 'HEXLRD';
 
-    public const HCOLRD = 'F_LRD.HCOLRD';
+    public const HCOLRD = 'HCOLRD';
 
-    public const HJOLRD = 'F_LRD.HJOLRD';
+    public const HJOLRD = 'HJOLRD';
 
-    public const OBSLRD = 'F_LRD.OBSLRD';
+    public const OBSLRD = 'OBSLRD';
 }

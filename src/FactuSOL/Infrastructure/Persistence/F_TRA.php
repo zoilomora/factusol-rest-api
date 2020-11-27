@@ -8,17 +8,17 @@ final class F_TRA
     public const TABLE_NAME = 'F_TRA';
 
     /** @var string Código */
-    public const DOCTRA = 'F_TRA.DOCTRA';
+    public const DOCTRA = 'DOCTRA';
 
     /** @var string Fecha */
-    public const FECTRA = 'F_TRA.FECTRA';
+    public const FECTRA = 'FECTRA';
 
     /** @var string Almacén de origen */
-    public const AORTRA = 'F_TRA.AORTRA';
+    public const AORTRA = 'AORTRA';
 
     /** @var string Almacén de destino */
-    public const ADETRA = 'F_TRA.ADETRA';
+    public const ADETRA = 'ADETRA';
 
     /** @var string Comentarios */
-    public const COMTRA = 'F_TRA.COMTRA';
+    public const COMTRA = 'COMTRA';
 }

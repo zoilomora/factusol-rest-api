@@ -8,14 +8,14 @@ final class F_LCH
     public const TABLE_NAME = 'F_LCH';
 
     /** @var string Código */
-    public const CHELCH = 'F_LCH.CHELCH';
+    public const CHELCH = 'CHELCH';
 
     /** @var string [E]Posición */
-    public const POSLCH = 'F_LCH.POSLCH';
+    public const POSLCH = 'POSLCH';
 
     /** @var string Concepto */
-    public const CONLCH = 'F_LCH.CONLCH';
+    public const CONLCH = 'CONLCH';
 
     /** @var string Importe */
-    public const IMPLCH = 'F_LCH.IMPLCH';
+    public const IMPLCH = 'IMPLCH';
 }

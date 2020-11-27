@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  ZoiloMora\FactuSOL\Entrypoint\Console\:
+    resource: '../../../../src/FactuSOL/Entrypoint/Console/*'

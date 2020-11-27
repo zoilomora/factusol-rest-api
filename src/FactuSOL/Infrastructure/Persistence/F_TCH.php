@@ -7,27 +7,27 @@ final class F_TCH
 {
     public const TABLE_NAME = 'F_TCH';
 
-    public const CODTCH = 'F_TCH.CODTCH';
+    public const CODTCH = 'CODTCH';
 
-    public const DESTCH = 'F_TCH.DESTCH';
+    public const DESTCH = 'DESTCH';
 
-    public const FECTCH = 'F_TCH.FECTCH';
+    public const FECTCH = 'FECTCH';
 
-    public const FHATCH = 'F_TCH.FHATCH';
+    public const FHATCH = 'FHATCH';
 
-    public const VERTCH = 'F_TCH.VERTCH';
+    public const VERTCH = 'VERTCH';
 
-    public const VDDTCH = 'F_TCH.VDDTCH';
+    public const VDDTCH = 'VDDTCH';
 
-    public const VDMTCH = 'F_TCH.VDMTCH';
+    public const VDMTCH = 'VDMTCH';
 
-    public const VHDTCH = 'F_TCH.VHDTCH';
+    public const VHDTCH = 'VHDTCH';
 
-    public const VHMTCH = 'F_TCH.VHMTCH';
+    public const VHMTCH = 'VHMTCH';
 
-    public const HEXTCH = 'F_TCH.HEXTCH';
+    public const HEXTCH = 'HEXTCH';
 
-    public const FENTCH = 'F_TCH.FENTCH';
+    public const FENTCH = 'FENTCH';
 
-    public const THOTCH = 'F_TCH.THOTCH';
+    public const THOTCH = 'THOTCH';
 }

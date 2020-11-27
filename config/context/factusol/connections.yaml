@@ -1,0 +1,17 @@
+parameters:
+  factusol.dsn: '%env(FACTUSOL_DSN)%'
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Doctrine\DBAL\Connection:
+    class: Doctrine\DBAL\Connection
+    factory: \Doctrine\DBAL\DriverManager::getConnection
+    arguments:
+      $params:
+        driverClass: '\ZoiloMora\Doctrine\DBAL\Driver\MicrosoftAccess\Driver'
+        driverOptions:
+          dsn: '%factusol.dsn%'
+          charset: 'UTF-8'

@@ -8,29 +8,29 @@ final class F_SLF
     public const TABLE_NAME = 'F_SLF';
 
     /** @var string [E]TIPO DEL DOCUMENTO ORIGEN */
-    public const TIPSLF = 'F_SLF.TIPSLF';
+    public const TIPSLF = 'TIPSLF';
 
     /** @var string [E]CODIGO DEL DOCUMENTO ORIGEN */
-    public const CODSLF = 'F_SLF.CODSLF';
+    public const CODSLF = 'CODSLF';
 
     /** @var string [E]POSICION DENTRO DE LAS LÍNEAS DE DETALLE */
-    public const POSSLF = 'F_SLF.POSSLF';
+    public const POSSLF = 'POSSLF';
 
     /** @var string Número de serie */
-    public const NSESLF = 'F_SLF.NSESLF';
+    public const NSESLF = 'NSESLF';
 
     /** @var string Fecha de fabricación */
-    public const FFASLF = 'F_SLF.FFASLF';
+    public const FFASLF = 'FFASLF';
 
     /** @var string Fecha de consumo preferente */
-    public const FCOSLF = 'F_SLF.FCOSLF';
+    public const FCOSLF = 'FCOSLF';
 
     /** @var string Cantidad */
-    public const CANSLF = 'F_SLF.CANSLF';
+    public const CANSLF = 'CANSLF';
 
-    public const FECSLF = 'F_SLF.FECSLF';
+    public const FECSLF = 'FECSLF';
 
-    public const ALMSLF = 'F_SLF.ALMSLF';
+    public const ALMSLF = 'ALMSLF';
 
-    public const ARTSLF = 'F_SLF.ARTSLF';
+    public const ARTSLF = 'ARTSLF';
 }

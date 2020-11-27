@@ -8,11 +8,11 @@ final class F_RUT
     public const TABLE_NAME = 'F_RUT';
 
     /** @var string Código */
-    public const CODRUT = 'F_RUT.CODRUT';
+    public const CODRUT = 'CODRUT';
 
     /** @var string Descripción */
-    public const DESRUT = 'F_RUT.DESRUT';
+    public const DESRUT = 'DESRUT';
 
     /** @var string [E]Agente */
-    public const AGERUT = 'F_RUT.AGERUT';
+    public const AGERUT = 'AGERUT';
 }

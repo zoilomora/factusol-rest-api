@@ -8,35 +8,35 @@ final class F_FAM
     public const TABLE_NAME = 'F_FAM';
 
     /** @var string Código */
-    public const CODFAM = 'F_FAM.CODFAM';
+    public const CODFAM = 'CODFAM';
 
     /** @var string Descripción */
-    public const DESFAM = 'F_FAM.DESFAM';
+    public const DESFAM = 'DESFAM';
 
     /** @var string Sección */
-    public const SECFAM = 'F_FAM.SECFAM';
+    public const SECFAM = 'SECFAM';
 
     /** @var string Texto predefinido */
-    public const TEXFAM = 'F_FAM.TEXFAM';
+    public const TEXFAM = 'TEXFAM';
 
     /** @var string Cuenta contable (Ventas) */
-    public const CUEFAM = 'F_FAM.CUEFAM';
+    public const CUEFAM = 'CUEFAM';
 
     /** @var string Cuenta contable (Compras) */
-    public const CUCFAM = 'F_FAM.CUCFAM';
+    public const CUCFAM = 'CUCFAM';
 
     /** @var string [E]Permitir subida a internet */
-    public const SUWFAM = 'F_FAM.SUWFAM';
+    public const SUWFAM = 'SUWFAM';
 
     /** @var string [E]Imagen de la familia */
-    public const IMAFAM = 'F_FAM.IMAFAM';
+    public const IMAFAM = 'IMAFAM';
 
     /** @var string Fecha de la imagen */
-    public const IMFFAM = 'F_FAM.IMFFAM';
+    public const IMFFAM = 'IMFFAM';
 
-    public const MPTFAM = 'F_FAM.MPTFAM';
+    public const MPTFAM = 'MPTFAM';
 
-    public const PFIFAM = 'F_FAM.PFIFAM';
+    public const PFIFAM = 'PFIFAM';
 
-    public const ORDFAM = 'F_FAM.ORDFAM';
+    public const ORDFAM = 'ORDFAM';
 }

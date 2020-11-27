@@ -8,11 +8,11 @@ final class F_HOR
     public const TABLE_NAME = 'F_HOR';
 
     /** @var string Código */
-    public const CODHOR = 'F_HOR.CODHOR';
+    public const CODHOR = 'CODHOR';
 
     /** @var string Fecha del parte */
-    public const FECHOR = 'F_HOR.FECHOR';
+    public const FECHOR = 'FECHOR';
 
     /** @var string Trabajador */
-    public const TRAHOR = 'F_HOR.TRAHOR';
+    public const TRAHOR = 'TRAHOR';
 }

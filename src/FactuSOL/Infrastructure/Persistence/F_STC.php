@@ -8,26 +8,26 @@ final class F_STC
     public const TABLE_NAME = 'F_STC';
 
     /** @var string Artículo */
-    public const ARTSTC = 'F_STC.ARTSTC';
+    public const ARTSTC = 'ARTSTC';
 
     /** @var string Almacén */
-    public const ALMSTC = 'F_STC.ALMSTC';
+    public const ALMSTC = 'ALMSTC';
 
     /** @var string Talla */
-    public const CE1STC = 'F_STC.CE1STC';
+    public const CE1STC = 'CE1STC';
 
     /** @var string Color */
-    public const CE2STC = 'F_STC.CE2STC';
+    public const CE2STC = 'CE2STC';
 
     /** @var string Stock mínimo */
-    public const MINSTC = 'F_STC.MINSTC';
+    public const MINSTC = 'MINSTC';
 
     /** @var string Stock máximo */
-    public const MAXSTC = 'F_STC.MAXSTC';
+    public const MAXSTC = 'MAXSTC';
 
     /** @var string Stock actual */
-    public const ACTSTC = 'F_STC.ACTSTC';
+    public const ACTSTC = 'ACTSTC';
 
     /** @var string Stock disponible */
-    public const DISSTC = 'F_STC.DISSTC';
+    public const DISSTC = 'DISSTC';
 }

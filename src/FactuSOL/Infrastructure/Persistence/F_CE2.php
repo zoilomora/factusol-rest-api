@@ -8,11 +8,11 @@ final class F_CE2
     public const TABLE_NAME = 'F_CE2';
 
     /** @var string Código */
-    public const CODCE2 = 'F_CE2.CODCE2';
+    public const CODCE2 = 'CODCE2';
 
     /** @var string Descripción */
-    public const DESCE2 = 'F_CE2.DESCE2';
+    public const DESCE2 = 'DESCE2';
 
     /** @var string [E]Color descriptivo */
-    public const COLCE2 = 'F_CE2.COLCE2';
+    public const COLCE2 = 'COLCE2';
 }

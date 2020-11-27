@@ -8,8 +8,8 @@ final class R_LPR
     public const TABLE_NAME = 'R_LPR';
 
     /** @var string Código de producto */
-    public const CODLPR = 'R_LPR.CODLPR';
+    public const CODLPR = 'CODLPR';
 
     /** @var string Descripción de producto */
-    public const DESLPR = 'R_LPR.DESLPR';
+    public const DESLPR = 'DESLPR';
 }

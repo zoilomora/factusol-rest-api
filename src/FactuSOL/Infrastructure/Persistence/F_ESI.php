@@ -8,196 +8,196 @@ final class F_ESI
     public const TABLE_NAME = 'F_ESI';
 
     /** @var string Documento, 0=Factura emitida;1=Factura recibida;2=Cobro;3=Pago;4=Bien inversión */
-    public const DOCESI = 'F_ESI.DOCESI';
+    public const DOCESI = 'DOCESI';
 
     /** @var string Serie */
-    public const TIPESI = 'F_ESI.TIPESI';
+    public const TIPESI = 'TIPESI';
 
     /** @var string Código */
-    public const CODESI = 'F_ESI.CODESI';
+    public const CODESI = 'CODESI';
 
     /** @var string Línea (para los cobros/pagos) */
-    public const LINESI = 'F_ESI.LINESI';
+    public const LINESI = 'LINESI';
 
     /** @var string Posición */
-    public const POSESI = 'F_ESI.POSESI';
+    public const POSESI = 'POSESI';
 
     /** @var string Descripción operación */
-    public const DESESI = 'F_ESI.DESESI';
+    public const DESESI = 'DESESI';
 
     /** @var string Fecha de expedición */
-    public const FEXESI = 'F_ESI.FEXESI';
+    public const FEXESI = 'FEXESI';
 
     /** @var string Referencia factura recibida */
-    public const REFESI = 'F_ESI.REFESI';
+    public const REFESI = 'REFESI';
 
     /** @var string Importe total */
-    public const TOTESI = 'F_ESI.TOTESI';
+    public const TOTESI = 'TOTESI';
 
     /** @var string Nº de serie documento rectificado */
-    public const TDRESI = 'F_ESI.TDRESI';
+    public const TDRESI = 'TDRESI';
 
     /** @var string Código del documento rectificado */
-    public const CDRESI = 'F_ESI.CDRESI';
+    public const CDRESI = 'CDRESI';
 
     /** @var string Suma de bases imponibles del documento rectificativo */
-    public const BDRESI = 'F_ESI.BDRESI';
+    public const BDRESI = 'BDRESI';
 
     /** @var string Suma de importes de impuestos del documento rectificativo */
-    public const IIDRESI = 'F_ESI.IIDRESI';
+    public const IIDRESI = 'IIDRESI';
 
     /** @var string Cliente o proveedor */
-    public const CLIESI = 'F_ESI.CLIESI';
+    public const CLIESI = 'CLIESI';
 
     /** @var string Razón social */
-    public const NOMESI = 'F_ESI.NOMESI';
+    public const NOMESI = 'NOMESI';
 
-    public const IFIESI = 'F_ESI.IFIESI';
+    public const IFIESI = 'IFIESI';
 
     /** @var string N.I.F. */
-    public const NIFESI = 'F_ESI.NIFESI';
+    public const NIFESI = 'NIFESI';
 
     /** @var string País del cliente */
-    public const PAIESI = 'F_ESI.PAIESI';
+    public const PAIESI = 'PAIESI';
 
     /** @var string Base imponible 1 */
-    public const BAS1ESI = 'F_ESI.BAS1ESI';
+    public const BAS1ESI = 'BAS1ESI';
 
     /** @var string Base imponible 2 */
-    public const BAS2ESI = 'F_ESI.BAS2ESI';
+    public const BAS2ESI = 'BAS2ESI';
 
     /** @var string Base imponible 3 */
-    public const BAS3ESI = 'F_ESI.BAS3ESI';
+    public const BAS3ESI = 'BAS3ESI';
 
     /** @var string Base imponible 4 */
-    public const BAS4ESI = 'F_ESI.BAS4ESI';
+    public const BAS4ESI = 'BAS4ESI';
 
     /** @var string Porcentaje de impuestos 1 */
-    public const PIVA1ESI = 'F_ESI.PIVA1ESI';
+    public const PIVA1ESI = 'PIVA1ESI';
 
     /** @var string Porcentaje de impuestos 2 */
-    public const PIVA2ESI = 'F_ESI.PIVA2ESI';
+    public const PIVA2ESI = 'PIVA2ESI';
 
     /** @var string Porcentaje de impuestos 3 */
-    public const PIVA3ESI = 'F_ESI.PIVA3ESI';
+    public const PIVA3ESI = 'PIVA3ESI';
 
     /** @var string Importe de impuestos 1 */
-    public const IIVA1ESI = 'F_ESI.IIVA1ESI';
+    public const IIVA1ESI = 'IIVA1ESI';
 
     /** @var string Importe de impuestos 2 */
-    public const IIVA2ESI = 'F_ESI.IIVA2ESI';
+    public const IIVA2ESI = 'IIVA2ESI';
 
     /** @var string Importe de impuestos 3 */
-    public const IIVA3ESI = 'F_ESI.IIVA3ESI';
+    public const IIVA3ESI = 'IIVA3ESI';
 
     /** @var string Porcentaje de recargo de equivalencia 1 */
-    public const PREC1ESI = 'F_ESI.PREC1ESI';
+    public const PREC1ESI = 'PREC1ESI';
 
     /** @var string Porcentaje de recargo de equivalencia 2 */
-    public const PREC2ESI = 'F_ESI.PREC2ESI';
+    public const PREC2ESI = 'PREC2ESI';
 
     /** @var string Porcentaje de recargo de equivalencia 3 */
-    public const PREC3ESI = 'F_ESI.PREC3ESI';
+    public const PREC3ESI = 'PREC3ESI';
 
     /** @var string Importe de recargo de equivalencia 1 */
-    public const IREC1ESI = 'F_ESI.IREC1ESI';
+    public const IREC1ESI = 'IREC1ESI';
 
     /** @var string Importe de recargo de equivalencia 2 */
-    public const IREC2ESI = 'F_ESI.IREC2ESI';
+    public const IREC2ESI = 'IREC2ESI';
 
     /** @var string Importe de recargo de equivalencia 3 */
-    public const IREC3ESI = 'F_ESI.IREC3ESI';
+    public const IREC3ESI = 'IREC3ESI';
 
     /** @var string Fecha de cobro */
-    public const FCOESI = 'F_ESI.FCOESI';
+    public const FCOESI = 'FCOESI';
 
     /** @var string Importe de cobro */
-    public const ICOESI = 'F_ESI.ICOESI';
+    public const ICOESI = 'ICOESI';
 
     /** @var string Medio de cobro/pago */
-    public const MCOESI = 'F_ESI.MCOESI';
+    public const MCOESI = 'MCOESI';
 
     /** @var string Cuenta o descripción del medio de cobro/pago */
-    public const DCOESI = 'F_ESI.DCOESI';
+    public const DCOESI = 'DCOESI';
 
     /** @var string Estado: 0=Pendiente de enviar; 1=Enviada */
-    public const ESTESI = 'F_ESI.ESTESI';
+    public const ESTESI = 'ESTESI';
 
     /** @var string Tipo de accion: 0=Alta, 1=Modificación */
-    public const TACESI = 'F_ESI.TACESI';
+    public const TACESI = 'TACESI';
 
     /** @var string Fecha */
-    public const FECESI = 'F_ESI.FECESI';
+    public const FECESI = 'FECESI';
 
     /** @var string Hora de envío */
-    public const HORESI = 'F_ESI.HORESI';
+    public const HORESI = 'HORESI';
 
     /** @var string Estado de registro de la factura: 0= Sin presentar, 1=Correcta, 2=Aceptada con errores, 3=Rechazada */
-    public const ESRESI = 'F_ESI.ESRESI';
+    public const ESRESI = 'ESRESI';
 
     /** @var string Código del error */
-    public const CERESI = 'F_ESI.CERESI';
+    public const CERESI = 'CERESI';
 
     /** @var string Descripción del error */
-    public const DERESI = 'F_ESI.DERESI';
+    public const DERESI = 'DERESI';
 
     /** @var string Situación del inmueble */
-    public const SINESI = 'F_ESI.SINESI';
+    public const SINESI = 'SINESI';
 
     /** @var string Tipo de factura */
-    public const TFAESI = 'F_ESI.TFAESI';
+    public const TFAESI = 'TFAESI';
 
     /** @var string Clave regimen */
-    public const CREESI = 'F_ESI.CREESI';
+    public const CREESI = 'CREESI';
 
     /** @var string Fecha registro contable */
-    public const FRCESI = 'F_ESI.FRCESI';
+    public const FRCESI = 'FRCESI';
 
     /** @var string Cuota deducible */
-    public const CDEESI = 'F_ESI.CDEESI';
+    public const CDEESI = 'CDEESI';
 
     /** @var string Identificacion bien inversión */
-    public const IBIESI = 'F_ESI.IBIESI';
+    public const IBIESI = 'IBIESI';
 
     /** @var string Fecha inicio utilización bien de inversión */
-    public const FBIESI = 'F_ESI.FBIESI';
+    public const FBIESI = 'FBIESI';
 
     /** @var string Prorrata anual definitiva del bien de inversión */
-    public const PBIESI = 'F_ESI.PBIESI';
+    public const PBIESI = 'PBIESI';
 
-    public const DGLESI = 'F_ESI.DGLESI';
+    public const DGLESI = 'DGLESI';
 
-    public const TOPESI = 'F_ESI.TOPESI';
+    public const TOPESI = 'TOPESI';
 
-    public const RE2ESI = 'F_ESI.RE2ESI';
+    public const RE2ESI = 'RE2ESI';
 
-    public const CSVESI = 'F_ESI.CSVESI';
+    public const CSVESI = 'CSVESI';
 
-    public const ISPESI = 'F_ESI.ISPESI';
+    public const ISPESI = 'ISPESI';
 
-    public const TERESI = 'F_ESI.TERESI';
+    public const TERESI = 'TERESI';
 
-    public const IRLESI = 'F_ESI.IRLESI';
+    public const IRLESI = 'IRLESI';
 
-    public const IAOESI = 'F_ESI.IAOESI';
+    public const IAOESI = 'IAOESI';
 
-    public const TFRESI = 'F_ESI.TFRESI';
+    public const TFRESI = 'TFRESI';
 
-    public const IRDRESI = 'F_ESI.IRDRESI';
+    public const IRDRESI = 'IRDRESI';
 
-    public const FOPESI = 'F_ESI.FOPESI';
+    public const FOPESI = 'FOPESI';
 
-    public const PERESI = 'F_ESI.PERESI';
+    public const PERESI = 'PERESI';
 
-    public const RDFESI = 'F_ESI.RDFESI';
+    public const RDFESI = 'RDFESI';
 
-    public const TENESI = 'F_ESI.TENESI';
+    public const TENESI = 'TENESI';
 
-    public const FSIESI = 'F_ESI.FSIESI';
+    public const FSIESI = 'FSIESI';
 
-    public const SIDESI = 'F_ESI.SIDESI';
+    public const SIDESI = 'SIDESI';
 
-    public const CGEESI = 'F_ESI.CGEESI';
+    public const CGEESI = 'CGEESI';
 
-    public const CEXESI = 'F_ESI.CEXESI';
+    public const CEXESI = 'CEXESI';
 }

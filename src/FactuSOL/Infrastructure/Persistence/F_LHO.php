@@ -8,32 +8,32 @@ final class F_LHO
     public const TABLE_NAME = 'F_LHO';
 
     /** @var string Codigo */
-    public const CODLHO = 'F_LHO.CODLHO';
+    public const CODLHO = 'CODLHO';
 
     /** @var string [E]Posición */
-    public const POSLHO = 'F_LHO.POSLHO';
+    public const POSLHO = 'POSLHO';
 
     /** @var string Letra de la obra */
-    public const OFLLHO = 'F_LHO.OFLLHO';
+    public const OFLLHO = 'OFLLHO';
 
     /** @var string Código de la obra */
-    public const OFCLHO = 'F_LHO.OFCLHO';
+    public const OFCLHO = 'OFCLHO';
 
     /** @var string Subcódigo de la obra */
-    public const OFSLHO = 'F_LHO.OFSLHO';
+    public const OFSLHO = 'OFSLHO';
 
     /** @var string Nº de horas */
-    public const NHOLHO = 'F_LHO.NHOLHO';
+    public const NHOLHO = 'NHOLHO';
 
     /** @var string Precio de la hora */
-    public const PRELHO = 'F_LHO.PRELHO';
+    public const PRELHO = 'PRELHO';
 
     /** @var string [L=#0;Conforme#1;No conforme]Control de calidad */
-    public const CCALHO = 'F_LHO.CCALHO';
+    public const CCALHO = 'CCALHO';
 
     /** @var string Tipo de hora */
-    public const THOLHO = 'F_LHO.THOLHO';
+    public const THOLHO = 'THOLHO';
 
     /** @var string Concepto */
-    public const CONLHO = 'F_LHO.CONLHO';
+    public const CONLHO = 'CONLHO';
 }

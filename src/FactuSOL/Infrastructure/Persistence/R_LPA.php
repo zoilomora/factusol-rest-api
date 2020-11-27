@@ -8,47 +8,47 @@ final class R_LPA
     public const TABLE_NAME = 'R_LPA';
 
     /** @var string Código de parte */
-    public const PARLPA = 'R_LPA.PARLPA';
+    public const PARLPA = 'PARLPA';
 
     /** @var string Posición */
-    public const POSLPA = 'R_LPA.POSLPA';
+    public const POSLPA = 'POSLPA';
 
     /** @var string Artículo */
-    public const ARTLPA = 'R_LPA.ARTLPA';
+    public const ARTLPA = 'ARTLPA';
 
     /** @var string Descripción */
-    public const DARLPA = 'R_LPA.DARLPA';
+    public const DARLPA = 'DARLPA';
 
     /** @var string Cantidad */
-    public const CANLPA = 'R_LPA.CANLPA';
+    public const CANLPA = 'CANLPA';
 
     /** @var string Precio */
-    public const PRELPA = 'R_LPA.PRELPA';
+    public const PRELPA = 'PRELPA';
 
     /** @var string Descuento 1 */
-    public const DT1LPA = 'R_LPA.DT1LPA';
+    public const DT1LPA = 'DT1LPA';
 
     /** @var string Descuento 2 */
-    public const DT2LPA = 'R_LPA.DT2LPA';
+    public const DT2LPA = 'DT2LPA';
 
     /** @var string Descuento 3 */
-    public const DT3LPA = 'R_LPA.DT3LPA';
+    public const DT3LPA = 'DT3LPA';
 
     /** @var string Total */
-    public const TOTLPA = 'R_LPA.TOTLPA';
+    public const TOTLPA = 'TOTLPA';
 
     /** @var string Comisión */
-    public const COMLPA = 'R_LPA.COMLPA';
+    public const COMLPA = 'COMLPA';
 
     /** @var string [L=#0;IVA1AUT#1;IVA2AUT#2;IVA3AUT#3;Exento]Tipo de IVA */
-    public const IVALPA = 'R_LPA.IVALPA';
+    public const IVALPA = 'IVALPA';
 
     /** @var string Nº de bultos */
-    public const BULLPA = 'R_LPA.BULLPA';
+    public const BULLPA = 'BULLPA';
 
     /** @var string Costo */
-    public const COSLPA = 'R_LPA.COSLPA';
+    public const COSLPA = 'COSLPA';
 
     /** @var string Nº de serie */
-    public const NSELPA = 'R_LPA.NSELPA';
+    public const NSELPA = 'NSELPA';
 }

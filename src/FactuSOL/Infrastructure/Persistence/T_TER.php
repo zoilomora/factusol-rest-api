@@ -7,29 +7,29 @@ final class T_TER
 {
     public const TABLE_NAME = 'T_TER';
 
-    public const CODTER = 'T_TER.CODTER';
+    public const CODTER = 'CODTER';
 
-    public const DESTER = 'T_TER.DESTER';
+    public const DESTER = 'DESTER';
 
-    public const CLATER = 'T_TER.CLATER';
+    public const CLATER = 'CLATER';
 
-    public const DOCTER = 'T_TER.DOCTER';
+    public const DOCTER = 'DOCTER';
 
-    public const DEPTER = 'T_TER.DEPTER';
+    public const DEPTER = 'DEPTER';
 
-    public const TPVTER = 'T_TER.TPVTER';
+    public const TPVTER = 'TPVTER';
 
-    public const ESTTER = 'T_TER.ESTTER';
+    public const ESTTER = 'ESTTER';
 
-    public const FECTER = 'T_TER.FECTER';
+    public const FECTER = 'FECTER';
 
-    public const SINTER = 'T_TER.SINTER';
+    public const SINTER = 'SINTER';
 
-    public const EFETER = 'T_TER.EFETER';
+    public const EFETER = 'EFETER';
 
-    public const ANUTER = 'T_TER.ANUTER';
+    public const ANUTER = 'ANUTER';
 
-    public const MODTER = 'T_TER.MODTER';
+    public const MODTER = 'MODTER';
 
-    public const TURTER = 'T_TER.TURTER';
+    public const TURTER = 'TURTER';
 }
