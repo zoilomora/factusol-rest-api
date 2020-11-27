@@ -6,3 +6,8 @@ agents.get_all:
   path: /agents
   controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Agent\GetAllAgents
   methods: [GET]
+
+agents.get_by_id:
+  path: /agents/{agentId}
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Agent\GetByIdAgent
+  methods: [GET]

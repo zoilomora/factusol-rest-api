@@ -1,23 +1,31 @@
 <?php
 declare(strict_types=1);
 
-namespace ZoiloMora\FactuSOL\Application\Query\Agent\GetAll;
+namespace ZoiloMora\FactuSOL\Application\Query\Agent\GetById;
 
 use PcComponentes\Ddd\Application\Query;
 use PcComponentes\Ddd\Domain\Model\ValueObject\Uuid;
 use PcComponentes\TopicGenerator\Topic;
 use ZoiloMora\FactuSOL\Domain\Model\Agent\Agent;
+use ZoiloMora\FactuSOL\Domain\Model\Agent\ValueObject\Id;
 use ZoiloMora\FactuSOL\Domain\ServiceName;
 use ZoiloMora\System\Domain\CompanyName;
 
-final class GetAllQuery extends Query
+final class GetByIdQuery extends Query
 {
-    private const NAME = 'get_all';
+    private const NAME = 'get_by_id';
     private const VERSION = '1';
 
-    public static function create(): self
+    private Id $id;
+
+    public static function create(int $id): self
     {
-        return parent::fromPayload(Uuid::v4(), []);
+        return parent::fromPayload(
+            Uuid::v4(),
+            [
+                'id' => $id,
+            ]
+        );
     }
 
     public static function messageName(): string
@@ -37,8 +45,15 @@ final class GetAllQuery extends Query
         return self::VERSION;
     }
 
+    public function id(): Id
+    {
+        return $this->id;
+    }
+
     protected function assertPayload(): void
     {
-        // Nothing
+        $payload = $this->messagePayload();
+
+        $this->id = Id::from($payload['id']);
     }
 }
