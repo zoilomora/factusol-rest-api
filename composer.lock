@@ -2807,16 +2807,16 @@
         },
         {
             "name": "zoilomora/doctrine-dbal-msaccess",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zoilomora/doctrine-dbal-msaccess.git",
-                "reference": "1d31983f009e8f73daaf8637446bd41bc5c1d800"
+                "reference": "7ca8b7d20a59510b63cb130dece187f5f3e8dc04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zoilomora/doctrine-dbal-msaccess/zipball/1d31983f009e8f73daaf8637446bd41bc5c1d800",
-                "reference": "1d31983f009e8f73daaf8637446bd41bc5c1d800",
+                "url": "https://api.github.com/repos/zoilomora/doctrine-dbal-msaccess/zipball/7ca8b7d20a59510b63cb130dece187f5f3e8dc04",
+                "reference": "7ca8b7d20a59510b63cb130dece187f5f3e8dc04",
                 "shasum": ""
             },
             "require": {
@@ -2844,9 +2844,9 @@
             "description": "Doctrine DBAL implementation for Microsoft Access",
             "support": {
                 "issues": "https://github.com/zoilomora/doctrine-dbal-msaccess/issues",
-                "source": "https://github.com/zoilomora/doctrine-dbal-msaccess/tree/1.0.2"
+                "source": "https://github.com/zoilomora/doctrine-dbal-msaccess/tree/1.0.4"
             },
-            "time": "2020-11-23T02:48:54+00:00"
+            "time": "2020-11-26T17:31:49+00:00"
         }
     ],
     "packages-dev": [

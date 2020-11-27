@@ -4,6 +4,12 @@
     <rule ref="vendor/pccomponentes/coding-standard/src/ruleset.xml">
         <exclude name="PcComponentesCodingStandard.ControlStructures.LineBreakBetweenFunctions.LineBreakBetweenFunctions" />
     </rule>
+    <rule ref="SlevomatCodingStandard.TypeHints.UselessConstantTypeHint.UselessDocComment">
+        <exclude-pattern>src/FactuSOL/Infrastructure/Persistence/*</exclude-pattern>
+    </rule>
+    <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
+        <exclude-pattern>src/FactuSOL/Infrastructure/Persistence/*</exclude-pattern>
+    </rule>
 </ruleset>
 
 
