@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  title: FactuSOL
+  version: '1.0'
+  license:
+    name: MIT
+    url: 'https://github.com/zoilomora/factusol-rest-api/blob/master/LICENSE'
+  contact:
+    name: Zoilo Mora
+    url: 'https://zoilomora.net/'
+    email: zoilo.mora@hotmail.com
+servers:
+  - url: 'http://localhost:3000'
+paths: {}
+components:
+  schemas: {}
