@@ -6,7 +6,6 @@ namespace ZoiloMora\FactuSOL\Application\Query\Customer\GetAll;
 use PcComponentes\Ddd\Application\Query;
 use PcComponentes\Ddd\Domain\Model\ValueObject\Uuid;
 use PcComponentes\TopicGenerator\Topic;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Agent;
 use ZoiloMora\FactuSOL\Domain\Model\Customer\Customer;
 use ZoiloMora\FactuSOL\Domain\ServiceName;
 use ZoiloMora\System\Domain\CompanyName;

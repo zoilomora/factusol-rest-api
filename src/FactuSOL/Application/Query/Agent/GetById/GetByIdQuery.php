@@ -24,7 +24,7 @@ final class GetByIdQuery extends Query
             Uuid::v4(),
             [
                 'id' => $id,
-            ]
+            ],
         );
     }
 

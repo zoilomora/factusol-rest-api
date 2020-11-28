@@ -34,7 +34,7 @@ final class DbalTaxRepository implements TaxRepository
             ->execute();
 
         return $this->taxesFromArray(
-            $result->fetchAllAssociative()
+            $result->fetchAllAssociative(),
         );
     }
 
@@ -81,7 +81,7 @@ final class DbalTaxRepository implements TaxRepository
 
         return new Tax(
             Id::from((int) $id),
-            Value::from((int) $data[F_CFG::NUMCFG])
+            Value::from((int) $data[F_CFG::NUMCFG]),
         );
     }
 }

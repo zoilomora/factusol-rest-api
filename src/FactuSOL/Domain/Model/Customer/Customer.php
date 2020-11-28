@@ -20,8 +20,13 @@ final class Customer extends DomainModel
     private Contact $contact;
     private Address $address;
 
-    public function __construct(Id $id, IdentityDocument $identityDocument, FiscalName $fiscalName, Contact $contact, Address $address)
-    {
+    public function __construct(
+        Id $id,
+        IdentityDocument $identityDocument,
+        FiscalName $fiscalName,
+        Contact $contact,
+        Address $address
+    ) {
         $this->id = $id;
         $this->identityDocument = $identityDocument;
         $this->fiscalName = $fiscalName;

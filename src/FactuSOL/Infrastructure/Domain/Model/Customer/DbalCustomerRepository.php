@@ -38,7 +38,7 @@ final class DbalCustomerRepository implements CustomerRepository
             ->execute();
 
         return $this->customersFromArray(
-            $result->fetchAllAssociative()
+            $result->fetchAllAssociative(),
         );
     }
 

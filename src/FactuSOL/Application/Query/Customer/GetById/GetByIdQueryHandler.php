@@ -19,7 +19,7 @@ final class GetByIdQueryHandler implements MessageHandlerInterface
     public function __invoke(GetByIdQuery $query): ?Customer
     {
         return $this->customerRepository->findById(
-            $query->id()
+            $query->id(),
         );
     }
 }

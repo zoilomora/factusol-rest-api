@@ -19,7 +19,7 @@ final class GetByIdQueryHandler implements MessageHandlerInterface
     public function __invoke(GetByIdQuery $query): ?Agent
     {
         return $this->agentRepository->findById(
-            $query->id()
+            $query->id(),
         );
     }
 }

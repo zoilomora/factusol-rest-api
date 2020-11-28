@@ -28,7 +28,7 @@ final class GetByIdAgent
             $result,
             null !== $result
                 ? Response::HTTP_OK
-                : Response::HTTP_NOT_FOUND
+                : Response::HTTP_NOT_FOUND,
         );
     }
 }
