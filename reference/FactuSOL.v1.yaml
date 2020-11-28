@@ -11,11 +11,12 @@ info:
     email: zoilo.mora@hotmail.com
   description: FactuSOL API definition
 servers:
-  - url: 'http://localhost:3000'
+  - url: 'http://127.0.0.1:8080'
+    description: Local
 paths:
   /agents:
     get:
-      summary: Your GET endpoint
+      summary: Get all agents
       tags:
         - Agents
       responses:
@@ -25,7 +26,7 @@ paths:
             application/json:
               schema:
                 allOf:
-                  - $ref: '#/components/schemas/Agents'
+                  - $ref: '#/components/schemas/Agent'
       operationId: get-agents
       description: Get all agents
   '/agents/{agentId}':
@@ -36,23 +37,98 @@ paths:
         in: path
         required: true
     get:
-      summary: Your GET endpoint
-      tags: []
+      summary: Get a agent
+      tags:
+        - Agents
       responses:
         '200':
           description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Agents'
+                $ref: '#/components/schemas/Agent'
         '404':
           description: Not Found
       operationId: get-agents-agentId
-      description: get a agent
+      description: Get a agent
+  /families:
+    get:
+      summary: Get all families
+      tags:
+        - Families
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Family'
+      operationId: get-families
+      description: Get all families
+  /taxes:
+    get:
+      summary: Get all taxes
+      tags:
+        - Taxes
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Tax'
+      operationId: get-taxes
+      description: Get all taxes
+  '/families/{familyId}':
+    parameters:
+      - schema:
+          type: string
+        name: familyId
+        in: path
+        required: true
+    get:
+      summary: Get a family
+      tags:
+        - Families
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Family'
+        '404':
+          description: Not Found
+      operationId: get-families-familieId
+      description: Get a family
+  '/taxes/{taxId}':
+    parameters:
+      - schema:
+          type: string
+        name: taxId
+        in: path
+        required: true
+    get:
+      summary: Get a tax
+      tags:
+        - Taxes
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tax'
+        '404':
+          description: Not Found
+      operationId: get-taxes-taxId
+      description: Get a tax
 components:
   schemas:
-    Agents:
-      title: Agents
+    Agent:
+      title: Agent
       type: object
       x-examples: {}
       x-tags:
@@ -66,37 +142,9 @@ components:
         identityDocument:
           type: string
         contact:
-          type: object
-          required:
-            - workPhone
-            - personalPhone
-            - eMail
-          properties:
-            workPhone:
-              type: string
-            personalPhone:
-              type: string
-            eMail:
-              type: string
+          $ref: '#/components/schemas/Contact'
         address:
-          type: object
-          required:
-            - street
-            - city
-            - state
-            - country
-            - zipCode
-          properties:
-            street:
-              type: string
-            city:
-              type: string
-            state:
-              type: string
-            country:
-              type: string
-            zipCode:
-              type: string
+          $ref: '#/components/schemas/Address'
         commission:
           type: string
       required:
@@ -106,5 +154,94 @@ components:
         - contact
         - address
         - commission
+    Family:
+      title: Family
+      type: object
+      properties:
+        id:
+          type: string
+        description:
+          type: string
+      required:
+        - id
+        - description
+      x-tags:
+        - Families
+    Tax:
+      title: Tax
+      type: object
+      properties:
+        id:
+          type: integer
+        value:
+          type: number
+      required:
+        - id
+        - value
+      x-tags:
+        - Taxes
+    Customer:
+      title: Customer
+      type: object
+      x-tags:
+        - Customers
+      properties:
+        id:
+          type: string
+        identityDocument:
+          type: string
+        fiscalName:
+          type: string
+        contact:
+          $ref: '#/components/schemas/Contact'
+        address:
+          $ref: '#/components/schemas/Address'
+      required:
+        - id
+        - identityDocument
+        - fiscalName
+        - contact
+        - address
+    Contact:
+      title: Contact
+      type: object
+      properties:
+        workPhone:
+          type: string
+        personalPhone:
+          type: string
+        eMail:
+          type: string
+      required:
+        - workPhone
+        - personalPhone
+        - eMail
+      x-tags:
+        - Contact
+    Address:
+      title: Address
+      type: object
+      properties:
+        street:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        country:
+          type: string
+        zipCode:
+          type: string
+      required:
+        - street
+        - city
+        - state
+        - country
+        - zipCode
+      x-tags:
+        - Address
+      description: ''
 tags:
   - name: Agents
+  - name: Families
+  - name: Taxes
