@@ -11,3 +11,13 @@ agents.get_by_id:
   path: /agents/{agentId}
   controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Agent\GetByIdAgent
   methods: [GET]
+
+taxes.get_all:
+  path: /taxes
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Tax\GetAllTaxes
+  methods: [GET]
+
+taxes.get_by_id:
+  path: /taxes/{taxId}
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Tax\GetByIdTax
+  methods: [GET]
