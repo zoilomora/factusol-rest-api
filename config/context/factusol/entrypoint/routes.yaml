@@ -31,3 +31,13 @@ customers.get_by_id:
   path: /customers/{customerId}
   controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Customer\GetByIdCustomer
   methods: [GET]
+
+families.get_all:
+  path: /families
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Family\GetAllFamilies
+  methods: [GET]
+
+families.get_by_id:
+  path: /families/{familyId}
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Family\GetByIdFamily
+  methods: [GET]
