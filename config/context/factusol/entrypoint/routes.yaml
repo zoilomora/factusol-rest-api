@@ -21,3 +21,13 @@ taxes.get_by_id:
   path: /taxes/{taxId}
   controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Tax\GetByIdTax
   methods: [GET]
+
+customers.get_all:
+  path: /customers
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Customer\GetAllCustomers
+  methods: [GET]
+
+customers.get_by_id:
+  path: /customers/{customerId}
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Customer\GetByIdCustomer
+  methods: [GET]

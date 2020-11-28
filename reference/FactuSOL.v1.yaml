@@ -125,6 +125,43 @@ paths:
           description: Not Found
       operationId: get-taxes-taxId
       description: Get a tax
+  /customers:
+    get:
+      summary: Get all agents
+      tags:
+        - Customers
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Customer'
+      operationId: get-customers
+      description: Get all customers
+  '/customers/{customerId}':
+    parameters:
+      - schema:
+          type: string
+        name: customerId
+        in: path
+        required: true
+    get:
+      summary: Get a customer
+      tags:
+        - Customers
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+        '404':
+          description: Not Found
+      operationId: get-customers-customerId
+      description: Get a customer
 components:
   schemas:
     Agent:
@@ -245,3 +282,4 @@ tags:
   - name: Agents
   - name: Families
   - name: Taxes
+  - name: Customers
