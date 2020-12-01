@@ -10,18 +10,20 @@ use ZoiloMora\FactuSOL\Domain\Model\Tax\Tax;
 use ZoiloMora\FactuSOL\Domain\Model\Tax\Taxes;
 use ZoiloMora\FactuSOL\Domain\Model\Tax\TaxRepository;
 use ZoiloMora\FactuSOL\Domain\Model\Tax\ValueObject\Id;
-use ZoiloMora\FactuSOL\Domain\Model\Tax\ValueObject\Value;
 use ZoiloMora\FactuSOL\Infrastructure\Persistence\F_CFG;
 
 final class DbalTaxRepository implements TaxRepository
 {
+    private const TAX_TABLE_NAME = F_CFG::TABLE_NAME;
     private const CONFIGURATION_PREFIX = 'ImpuestosIvasPrimerPeriodo';
 
     private Connection $connection;
+    private TaxBuilder $taxBuilder;
 
-    public function __construct(Connection $connection)
+    public function __construct(Connection $connection, TaxBuilder $taxBuilder)
     {
         $this->connection = $connection;
+        $this->taxBuilder = $taxBuilder;
     }
 
     public function findAll(): Taxes
@@ -53,7 +55,7 @@ final class DbalTaxRepository implements TaxRepository
             return null;
         }
 
-        return $this->taxFromArray($rows[0]);
+        return $this->taxBuilder->fromArray($rows[0]);
     }
 
     private function getGenericQueryBuilder(): QueryBuilder
@@ -61,7 +63,7 @@ final class DbalTaxRepository implements TaxRepository
         return $this->connection->createQueryBuilder()
             ->select(F_CFG::CODCFG)
             ->addSelect(F_CFG::NUMCFG)
-            ->from(F_CFG::TABLE_NAME);
+            ->from(self::TAX_TABLE_NAME);
     }
 
     private function taxesFromArray(array $data): Taxes
@@ -69,19 +71,9 @@ final class DbalTaxRepository implements TaxRepository
         $taxes = [];
 
         foreach ($data as $tax) {
-            $taxes[] = $this->taxFromArray($tax);
+            $taxes[] = $this->taxBuilder->fromArray($tax);
         }
 
         return Taxes::from($taxes);
-    }
-
-    private function taxFromArray(array $data): Tax
-    {
-        $id = \str_replace(self::CONFIGURATION_PREFIX, '', $data[F_CFG::CODCFG]);
-
-        return new Tax(
-            Id::from((int) $id),
-            Value::from((int) $data[F_CFG::NUMCFG]),
-        );
     }
 }

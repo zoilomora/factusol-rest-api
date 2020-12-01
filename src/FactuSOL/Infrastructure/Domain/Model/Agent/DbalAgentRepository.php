@@ -9,29 +9,20 @@ use Doctrine\DBAL\Query\QueryBuilder;
 use ZoiloMora\FactuSOL\Domain\Model\Agent\Agent;
 use ZoiloMora\FactuSOL\Domain\Model\Agent\AgentRepository;
 use ZoiloMora\FactuSOL\Domain\Model\Agent\Agents;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Address\Address;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Address\ValueObject\City;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Address\ValueObject\Country;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Address\ValueObject\State;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Address\ValueObject\Street;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Address\ValueObject\ZipCode;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Contact\Contact;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Contact\ValueObject\Email;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Contact\ValueObject\PersonalPhone;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\Model\Contact\ValueObject\WorkPhone;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\ValueObject\Commission;
 use ZoiloMora\FactuSOL\Domain\Model\Agent\ValueObject\Id;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\ValueObject\IdentityDocument;
-use ZoiloMora\FactuSOL\Domain\Model\Agent\ValueObject\Name;
 use ZoiloMora\FactuSOL\Infrastructure\Persistence\F_AGE;
 
 final class DbalAgentRepository implements AgentRepository
 {
-    private Connection $connection;
+    private const AGENT_TABLE_NAME = F_AGE::TABLE_NAME;
 
-    public function __construct(Connection $connection)
+    private Connection $connection;
+    private AgentBuilder $agentBuilder;
+
+    public function __construct(Connection $connection, AgentBuilder $agentBuilder)
     {
         $this->connection = $connection;
+        $this->agentBuilder = $agentBuilder;
     }
 
     public function findAll(): Agents
@@ -57,7 +48,7 @@ final class DbalAgentRepository implements AgentRepository
             return null;
         }
 
-        return $this->agentFromArray($rows[0]);
+        return $this->agentBuilder->fromArray($rows[0]);
     }
 
     private function agentsFromArray(array $data): Agents
@@ -65,42 +56,10 @@ final class DbalAgentRepository implements AgentRepository
         $agents = [];
 
         foreach ($data as $agent) {
-            $agents[] = $this->agentFromArray($agent);
+            $agents[] = $this->agentBuilder->fromArray($agent);
         }
 
         return Agents::from($agents);
-    }
-
-    private function agentFromArray(array $data): Agent
-    {
-        return new Agent(
-            Id::from((int) $data[F_AGE::CODAGE]),
-            Name::from($data[F_AGE::NOMAGE]),
-            IdentityDocument::from($data[F_AGE::DNIAGE]),
-            $this->contactFromArray($data),
-            $this->addressFromArray($data),
-            Commission::from((float) $data[F_AGE::COMAGE]),
-        );
-    }
-
-    private function contactFromArray(array $data): Contact
-    {
-        return new Contact(
-            WorkPhone::from($data[F_AGE::TEMAGE]),
-            PersonalPhone::from($data[F_AGE::TEPAGE]),
-            Email::from($data[F_AGE::EMAAGE]),
-        );
-    }
-
-    private function addressFromArray(array $data): Address
-    {
-        return new Address(
-            Street::from($data[F_AGE::DOMAGE]),
-            City::from($data[F_AGE::PROAGE]),
-            State::from($data[F_AGE::POBAGE]),
-            Country::from($data[F_AGE::PAIAGE]),
-            ZipCode::from($data[F_AGE::CPOAGE]),
-        );
     }
 
     private function getGenericQueryBuilder(): QueryBuilder
@@ -118,6 +77,6 @@ final class DbalAgentRepository implements AgentRepository
                 ->addSelect(F_AGE::PAIAGE)
                 ->addSelect(F_AGE::CPOAGE)
                 ->addSelect(F_AGE::COMAGE)
-            ->from(F_AGE::TABLE_NAME);
+            ->from(self::AGENT_TABLE_NAME);
     }
 }

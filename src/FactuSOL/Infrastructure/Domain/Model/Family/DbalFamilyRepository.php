@@ -9,23 +9,25 @@ use Doctrine\DBAL\Query\QueryBuilder;
 use ZoiloMora\FactuSOL\Domain\Model\Family\Families;
 use ZoiloMora\FactuSOL\Domain\Model\Family\Family;
 use ZoiloMora\FactuSOL\Domain\Model\Family\FamilyRepository;
-use ZoiloMora\FactuSOL\Domain\Model\Family\ValueObject\Description;
 use ZoiloMora\FactuSOL\Domain\Model\Family\ValueObject\Id;
 use ZoiloMora\FactuSOL\Infrastructure\Persistence\F_FAM;
 
 final class DbalFamilyRepository implements FamilyRepository
 {
-    private Connection $connection;
+    private const FAMILY_TABLE_NAME = F_FAM::TABLE_NAME;
 
-    public function __construct(Connection $connection)
+    private Connection $connection;
+    private FamilyBuilder $familyBuilder;
+
+    public function __construct(Connection $connection, FamilyBuilder $familyBuilder)
     {
         $this->connection = $connection;
+        $this->familyBuilder = $familyBuilder;
     }
 
     public function findAll(): Families
     {
-        $result = $this->getGenericQueryBuilder()
-            ->execute();
+        $result = $this->getGenericQueryBuilder()->execute();
 
         return $this->familiesFromArray(
             $result->fetchAllAssociative(),
@@ -45,7 +47,7 @@ final class DbalFamilyRepository implements FamilyRepository
             return null;
         }
 
-        return $this->familyFromArray($rows[0]);
+        return $this->familyBuilder->fromArray($rows[0]);
     }
 
     private function getGenericQueryBuilder(): QueryBuilder
@@ -53,7 +55,7 @@ final class DbalFamilyRepository implements FamilyRepository
         return $this->connection->createQueryBuilder()
             ->select(F_FAM::CODFAM)
                 ->addSelect(F_FAM::DESFAM)
-            ->from(F_FAM::TABLE_NAME);
+            ->from(self::FAMILY_TABLE_NAME);
     }
 
     private function familiesFromArray(array $data): Families
@@ -61,17 +63,9 @@ final class DbalFamilyRepository implements FamilyRepository
         $families = [];
 
         foreach ($data as $family) {
-            $families[] = $this->familyFromArray($family);
+            $families[] = $this->familyBuilder->fromArray($family);
         }
 
         return Families::from($families);
-    }
-
-    private function familyFromArray(array $data): Family
-    {
-        return new Family(
-            Id::from($data[F_FAM::CODFAM]),
-            Description::from($data[F_FAM::DESFAM]),
-        );
     }
 }
