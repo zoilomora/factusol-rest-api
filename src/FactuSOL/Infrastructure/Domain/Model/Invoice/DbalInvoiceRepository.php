@@ -9,55 +9,33 @@ use Doctrine\DBAL\Query\QueryBuilder;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\Invoice;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\InvoiceRepository;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\Invoices;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\Address;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\City;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\Country;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\IdentityDocument;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\Name;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\State;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\Street;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\Address\ValueObject\ZipCode;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\DueDate\DueDate;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\DueDate\ValueObject\Amount;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\DueDate\ValueObject\Date;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\PriceLine\PriceLine;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\PriceLine\ValueObjects\Net;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\PriceLine\ValueObjects\TaxAmount;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\PriceLine\ValueObjects\TaxBase;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\PriceLine\ValueObjects\TaxPercentage;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\Model\PriceLine\ValueObjects\TypeOfTax;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\AgentId;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\CarrierPrice;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\CreatedAt;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\CreatorUserId;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\CustomerId;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\DueDates;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Id;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\MethodOfPayment;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\ModifierUserId;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\PriceLines;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Printed;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Reference;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Status;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Time;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Total;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\TypeOfCreation;
-use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Warehouse;
+use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Lines;
+use ZoiloMora\FactuSOL\Infrastructure\Persistence\F_CFG;
 use ZoiloMora\FactuSOL\Infrastructure\Persistence\F_FAC;
+use ZoiloMora\FactuSOL\Infrastructure\Persistence\F_LFA;
 
 final class DbalInvoiceRepository implements InvoiceRepository
 {
-    private Connection $connection;
+    private const HEADER_TABLE_NAME = F_FAC::TABLE_NAME;
+    private const LINES_TABLE_NAME = F_LFA::TABLE_NAME;
+    private const TAXES_TABLE_NAME = F_CFG::TABLE_NAME;
+    private const TAXES_CONFIGURATION_PREFIX = 'ImpuestosIvasPrimerPeriodo';
 
-    public function __construct(Connection $connection)
+    private Connection $connection;
+    private InvoiceBuilder $invoiceBuilder;
+    private LineBuilder $lineBuilder;
+
+    public function __construct(Connection $connection, InvoiceBuilder $invoiceBuilder, LineBuilder $lineBuilder)
     {
         $this->connection = $connection;
+        $this->invoiceBuilder = $invoiceBuilder;
+        $this->lineBuilder = $lineBuilder;
     }
 
     public function findAll(): Invoices
     {
-        $result = $this->getGenericQueryBuilder()
-            ->execute();
+        $result = $this->getHeaderGenericQueryBuilder()->execute();
 
         return $this->invoicesFromArray(
             $result->fetchAllAssociative(),
@@ -66,9 +44,9 @@ final class DbalInvoiceRepository implements InvoiceRepository
 
     public function findById(Id $id): ?Invoice
     {
-        $result = $this->getGenericQueryBuilder()
+        $result = $this->getHeaderGenericQueryBuilder()
             ->where(F_FAC::TIPFAC . ' = :serial')
-            ->andWhere(F_FAC::CODFAC . ' = :number')
+                ->andWhere(F_FAC::CODFAC . ' = :number')
             ->setParameter('serial', $id->serial(), ParameterType::STRING)
             ->setParameter('number', $id->number(), ParameterType::INTEGER)
             ->execute();
@@ -95,125 +73,73 @@ final class DbalInvoiceRepository implements InvoiceRepository
 
     private function invoiceFromArray(array $data): Invoice
     {
-        return new Invoice(
-            new Id(
-                $data[F_FAC::TIPFAC],
-                (int) $data[F_FAC::CODFAC],
-            ),
-            Reference::from($data[F_FAC::REFFAC]),
-            CreatedAt::from($data[F_FAC::FECFAC]),
-            $this->statusFromData($data),
-            Warehouse::from($data[F_FAC::ALMFAC]),
-            AgentId::from((int) $data[F_FAC::AGEFAC]),
-            CustomerId::from((int) $data[F_FAC::CLIFAC]),
-            $this->addressFromData($data),
-            $this->priceLinesFromData($data),
-            Total::from((float) $data[F_FAC::TOTFAC]),
-            MethodOfPayment::from($data[F_FAC::FOPFAC]),
-            $this->dueDatesFromData($data),
-            Printed::from($data[F_FAC::IMPFAC]),
-            Time::from($data[F_FAC::HORFAC]),
-            CreatorUserId::from((int) $data[F_FAC::USUFAC]),
-            ModifierUserId::from((int) $data[F_FAC::USMFAC]),
-            $this->carrierPriceFromData($data),
-            TypeOfCreation::from((int) $data[F_FAC::CREFAC]),
+        $id = new Id(
+            $data[F_FAC::TIPFAC],
+            (int) $data[F_FAC::CODFAC],
+        );
+
+        return $this->invoiceBuilder->fromArray(
+            $data,
+            $this->linesFromId($id),
         );
     }
 
-    private function statusFromData(array $data): Status
+    private function linesFromId(Id $id): ?Lines
     {
-        $dictionary = [
-            0 => static fn () => Status::fromPending(),
-            1 => static fn () => Status::fromPartialPending(),
-            2 => static fn () => Status::fromCharged(),
-            3 => static fn () => Status::fromBack(),
-            4 => static fn () => Status::fromCanceled(),
-        ];
+        $result = $this->getLineGenericQueryBuilder()
+            ->where(F_LFA::TIPLFA . ' = :serial')
+                ->andWhere(F_LFA::CODLFA . ' = :number')
+            ->setParameter('serial', $id->serial(), ParameterType::STRING)
+            ->setParameter('number', $id->number(), ParameterType::INTEGER)
+            ->execute();
 
-        $key = (int) $data[F_FAC::ESTFAC];
+        $rows = $result->fetchAllAssociative();
 
-        return $dictionary[$key]();
-    }
-
-    private function addressFromData(array $data): Address
-    {
-        return new Address(
-            Name::from($data[F_FAC::CNOFAC]),
-            IdentityDocument::from($data[F_FAC::CNIFAC]),
-            Street::from($data[F_FAC::CDOFAC]),
-            City::from($data[F_FAC::CPOFAC]),
-            State::from($data[F_FAC::CPRFAC]),
-            Country::from($data[F_FAC::CPAFAC]),
-            ZipCode::from($data[F_FAC::CCPFAC]),
-        );
-    }
-
-    private function priceLinesFromData(array $data): PriceLines
-    {
-        return PriceLines::from(
-            [
-                new PriceLine(
-                    TaxBase::from((float) $data[F_FAC::BAS1FAC]),
-                    Net::from((float) $data[F_FAC::NET1FAC]),
-                    TaxPercentage::from((float) $data[F_FAC::PIVA1FAC]),
-                    TaxAmount::from((float) $data[F_FAC::IIVA1FAC]),
-                    TypeOfTax::from((int) $data[F_FAC::TIVA1FAC]),
-                ),
-                new PriceLine(
-                    TaxBase::from((float) $data[F_FAC::BAS2FAC]),
-                    Net::from((float) $data[F_FAC::NET2FAC]),
-                    TaxPercentage::from((float) $data[F_FAC::PIVA2FAC]),
-                    TaxAmount::from((float) $data[F_FAC::IIVA2FAC]),
-                    TypeOfTax::from((int) $data[F_FAC::TIVA2FAC]),
-                ),
-                new PriceLine(
-                    TaxBase::from((float) $data[F_FAC::BAS3FAC]),
-                    Net::from((float) $data[F_FAC::NET3FAC]),
-                    TaxPercentage::from((float) $data[F_FAC::PIVA3FAC]),
-                    TaxAmount::from((float) $data[F_FAC::IIVA3FAC]),
-                    TypeOfTax::from((int) $data[F_FAC::TIVA3FAC]),
-                ),
-            ],
-        );
-    }
-
-    private function dueDatesFromData(array $data): DueDates
-    {
-        $sections = \explode(';', $data[F_FAC::VENFAC]);
-        $items = \array_chunk($sections, 2);
-
-        $list = [];
-
-        foreach ($items as $item) {
-            if (2 !== \count($item)) {
-                continue;
-            }
-
-            $date = \DateTime::createFromFormat('d/m/Y', $item[0]);
-            $amount = (float) \str_replace(',', '.', $item[1]);
-
-            $list[] = new DueDate(
-                Date::from($date->format('Y-m-d')),
-                Amount::from($amount),
-            );
+        if (0 === \count($rows)) {
+            return null;
         }
 
-        return DueDates::from($list);
+        return $this->linesFromData($rows);
     }
 
-    private function carrierPriceFromData(array $data): CarrierPrice
+    private function linesFromData(array $data): Lines
     {
+        $lines = [];
+
+        foreach ($data as $line) {
+            $line[F_LFA::IVALFA] = $this->taxPercentageFromData($line);
+            $lines[] = $this->lineBuilder->fromArray($line);
+        }
+
+        return Lines::from($lines);
+    }
+
+    private function taxPercentageFromData(array $data): int
+    {
+        $key = (int) $data[F_LFA::IVALFA];
+
+        if (3 === $key) {
+            return 0;
+        }
+
         $dictionary = [
-            0 => static fn () => CarrierPrice::fromPaid(),
-            1 => static fn () => CarrierPrice::fromDue(),
+            0 => self::TAXES_CONFIGURATION_PREFIX . '1',
+            1 => self::TAXES_CONFIGURATION_PREFIX . '2',
+            2 => self::TAXES_CONFIGURATION_PREFIX . '3',
         ];
 
-        $key = (int) $data[F_FAC::PRTFAC];
+        $result = $this->connection->createQueryBuilder()
+            ->select(F_CFG::NUMCFG)
+            ->from(self::TAXES_TABLE_NAME)
+            ->where(F_CFG::CODCFG . ' = :key')
+            ->setParameter('key', $dictionary[$key])
+            ->setMaxResults(1)
+            ->execute();
 
-        return $dictionary[$key]();
+        return (int) $result->fetchOne();
     }
 
-    private function getGenericQueryBuilder(): QueryBuilder
+    private function getHeaderGenericQueryBuilder(): QueryBuilder
     {
         return $this->connection->createQueryBuilder()
             ->select(F_FAC::TIPFAC)
@@ -256,6 +182,25 @@ final class DbalInvoiceRepository implements InvoiceRepository
                 ->addSelect(F_FAC::TIVA1FAC)
                 ->addSelect(F_FAC::TIVA2FAC)
                 ->addSelect(F_FAC::TIVA3FAC)
-            ->from(F_FAC::TABLE_NAME);
+            ->from(self::HEADER_TABLE_NAME);
+    }
+
+    private function getLineGenericQueryBuilder(): QueryBuilder
+    {
+        return $this->connection->createQueryBuilder()
+            ->select(F_LFA::TIPLFA)
+                ->addSelect(F_LFA::CODLFA)
+                ->addSelect(F_LFA::POSLFA)
+                ->addSelect(F_LFA::ARTLFA)
+                ->addSelect(F_LFA::DESLFA)
+                ->addSelect(F_LFA::CANLFA)
+                ->addSelect(F_LFA::PRELFA)
+                ->addSelect(F_LFA::TOTLFA)
+                ->addSelect(F_LFA::COSLFA)
+                ->addSelect(F_LFA::DT1LFA)
+                ->addSelect(F_LFA::IVALFA)
+                ->addSelect(F_LFA::CE1LFA)
+                ->addSelect(F_LFA::CE2LFA)
+            ->from(self::LINES_TABLE_NAME);
     }
 }

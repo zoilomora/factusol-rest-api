@@ -11,6 +11,7 @@ use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\CreatorUserId;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\CustomerId;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\DueDates;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Id;
+use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\Lines;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\MethodOfPayment;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\ModifierUserId;
 use ZoiloMora\FactuSOL\Domain\Model\Invoice\ValueObjects\PriceLines;
@@ -45,6 +46,7 @@ final class Invoice extends DomainModel
     private ModifierUserId $modifierUserId;
     private CarrierPrice $carrierPrice;
     private TypeOfCreation $typeOfCreation;
+    private Lines $lines;
 
     public function __construct(
         Id $id,
@@ -64,7 +66,8 @@ final class Invoice extends DomainModel
         CreatorUserId $creatorUserId,
         ModifierUserId $modifierUserId,
         CarrierPrice $carrierPrice,
-        TypeOfCreation $typeOfCreation
+        TypeOfCreation $typeOfCreation,
+        Lines $lines
     ) {
         $this->id = $id;
         $this->reference = $reference;
@@ -84,6 +87,7 @@ final class Invoice extends DomainModel
         $this->modifierUserId = $modifierUserId;
         $this->carrierPrice = $carrierPrice;
         $this->typeOfCreation = $typeOfCreation;
+        $this->lines = $lines;
     }
 
     public function id(): Id
@@ -181,6 +185,11 @@ final class Invoice extends DomainModel
         return self::NAME;
     }
 
+    public function lines(): Lines
+    {
+        return $this->lines;
+    }
+
     public function jsonSerialize(): array
     {
         return [
@@ -202,6 +211,7 @@ final class Invoice extends DomainModel
             'modifierUserId' => $this->modifierUserId,
             'carrierPrice' => $this->carrierPrice,
             'typeOfCreation' => $this->typeOfCreation,
+            'lines' => $this->lines,
         ];
     }
 }

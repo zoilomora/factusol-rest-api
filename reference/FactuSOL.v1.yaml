@@ -322,6 +322,9 @@ components:
     Invoice:
       title: Invoice
       type: object
+      x-tags:
+        - Invoices
+      description: ''
       properties:
         id:
           type: string
@@ -405,11 +408,34 @@ components:
             - DUE
         typeOfCreation:
           type: integer
+        lines:
+          allOf:
+            - properties:
+                position:
+                  type: integer
+                articleId:
+                  type: string
+                description:
+                  type: string
+                quantity:
+                  type: number
+                price:
+                  type: number
+                total:
+                  type: number
+                costPrice:
+                  type: number
+                discount:
+                  type: number
+                taxPercentage:
+                  type: integer
+                size:
+                  type: string
+                color:
+                  type: string
+          type: object
       required:
         - id
-      x-tags:
-        - Invoices
-      description: ''
 tags:
   - name: Agents
   - name: Families

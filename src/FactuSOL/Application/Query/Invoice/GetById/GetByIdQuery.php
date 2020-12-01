@@ -24,7 +24,7 @@ final class GetByIdQuery extends Query
             Uuid::v4(),
             [
                 'serial' => $serial,
-                'number' => $number
+                'number' => $number,
             ],
         );
     }
@@ -57,7 +57,7 @@ final class GetByIdQuery extends Query
 
         $this->id = new Id(
             $payload['serial'],
-            $payload['number']
+            $payload['number'],
         );
     }
 }
