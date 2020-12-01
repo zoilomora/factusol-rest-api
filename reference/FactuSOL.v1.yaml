@@ -162,6 +162,47 @@ paths:
           description: Not Found
       operationId: get-customers-customerId
       description: Get a customer
+  /invoices:
+    get:
+      summary: Get all invoices
+      tags:
+        - Invoices
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: '#/components/schemas/Invoice'
+      operationId: get-invoices
+      description: Get all invoices
+  '/invoices/{serial}-{number}':
+    parameters:
+      - schema:
+          type: string
+        name: serial
+        in: path
+        required: true
+      - schema:
+          type: string
+        name: number
+        in: path
+        required: true
+    get:
+      summary: Get a invoice
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Invoice'
+        '404':
+          description: Not Found
+      operationId: get-invoices-id
+      description: Get a invoice
 components:
   schemas:
     Agent:
@@ -278,8 +319,100 @@ components:
       x-tags:
         - Address
       description: ''
+    Invoice:
+      title: Invoice
+      type: object
+      properties:
+        id:
+          type: string
+          example: 1-26
+          pattern: '[0-9]-[0-9]'
+        reference:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        status:
+          type: string
+          enum:
+            - PENDING
+            - PARTIAL_PENDING
+            - CHARGED
+            - BACK
+            - CANCELED
+        warehouse:
+          type: string
+        agentId:
+          type: integer
+        customerId:
+          type: integer
+        address:
+          type: object
+          properties:
+            name:
+              type: string
+            identityDocument:
+              type: string
+            street:
+              type: string
+            city:
+              type: string
+            state:
+              type: string
+            country:
+              type: string
+            zipCode:
+              type: string
+        priceLines:
+          allOf:
+            - properties:
+                taxBase:
+                  type: number
+                net:
+                  type: number
+                taxPercentage:
+                  type: number
+                taxAmount:
+                  type: number
+                typeOfTax:
+                  type: number
+          type: object
+        total:
+          type: number
+        methodOfPayment:
+          type: string
+        dueDates:
+          allOf:
+            - properties:
+                date:
+                  type: string
+                  format: date-time
+                amount:
+                  type: number
+          type: object
+        printed:
+          type: string
+        time:
+          type: string
+        creatorUserId:
+          type: integer
+        modifierUserId:
+          type: integer
+        carrierPrice:
+          type: string
+          enum:
+            - PAID
+            - DUE
+        typeOfCreation:
+          type: integer
+      required:
+        - id
+      x-tags:
+        - Invoices
+      description: ''
 tags:
   - name: Agents
   - name: Families
   - name: Taxes
   - name: Customers
+  - name: Invoices
