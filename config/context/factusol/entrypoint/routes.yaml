@@ -41,3 +41,13 @@ families.get_by_id:
   path: /families/{familyId}
   controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Family\GetByIdFamily
   methods: [GET]
+
+invoices.get_all:
+  path: /invoices
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Invoice\GetAllInvoices
+  methods: [GET]
+
+invoices.get_by_id:
+  path: /invoices/{serial}-{number}
+  controller: \ZoiloMora\FactuSOL\Entrypoint\Web\Invoice\GetByIdInvoice
+  methods: [GET]
